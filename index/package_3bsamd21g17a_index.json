@@ -1,0 +1,61 @@
+{
+  "packages":
+  [
+    {
+      "name": "3bs_samd21g17a",
+      "maintainer": "3B Semiconductor Pvt.Ltd",
+      "websiteURL": "https://www.3bsemi.com/",
+      "email" : "info@3bsemi.com",
+      "platforms":
+      [
+        {
+          "name": "Arduino 3B SAMD21G17A Board",
+          "architecture": "samd",
+          "version": "1.8.12",
+          "category": "Contributed",
+          "url": "https://github.com/sush1412/3B-SEMICONDUCTORS-PVT-LTD/blob/main/3BSAMD21G17A.zip",
+          "archiveFileName": "3BSAMD21G17A.zip",
+          "checksum": "SHA-256:A1FDAA1CEBAABFAF5821D6869D9B7989E2CC6BA58FC6459B666BC70BC3CAAA05",
+          "size": "4733199",
+          "boards": [
+            {
+              "name": "Arduino 3B SAMD21G17A"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+ 
+}

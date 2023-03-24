@@ -1,0 +1,1414 @@
+{
+   "packages": [
+     {
+      "name": "PulseRain_RISCV",
+      "maintainer": "PulseRain Technology, LLC",
+      "email": "info@pulserain.com",
+      "help": {
+        "online": "http://riscv.us"
+      },
+      "websiteURL": "http://riscv.us",
+      "platforms": [
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.3.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.3.0.tar.gz",
+          "archiveFileName": "GRV3000D_1.3.0.tar.gz",
+          "checksum": "SHA-256:16e7244e3d13570c24af1b8d2a9930bd919ef5e59d83fb90761d40a969885b8d",
+          "size": "20232",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"},
+            {"name": "GRV3000D ARTY A7-100T Board (Xilinx XC7A100TCSG324-1)"},
+            {"name": "GRV3000D NEXYS A7-100T Board (Xilinx XC7A100TCSG324-1)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.3.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.3",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.2.4",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.2.4.tar.gz",
+          "archiveFileName": "GRV3000D_1.2.4.tar.gz",
+          "checksum": "SHA-256:5322470f3995029d976ad25182fdd00e606be62d21911577ebe47b961cf35d15",
+          "size": "20219",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"},
+            {"name": "GRV3000D ARTY A7-100T Board (Xilinx XC7A100TCSG324-1)"},
+            {"name": "GRV3000D NEXYS A7-100T Board (Xilinx XC7A100TCSG324-1)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.3.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.2",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.2.3",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.2.3.tar.gz",
+          "archiveFileName": "GRV3000D_1.2.3.tar.gz",
+          "checksum": "SHA-256:e57357716e3b7014e7ac058f642611407cc485b5d312f721bdf35f7e450f1af1",
+          "size": "20158",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"},
+            {"name": "GRV3000D ARTY A7-100T Board (Xilinx XC7A100TCSG324-1)"},
+            {"name": "GRV3000D NEXYS A7-100T Board (Xilinx XC7A100TCSG324-1)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.3.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.2",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.2.2",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.2.2.tar.gz",
+          "archiveFileName": "GRV3000D_1.2.2.tar.gz",
+          "checksum": "SHA-256:8d78a7255b3c25017436678481e3de2e97554092eed22b4646b72f297fd4dc0e",
+          "size": "19319",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"},
+            {"name": "GRV3000D ARTY A7-100T Board (Xilinx XC7A100TCSG324-1)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.3.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.2",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.2.1",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.2.1.tar.gz",
+          "archiveFileName": "GRV3000D_1.2.1.tar.gz",
+          "checksum": "SHA-256:3448bc02f6a49f535fa69cf7f282b215cf990bde98bd9167fcc92dbfef9b2cff",
+          "size": "18516",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.3.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.2",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.2.0.tar.gz",
+          "archiveFileName": "GRV3000D_1.2.0.tar.gz",
+          "checksum": "SHA-256:eb6fc3ccac1e5ae3fa01929015dcf01b747ae25b2fdf4dc7039e16fe05b93b36",
+          "size": "18516",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.2.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.2",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.1.3",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.1.3.tar.gz",
+          "archiveFileName": "GRV3000D_1.1.3.tar.gz",
+          "checksum": "SHA-256:012b749494998511d491fe36d4461627d6bea3f264eea77ad36adec8eef945cd",
+          "size": "18516",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.2",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.1.2",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.1.2.tar.gz",
+          "archiveFileName": "GRV3000D_1.1.2.tar.gz",
+          "checksum": "SHA-256:fdd4c9d2a9e697f346d6f323b2b83958f153d68dd1ad96f8ea0a63a9c9ec49f4",
+          "size": "18516",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "GRV3000D STEP Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.1",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.1.1",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.1.1.tar.gz",
+          "archiveFileName": "GRV3000D_1.1.1.tar.gz",
+          "checksum": "SHA-256:8aebb81759dda4d83acce4c1ebee0c31b85207d0ca12acad6c5cedf7b4c5eaab",
+          "size": "18509",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.1",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain GRV3000D",
+          "architecture": "GRV3000D",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_1.1.0.tar.gz",
+          "archiveFileName": "GRV3000D_1.1.0.tar.gz",
+          "checksum": "SHA-256:cf4bea871381bf611cf8962c109214400adb2d7b9b45315f738c40e931e0979b",
+          "size": "18509",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "GRV3000D_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.0",
+              "name": "GRV3000D_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.4.2",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.4.2.tar.gz",
+          "archiveFileName": "Reindeer_1.4.2.tar.gz",
+          "checksum": "SHA-256:926d007366be9bda2fe7b916fa420aefa76d9a6369fa1bd3d4e2718cc17eaba1",
+          "size": "19615",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"},
+            {"name": "MachXO3D Breakout"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.4.1",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.4.1.tar.gz",
+          "archiveFileName": "Reindeer_1.4.1.tar.gz",
+          "checksum": "SHA-256:67af7fa4d7be707241fd2a1a17ce16edadeb198b96a95a0adbc3ba563d6984a9",
+          "size": "18971",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"},
+            {"name": "MachXO3D Breakout"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.3.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.4.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.4.0.tar.gz",
+          "archiveFileName": "Reindeer_1.4.0.tar.gz",
+          "checksum": "SHA-256:fac4b205bff6609ff3e4f90446496cc3258294f3f2fdcadd6b7ed9147f8d41b1",
+          "size": "31554",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"},
+            {"name": "MachXO3D Breakout"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.2.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.9",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.9.tar.gz",
+          "archiveFileName": "Reindeer_1.3.9.tar.gz",
+          "checksum": "SHA-256:7bc938a4716ef897b839e1857fc61854415630a817e7c520560afa49ec5fca6d",
+          "size": "31547",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"},
+            {"name": "MachXO3D Breakout"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.8",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.8.tar.gz",
+          "archiveFileName": "Reindeer_1.3.8.tar.gz",
+          "checksum": "SHA-256:b8225c8193fb1bf0ba58dadb14d4484e694b53669135eff39793bce96700c01b",
+          "size": "31547",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"},
+            {"name": "MachXO3D Breakout"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.7",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.7.tar.gz",
+          "archiveFileName": "Reindeer_1.3.7.tar.gz",
+          "checksum": "SHA-256:f53c91c9189f3adcce24d98f7d31c3afd72663edba38bef3623584cc7856f8d1",
+          "size": "30348",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"},
+            {"name": "MachXO3D Breakout"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.6",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.6.tar.gz",
+          "archiveFileName": "Reindeer_1.3.6.tar.gz",
+          "checksum": "SHA-256:0ba81b8609b81fd4f353f7df5f6f49cc9d8ffd60554592d96785c28ba67a0e31",
+          "size": "30348",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"},
+            {"name": "MachXO3D Breakout"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.5",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.5.tar.gz",
+          "archiveFileName": "Reindeer_1.3.5.tar.gz",
+          "checksum": "SHA-256:083458f01332f79af6076c19e14bc80c4494943eba447505e26b2146953caed8",
+          "size": "30218",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.4",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.4.tar.gz",
+          "archiveFileName": "Reindeer_1.3.4.tar.gz",
+          "checksum": "SHA-256:c27a3bd21aeaecbe9178d4108bc0c2a96f4a96479d1a0eebe3db1d23ad81cb25",
+          "size": "30214",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"},
+            {"name": "Nuand bladeRF"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.3.4",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.3.4.tar.gz",
+          "archiveFileName": "Rattlesnake_1.3.4.tar.gz",
+          "checksum": "SHA-256:2a1df8fa2e7f0eb2d5e5cb1c9e0c03369853c37c230b5df4fde4640baddf11b7",
+          "size": "17919",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi IGLOO2)"},
+            {"name": "Digilent Arty A7 (Xilinx Arty7-100T)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_compiler"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.3",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.3.tar.gz",
+          "archiveFileName": "Reindeer_1.3.3.tar.gz",
+          "checksum": "SHA-256:3ae21e6be64373dc1d6a63f69d7d8a371cd8178d7e87969c8e0b2590461ecb45",
+          "size": "17983",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.2",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.2.tar.gz",
+          "archiveFileName": "Reindeer_1.3.2.tar.gz",
+          "checksum": "SHA-256:a41acf2161a419b5e2499a380eecda2e619feeaa423e1b5c1b37f62db592ef32",
+          "size": "17983",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.1",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.1.tar.gz",
+          "archiveFileName": "Reindeer_1.3.1.tar.gz",
+          "checksum": "SHA-256:1d87c427d08dd177d0f714781d1ede4d22c433f4e5798327a408843f1a012a49",
+          "size": "17866",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.3.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.3.0.tar.gz",
+          "archiveFileName": "Reindeer_1.3.0.tar.gz",
+          "checksum": "SHA-256:81dea9ca7584b1711c87705a06d805e8149f6e43b0210589e98af5489be051c9",
+          "size": "17761",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.2.1",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.2.1.tar.gz",
+          "archiveFileName": "Reindeer_1.2.1.tar.gz",
+          "checksum": "SHA-256:863a5293810cca63eb8825b4f705e69e3123f432e8ae199da59d21d2c589c936",
+          "size": "14282",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.2.0.tar.gz",
+          "archiveFileName": "Reindeer_1.2.0.tar.gz",
+          "checksum": "SHA-256:8ebf7e05ae25a37c10bf829ac74f99044b9cb0598c99803ce90bee1238935744",
+          "size": "14268",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "Efinix Trion T20 BGA256 Development Kit"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.1.5",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.1.5.tar.gz",
+          "archiveFileName": "Reindeer_1.1.5.tar.gz",
+          "checksum": "SHA-256:e897bcb3fe0da4fb8396563d5a5e749643dfebfac67b5de7ceec46e4ced1726c",
+          "size": "14269",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.1.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Reindeer",
+          "architecture": "Reindeer",
+          "version": "1.1.4",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_1.1.4.tar.gz",
+          "archiveFileName": "Reindeer_1.1.4.tar.gz",
+          "checksum": "SHA-256:2ec9a6f708e920f665ef754c1a05581d761b0aeda9b0afd1377162bfb68a1232",
+          "size": "14177",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.0.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "hex_total_size"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.3.3",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.3.3.tar.gz",
+          "archiveFileName": "Rattlesnake_1.3.3.tar.gz",
+          "checksum": "SHA-256:03595e5c14a6e1e034f90d9baaa038208347e1b69b64e0b02e47f7f503f90adb",
+          "size": "17919",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi IGLOO2)"},
+            {"name": "Digilent Arty A7 (Xilinx Arty7-100T)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_compiler"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.3.2",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.3.2.tar.gz",
+          "archiveFileName": "Rattlesnake_1.3.2.tar.gz",
+          "checksum": "SHA-256:e7108bc0a66d17eab20ab471c365ba23cd6b087af60ae2a7f1cb8331525dbd78",
+          "size": "17919",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi IGLOO2)"},
+            {"name": "Digilent Arty A7 (Xilinx Arty7-100T)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_compiler"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.3.1",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.3.1.tar.gz",
+          "archiveFileName": "Rattlesnake_1.3.1.tar.gz",
+          "checksum": "SHA-256:0996419eef47efe24af442a31f410dfdcb2c356a2a89bb2b20235184520db633",
+          "size": "17823",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi IGLOO2)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_compiler"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.3.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.3.0.tar.gz",
+          "archiveFileName": "Rattlesnake_1.3.0.tar.gz",
+          "checksum": "SHA-256:c73b3307662bc54194e498faaa7c61a622b8f0c00ada0104836c714dd937a269",
+          "size": "17819",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi IGLOO2)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_compiler"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.2.0.tar.gz",
+          "archiveFileName": "Rattlesnake_1.2.0.tar.gz",
+          "checksum": "SHA-256:7df02629876f786656f2889e104a93ec4450925f0250ade3d3ffa1a34104e479",
+          "size": "17819",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi IGLOO2)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Rattlesnake_compiler"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.1.0.tar.gz",
+          "archiveFileName": "Rattlesnake_1.1.0.tar.gz",
+          "checksum": "SHA-256:f305cb7cab4afec6078750185e3cf4aa24641436535bf21383355c90ebe4f034",
+          "size": "17784",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi IGLOO2)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.1.0",
+              "name": "Rattlesnake_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Rattlesnake_compiler"
+            }
+          ]
+        },
+        {
+          "name": "PulseRain Rattlesnake",
+          "architecture": "Rattlesnake",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_1.0.0.tar.gz",
+          "archiveFileName": "Rattlesnake_1.0.0.tar.gz",
+          "checksum": "SHA-256:6ce9b27b5b566d6d0cc63083ab0c2598c6af6e59eee215c7526d35f943599ef3",
+          "size": "11217",
+          "help": {
+            "online": "http://riscv.us"
+          },
+          "boards": [
+            {"name": "Future Electronics Creative Board (Microsemi SmartFusion2 M2S025)"},
+            {"name": "Gnarly Grey UPDuinoV2 Board (Lattice UP5K)"},
+            {"name": "STEP CYC10 Board (Intel 10CL016YU256C8G)"},
+            {"name": "PulseRain M10 Board (Intel 10M08SAE144C8G)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "2.0.0",
+              "name": "Reindeer_upload"
+            },
+            {
+              "packager": "PulseRain_RISCV",
+              "version": "1.0.0",
+              "name": "Reindeer_compiler"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "2.3.0",
+          "name": "GRV3000D_upload",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_upload_2.3.0.tar.gz",
+              "archiveFileName": "GRV3000D_upload_2.3.0.tar.gz",
+              "checksum": "SHA-256:eab26c13e4959b40bc3ba633ef9779d948b0e1fdc4fc3f4b853c8bb9fddbc69b",
+              "size": "6039858"
+            }
+          ]
+        },
+        {
+          "version": "2.2.0",
+          "name": "GRV3000D_upload",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_upload_2.2.0.tar.gz",
+              "archiveFileName": "GRV3000D_upload_2.2.0.tar.gz",
+              "checksum": "SHA-256:cbbcf9af305cecd1d06cc36d46492b6e5aa2eb51736fbd0f43f51bbdac97d19c",
+              "size": "6038769"
+            }
+          ]
+        },
+        {
+          "version": "2.1.0",
+          "name": "GRV3000D_upload",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_upload_2.1.0.tar.gz",
+              "archiveFileName": "GRV3000D_upload_2.1.0.tar.gz",
+              "checksum": "SHA-256:1b2d5e81367e7216d4e91fd72b40e11f3e94f0eeb5891eef9af464febfa4f620",
+              "size": "6035448"
+            }
+          ]
+        },
+        {
+          "version": "1.3.3",
+          "name": "GRV3000D_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_compiler_1.3.3.tar.gz",
+              "archiveFileName": "GRV3000D_compiler_1.3.3.tar.gz",
+              "checksum": "SHA-256:410adeec48579a286844e1d82db306f215ac83bead373fcf8fa13975786a37dd",
+              "size": "89039744"
+            }
+          ]
+        },
+        {
+          "version": "1.3.2",
+          "name": "GRV3000D_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_compiler_1.3.2.tar.gz",
+              "archiveFileName": "GRV3000D_compiler_1.3.2.tar.gz",
+              "checksum": "SHA-256:451a3f561f742ec0e4bea52a2d4b40113def128af0c6b101b4b5a8088b42dff1",
+              "size": "99970487"
+            }
+          ]
+        },
+        {
+          "version": "1.3.1",
+          "name": "GRV3000D_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_compiler_1.3.1.tar.gz",
+              "archiveFileName": "GRV3000D_compiler_1.3.1.tar.gz",
+              "checksum": "SHA-256:4e3976b46153d2f2326a97f2154ea9ab51109c04171422770f011c8c17388a84",
+              "size": "99912692"
+            }
+          ]
+        },
+        {
+          "version": "1.3.0",
+          "name": "GRV3000D_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/GRV3000D_compiler_1.3.0.tar.gz",
+              "archiveFileName": "GRV3000D_compiler_1.3.0.tar.gz",
+              "checksum": "SHA-256:bd24c4296615a8f94ec212183bd7495e8a0036c52f361159a385f6f7473033de",
+              "size": "99912956"
+            }
+          ]
+        },
+        {
+          "version": "2.1.0",
+          "name": "Reindeer_upload",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_upload_2.1.0.tar.gz",
+              "archiveFileName": "Reindeer_upload_2.1.0.tar.gz",
+              "checksum": "SHA-256:4eafa097f0c6818db3f3355ab324268c0876b72f35a78a6881bfe71cf55ef316",
+              "size": "6035446"
+            }
+          ]
+        },
+        {
+          "version": "2.0.0",
+          "name": "Reindeer_upload",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_upload_2.0.0.tar.gz",
+              "archiveFileName": "Reindeer_upload_2.0.0.tar.gz",
+              "checksum": "SHA-256:226d4c529ea6b3e3ef11581594159c234d5884930e8f2faf164f180ca3f569f6",
+              "size": "7065477"
+            }
+          ]
+        },
+        {
+          "version": "1.3.0",
+          "name": "Reindeer_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_compiler_1.3.0.tar.gz",
+              "archiveFileName": "Reindeer_compiler_1.3.0.tar.gz",
+              "checksum": "SHA-256:3b1c0cb256561807398752c38e68ac0630a925f61674cd452640d75ba4ee5cd0",
+              "size": "99968334"
+            }
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "name": "Reindeer_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_compiler_1.2.0.tar.gz",
+              "archiveFileName": "Reindeer_compiler_1.2.0.tar.gz",
+              "checksum": "SHA-256:3fc75959770783960482093c330c7c8c9d93a2cca6a1d7e72c613a5d5db5868d",
+              "size": "243424441"
+            }
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "name": "Reindeer_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_compiler_1.1.0.tar.gz",
+              "archiveFileName": "Reindeer_compiler_1.1.0.tar.gz",
+              "checksum": "SHA-256:5785be30db236830791484162e35614e85183b5ebc4f73a3edd13390d43c235e",
+              "size": "100429503"
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "name": "Reindeer_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Reindeer_compiler_1.0.0.tar.gz",
+              "archiveFileName": "Reindeer_compiler_1.0.0.tar.gz",
+              "checksum": "SHA-256:216c9e08a54b0df3895dad95b199505f161ea56422eb246e56892a6f0043f3b4",
+              "size": "100370594"
+            }
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "name": "Rattlesnake_upload",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_upload_1.1.0.tar.gz",
+              "archiveFileName": "Rattlesnake_upload_1.1.0.tar.gz",
+              "checksum": "SHA-256:76243356ee7abbf30f24c77c143a9cc1fadcb61f2063f24397b555a73216a98b",
+              "size": "6036524"
+            }
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "name": "Rattlesnake_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_compiler_1.1.0.tar.gz",
+              "archiveFileName": "Rattlesnake_compiler_1.1.0.tar.gz",
+              "checksum": "SHA-256:34313b47eb10af2293bb8c5b81be436d0cf798fc023157d930b5cb39a87076e0",
+              "size": "100402420"
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "name": "Rattlesnake_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/Rattlesnake_compiler_1.0.0.tar.gz",
+              "archiveFileName": "Rattlesnake_compiler_1.0.0.tar.gz",
+              "checksum": "SHA-256:da07d2038f42d083eef935fb5928b656250f78e67336bd10187c8e895338c246",
+              "size": "100402420"
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "name": "hex_total_size",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_RISCV_IDE/raw/master/package/hex_total_size_1.0.0.tar.gz",
+              "archiveFileName": "hex_total_size_1.0.0.tar.gz",
+              "checksum": "SHA-256:275fd6f969b470e06181e86e0725d47eca262c01c5a917c527f004d50a9926fd",
+              "size": "7007795"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

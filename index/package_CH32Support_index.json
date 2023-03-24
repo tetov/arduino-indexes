@@ -1,0 +1,70 @@
+{
+    "packages": [
+        {
+            "name": "CH32Support",
+            "websiteURL": "https://github.com/WangXuhaoInSuda",
+            "maintainer": "Xuhao Wang, Yao Guo",
+            "email": "wxh_nefu@qq.com",
+            "help": {
+                "online": "https://github.com/WangXuhaoInSuda/CH32duino_BoardManagerFiles/wiki"
+            },
+            "platforms": [
+                {
+                    "name": "CH32 MCU based boards",
+                    "architecture": "CH32",
+                    "version": "2.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/WangXuhaoInSuda/Arduino_Core_CH32/releases/download/Core/Arduino_Core_CH32-2.0.0.zip",
+                    "archiveFileName": "Arduino_Core_CH32-2.0.0.zip",
+                    "checksum": "SHA-256:f5deaadf30efa4bdb6f6691640f351d8b86ce869b89a5e530544b83e7f1ac662",
+                    "size": "343672",
+                    "boards": [
+                        {"name": "CH32v307EVT_G"},
+                        {"name": "CH32v307EVT_B"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "CH32Support",
+                            "name": "riscv-none-embed-gcc",
+                            "version": "8.2.0"
+                        },
+                        {
+                            "packager": "CH32Support",
+                            "name": "uartUploader",
+                            "version": "1.0.0"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "name": "riscv-none-embed-gcc",
+                    "version": "8.2.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/WangXuhaoInSuda/Arduino_Tools_CH32/releases/download/GNUTools/riscv-none-embed-gcc-8.2.0.zip",
+                            "archiveFileName": "riscv-none-embed-gcc-8.2.0.zip",
+                            "checksum": "SHA-256:867e84eb9618f899212eb7062e644a4207fc6db8a7c62ac05f48d9bf208bfb51",
+                            "size": "254824448"
+                        }
+                    ]
+                },
+                {
+                    "name": "uartUploader",
+                    "version": "1.0.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/WangXuhaoInSuda/Arduino_Tools_CH32/releases/download/UploadTool/uartUploader-1.0.0.zip",
+                            "archiveFileName": "uartUploader-1.0.0.zip",
+                            "checksum": "SHA-256:3a7faaf49951cbd87aa7e6856fab1dd26e4b76a4e9d352263a6ddfbd6659be84",
+                            "size": "209770"
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+  "packages": [
+    {
+      "name": "WizIO",
+      "maintainer": "WizIO",
+      "websiteURL": "https://github.com/Wiz-IO/wizio-arduino-pico",
+      "email": "the_wizarda@gmail.com",
+      "platforms": [
+        {
+          "name": "WizIO Pico",
+          "architecture": "pico",
+          "category": "Contributed",          
+          "version": "1.0.0",
+          "url": "https://github.com/Wiz-IO/LIB/raw/master/pico/pico-core.1.0.0.zip",
+          "archiveFileName": "pico-core.1.0.0.zip",
+          "checksum": "",
+          "size": "2201",
+          "help": { "online": "https://github.com/Wiz-IO/wizio-arduino-pico" },
+          "boards": [
+            { "name": "raspberry-pico" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WizIO",
+              "name": "gccarmnoneeabi",
+              "version": "1.70201.0"              
+            },
+            {
+              "packager": "WizIO",
+              "name": "pico-tools",
+              "version": "1.0.0"
+            }            
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "gccarmnoneeabi",
+          "version": "1.70201.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32",
+              "url": "http://wizio.eu/arduino/bc66/gcc.1.70201.0.zip",
+              "archiveFileName": "gcc.1.70201.0.zip",              
+              "size": "106761211",
+              "checksum": "SHA-256:c4eb41f01cbba8f4db0ca4ddb5e46a1579b88a9ab53f0e52cda7dee3eabc6b47"              
+            } 
+          ]
+        
+        },
+        
+        {
+          "name": "pico-tools",
+          "version": "1.0.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32", 
+              "archiveFileName": "pico-tool.1.0.0.zip",
+              "url": "https://github.com/Wiz-IO/LIB/raw/master/pico/pico-tool.1.0.0.zip",
+              "size": "146",
+              "checksum": ""                 
+            } 
+          ] 
+        }
+        
+      ]
+    }
+  ]
+}

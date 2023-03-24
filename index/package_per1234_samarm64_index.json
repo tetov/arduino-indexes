@@ -1,0 +1,41 @@
+{
+  "packages": [
+    {
+      "name": "per1234",
+      "maintainer": "per1234",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "dont@spam.me",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Arduino SAM Boards (32-bits ARM Cortex-M3) with ARM64 support",
+          "architecture": "sam",
+          "version": "1.6.11-arm64",
+          "category": "Contributed",
+          "url": "https://per1234.github.io/ArduinoCore-sam/ArduinoCore-sam-1.6.11-arm64.tar.bz2",
+          "archiveFileName": "ArduinoCore-sam-1.6.11-arm64.tar.bz2",
+          "checksum": "SHA-256:8714519fe442ec1e3d42f9a39261afff82a1adb11f3a88c43bbcd56b229e8a00",
+          "size": "16212348",
+          "boards": [
+            {"name": "Arduino Due"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}

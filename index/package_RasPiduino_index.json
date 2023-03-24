@@ -1,0 +1,267 @@
+{
+  "packages": [
+    {
+      "name": "_RasPiduino",
+      "maintainer": "Kosaka.Lab.",
+      "websiteURL": "https://kimio-kosaka.github.io/_RasPiduino/",
+      "email": "",
+        "help": {
+      "online": ""
+      },
+      "platforms": [
+        {
+          "name": "_RasPiduino",
+          "architecture": "avr",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/kimio-kosaka/_RasPiduino/archive/V1.1.0.tar.gz",
+          "archiveFileName": "_RasPiduino-1.1.0.tar.gz",
+          "checksum": "SHA-256:f1bf8eced820c7366a835781f49fb382601ce132c7c89776e385fb858eda9498",
+          "size": "6174",
+          "boards": [
+            {"name": "RasPiduino"}
+          ],
+          "toolsDependencies": [ ]
+        }
+      ],
+      "tools": [ ]
+    },
+    {
+      "name": "ATMegaCore",
+      "maintainer": "Kosaka.Lab.",
+      "websiteURL": "https://kimio-kosaka.github.io/_RasPiduino/",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "ATMegaCore",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/kimio-kosaka/ATMegaCore/archive/v1.0.0.tar.gz",
+          "archiveFileName": "ATMegaCore-1.0.0.tar.gz",
+          "checksum": "SHA-256:6cbfe1424711fd7b214e1edfcf283b0c402c29c08ac3864dcd64c980b739c9f5",
+          "size": "114122",
+          "boards": [
+            {"name": "ATmega88"},{"name": "ATmega168"},{"name": "ATmega328P"},
+            {"name": "ATmega644"},{"name": "ATmega1284"},
+            {"name": "ATmega64"}
+          ],
+          "toolsDependencies": [ ]
+        }
+      ],
+      "tools": []
+    },
+    {
+      "name": "ATTinyCore-R",
+      "maintainer": "Spence Konde /modified by Kosaka.Lab.",
+      "websiteURL": "https://kimio-kosaka.github.io/_RasPiduino/",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "ATtinyCore-R",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+        },
+        "url": "https://github.com/kimio-kosaka/ATtinyCore-R/archive/v1.0.1.tar.gz",
+        "archiveFileName": "ATtinyCore-R-1.0.1.tar.gz",
+        "checksum": "SHA-256:776eb975eef9715c15f4be0c9be4a737a471556c6b55f63ef01c0431d7f91c6c",
+        "size": "6377675",
+        "boards": [
+           {"name": "ATtiny441"},{"name": "ATtiny841"},
+           {"name": "ATtiny1634"},
+           {"name": "ATtiny828"},
+           {"name": "ATtiny2313"},{"name": "ATtiny4313"},
+           {"name": "ATtiny24"},{"name": "ATtiny44"},{"name": "ATtiny84"},
+           {"name": "ATtiny25"},{"name": "ATtiny45"},{"name": "ATtiny85"},
+           {"name": "ATtiny261"},{"name": "ATtiny461"},{"name": "ATtiny861"},
+           {"name": "ATtiny87"},{"name": "ATtiny167"},
+           {"name": "ATtiny48"},{"name": "ATtiny88"}
+          ],
+          "toolsDependencies": [ ]
+        },
+        {
+          "name": "ATtinyCore-R",
+          "architecture": "avr",
+          "version": "1.1.4",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+        },
+        "url": "https://github.com/kimio-kosaka/ATtinyCore-R/archive/v1.1.4.tar.gz",
+        "archiveFileName": "ATtinyCore-R-1.1.4.tar.gz",
+        "checksum": "SHA-256:98649aebb02aa8ea415931c19df836df765d9a8b6c6d69253d68ec1f5f99d47a",
+        "size": "6396917",
+        "boards": [
+           {"name": "ATtiny441"},{"name": "ATtiny841"},
+           {"name": "ATtiny1634"},
+           {"name": "ATtiny828"},
+           {"name": "ATtiny2313"},{"name": "ATtiny4313"},
+           {"name": "ATtiny24"},{"name": "ATtiny44"},{"name": "ATtiny84"},
+           {"name": "ATtiny25"},{"name": "ATtiny45"},{"name": "ATtiny85"},
+           {"name": "ATtiny261"},{"name": "ATtiny461"},{"name": "ATtiny861"},
+           {"name": "ATtiny87"},{"name": "ATtiny167"},
+           {"name": "ATtiny48"},{"name": "ATtiny88"}
+          ],
+          "toolsDependencies": [ ]
+        }
+      ],
+      "tools": []
+    },
+    {
+      "name": "bitDuino13",
+      "maintainer": "maris__HY /modified by Kosaka.Lab.",
+      "websiteURL": "https://kimio-kosaka.github.io/_RasPiduino/",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "bitDuino13",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/kimio-kosaka/bitDuino13/archive/v1.0.0.tar.gz",
+          "archiveFileName": "bitDuino13-1.0.0.tar.gz",
+          "checksum": "SHA-256:b729a00eb7207fd2ec7f546dcb859428038a68944a8ab4ec1393bce64cc3790a",
+          "size": "69674",
+          "boards": [
+            {"name": "ATtiny13"}
+          ],
+          "toolsDependencies": [ ]
+        },
+        {
+         "name": "bitDuino13",
+         "architecture": "avr",
+         "version": "1.0.1",
+         "category": "Contributed",
+         "help": {
+           "online": "."
+         },
+         "url": "https://github.com/kimio-kosaka/bitDuino13/archive/v1.0.1.tar.gz",
+         "archiveFileName": "bitDuino13-1.0.1.tar.gz",
+         "checksum": "SHA-256:90c95891026885a35b9e68ca19bec3bc87e667a38e5cf8e86b91989fbf56ef28",
+         "size": "69351",
+         "boards": [
+           {"name": "ATtiny13"}
+         ],
+         "toolsDependencies": []
+       }
+      ],
+      "tools": []
+    },
+    {
+      "name": "GPIO-AVRDUDE_installer",
+      "maintainer": "Kosaka.Lab.",
+      "websiteURL": "https://github.com/kimio-kosaka/GPIO-AVRDUDE",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "GPIO-AVRDUDE_installer",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/kimio-kosaka/GPIO-AVRDUDE/archive/v1.0.0.tar.gz",
+          "archiveFileName": "GPIO-AVRDUDE-1.0.0.tar.gz",
+          "checksum": "SHA-256:7b38b408c8f2169163db8a682676a2b79dafc4b39e690aef624bd5b5dc7be06d",
+          "size": "2935",
+          "boards": [
+            {"name": "Install_GPIO-AVRDUDE"},{"name": "Restore_IDE-AVRDUDE"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "GPIO-AVRDUDE_installer",
+              "name": "scripts",
+              "version": "1.1"
+            }
+          ]
+        },
+        {
+          "name": "GPIO-AVRDUDE_installer",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/kimio-kosaka/GPIO-AVRDUDE/archive/v1.0.1.tar.gz",
+          "archiveFileName": "GPIO-AVRDUDE-1.0.1.tar.gz",
+          "checksum": "SHA-256:546394fd47844ca11e203bfb8925a2bfc5c05c45217329e8449680c8f0577454",
+          "size": "3030",
+          "boards": [
+            {"name": "Install_GPIO-AVRDUDE"},{"name": "Restore_IDE-AVRDUDE"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "GPIO-AVRDUDE_installer",
+              "name": "scripts",
+              "version": "1.1"
+            }
+          ]
+        },
+        {
+          "name": "GPIO-AVRDUDE_installer",
+          "architecture": "avr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/kimio-kosaka/GPIO-AVRDUDE/archive/v1.0.2.tar.gz",
+          "archiveFileName": "GPIO-AVRDUDE-1.0.2.tar.gz",
+          "checksum": "SHA-256:4e371286d35a5c5dc3fbb513ca2967ced498bf9774f66be93976ad8b78a023cf",
+          "size": "3026",
+          "boards": [
+            {"name": "Install_GPIO-AVRDUDE"},{"name": "Restore_IDE-AVRDUDE"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "GPIO-AVRDUDE_installer",
+              "name": "scripts",
+              "version": "1.1"
+            }
+          ]
+        }
+    ],
+      "tools": [
+        {
+          "version": "1.1",
+          "name": "scripts",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/kimio-kosaka/Runscript/releases/download/v1.0.1/scripts-1.1.tar.gz",
+              "archiveFileName": "scripts-1.1.tar.gz",
+              "checksum": "SHA-256:d932fbed949b272decf9359bf3d2fb0e7d1b4951ba27aeabb137c60028b18f05",
+              "size": "297"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

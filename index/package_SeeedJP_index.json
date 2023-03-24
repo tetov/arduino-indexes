@@ -1,0 +1,1529 @@
+{
+  "packages": [
+    {
+      "name": "SeeedJP",
+      "maintainer": "Seeed K.K.",
+      "websiteURL": "http://www.seeed.co.jp",
+      "email": "t-matsuoka@seeed.co.jp",
+      "help": { "online": "http://www.seeed.co.jp" },
+      "platforms": [
+        {
+          "name": "[DEPRECATED]Seeed STM32F4 Board (JP mirror)",
+          "architecture": "Seeed_STM32F4",
+          "version": "1.0",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/stm32f4ArduinoCore" },
+          "archiveFileName": "Seeed_STM32F4_mirror_1.0.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/Seeed_STM32F4_mirror_1.0.zip",
+          "checksum": "SHA-256:9a8fe308e20b97887f52215759b9095d332e0ec00fdc0d26f790137a392f0751",
+          "size": "473077",
+          "boards": [
+            {
+              "name": "Seeed Wio LTE Cat.1"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]Seeed STM32F4 Board (JP mirror)",
+          "architecture": "Seeed_STM32F4",
+          "version": "1.1",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/stm32f4ArduinoCore" },
+          "archiveFileName": "Seeed_STM32F4_mirror_1.1.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/Seeed_STM32F4_mirror_1.1.zip",
+          "checksum": "SHA-256:a2ec87a4a760bbdd0dd67b44ab3e98c62a72c76db080d27e434846fbc6bdc1bb",
+          "size": "473222",
+          "boards": [
+            {
+              "name": "Seeed Wio LTE Cat.1"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]SeeedJP STM32F4 Boards",
+          "architecture": "SeeedJP_STM32F4",
+          "version": "1.0",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_STM32F4" },
+          "archiveFileName": "SeeedJP_STM32F4_1.0.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32F4_1.0.zip",
+          "checksum": "SHA-256:efa7eba9fa2348e7ccc5c77302bc99b7855a3f3da66f6dace91382598a135db0",
+          "size": "24157992",
+          "boards": [
+            { "name": "Seeed Wio 3G" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "daplink-tools",
+              "version": "1.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]SeeedJP STM32F4 Boards",
+          "architecture": "SeeedJP_STM32F4",
+          "version": "1.1",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_STM32F4" },
+          "archiveFileName": "SeeedJP_STM32F4_1.1.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32F4_1.1.zip",
+          "checksum": "SHA-256:a039ff9de0fe359c297cf8bf75a774f09a4ca0951671d4cc028361f9134914a9",
+          "size": "24191129",
+          "boards": [
+            { "name": "Seeed Wio 3G" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "daplink-tools",
+              "version": "1.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]SeeedJP STM32F4 Boards",
+          "architecture": "SeeedJP_STM32F4",
+          "version": "1.2",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_STM32F4" },
+          "archiveFileName": "SeeedJP_STM32F4_1.2.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32F4_1.2.zip",
+          "checksum": "SHA-256:26840573aac4437a7a5119b9f71a7714cdeee750a32353c8c2a2af9a2d0cba01",
+          "size": "24193228",
+          "boards": [
+            { "name": "Seeed Wio 3G" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "daplink-tools",
+              "version": "1.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]SeeedJP STM32F4 Boards",
+          "architecture": "SeeedJP_STM32F4",
+          "version": "1.3",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_STM32F4" },
+          "archiveFileName": "SeeedJP_STM32F4_1.3.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32F4_1.3.zip",
+          "checksum": "SHA-256:f2efb719e80792a9a1157dbc88642bfe57dc5327047985a48a86b294561579c5",
+          "size": "24193388",
+          "boards": [
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "daplink-tools",
+              "version": "1.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]SeeedJP STM32F4 Boards",
+          "architecture": "SeeedJP_STM32F4",
+          "version": "1.4",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_STM32F4" },
+          "archiveFileName": "SeeedJP_STM32F4_1.4.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32F4_1.4.zip",
+          "checksum": "SHA-256:e7c8e8227a34a96f5eec8d3a386e71faafc14164763027a9f685b7189a01ba77",
+          "size": "24194201",
+          "boards": [
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "daplink-tools",
+              "version": "1.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]SeeedJP STM32F4 Boards",
+          "architecture": "SeeedJP_STM32F4",
+          "version": "1.5",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_STM32F4" },
+          "archiveFileName": "SeeedJP_STM32F4_1.5.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32F4_1.5.zip",
+          "checksum": "SHA-256:77a3c48d9de6a9589fdd72241673a9ff2ead6b568de8206a1012f85b8c7bd283",
+          "size": "24194685",
+          "boards": [
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "daplink-tools",
+              "version": "1.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "[DEPRECATED]SeeedJP STM32F4 Boards",
+          "architecture": "SeeedJP_STM32F4",
+          "version": "1.6",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_STM32F4" },
+          "archiveFileName": "SeeedJP_STM32F4_1.6.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32F4_1.6.zip",
+          "checksum": "SHA-256:b3b7fb0f9c751b6c27a568a3b5e2b6f0ed2994206c2102c1980bf7694be9c683",
+          "size": "24194914",
+          "boards": [
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "daplink-tools",
+              "version": "1.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_0.1.zip",
+          "archiveFileName": "SeeedJP_STM32_0.1.zip",
+          "checksum": "SHA-256:408bdb9dd25a4a4bc0d9e13de002a3d062de3351e86bab01d9216b4eebef2c53",
+          "size": "31467971",
+          "boards": [
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.3.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_1.0.zip",
+          "archiveFileName": "SeeedJP_STM32_1.0.zip",
+          "checksum": "SHA-256:bf39095eae3c213a8efd9b1b7d63e92493de0dc321ecb393d9022c959ff655ff",
+          "size": "31482216",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.3.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_1.1.zip",
+          "archiveFileName": "SeeedJP_STM32_1.1.zip",
+          "checksum": "SHA-256:0a15425e17a418e02e46ac9da68a004ef8f5dd00982dc2a4933fadb0fbba3eac",
+          "size": "31482233",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.3.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_1.2.zip",
+          "archiveFileName": "SeeedJP_STM32_1.2.zip",
+          "checksum": "SHA-256:d117624974675f20fb1bbfdb46c192c8e58f5a94bc0278adc7b46b0677fa9534",
+          "size": "31482234",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.3.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.2.1",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_1.2.1.zip",
+          "archiveFileName": "SeeedJP_STM32_1.2.1.zip",
+          "checksum": "SHA-256:696648e784a54821744a48ebbc8fa6a3b4b25c7a0e6327272cc2a30f86aab4ec",
+          "size": "31731849",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q2-update"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.3.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.3.0",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_1.3.zip",
+          "archiveFileName": "SeeedJP_STM32_1.3.zip",
+          "checksum": "SHA-256:a1c6474854dddbe23995795e8eb1681f97884a3015d87ea38a8a98c664621875",
+          "size": "38373853",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.5.1"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.4.0",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_1.4.zip",
+          "archiveFileName": "SeeedJP_STM32_1.4.zip",
+          "checksum": "SHA-256:022d72522c12214571e8896528a9c80c830455774be0008a99c8586cd4e8272e",
+          "size": "38368896",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.5.1"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.5.0",
+          "category": "Contributed",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_STM32_1.5.zip",
+          "archiveFileName": "SeeedJP_STM32_1.5.zip",
+          "checksum": "SHA-256:0c91670bd41f9ea2a88b39ef1d68a6bdfc1f36c8e5b6ff4636f2e8eda27fe07a",
+          "size": "38368889",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.5.1"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.6.0",
+          "category": "Contributed",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_STM32_1.6.zip",
+          "archiveFileName": "SeeedJP_STM32_1.6.zip",
+          "checksum": "SHA-256:575be522cf655254108163cfcec3ed362b091245ab3652eca6863760bf0b18e0",
+          "size": "38368877",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.5.1"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.0.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.7",
+          "category": "Contributed",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_STM32_1.7.zip",
+          "archiveFileName": "SeeedJP_STM32_1.7.zip",
+          "checksum": "SHA-256:6e87c386cf69a3e75b3ea90b42a17c300d33ee1c96ae3fa2c38478aeade69d63",
+          "size": "38368877",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.5.1"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.8",
+          "category": "Contributed",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_STM32_1.8.tar.bz2",
+          "archiveFileName": "SeeedJP_STM32_1.8.tar.bz2",
+          "checksum": "SHA-256:df9b7f4c78498044b92cdf22031bb3d4ff49720a88396b2f86a6f987a3baaafa",
+          "size": "37800910",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "9.3.1-1.3"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "STM32Tools",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.11.0-1-xpack"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.9",
+          "category": "Contributed",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_STM32_1.9.tar.bz2",
+          "archiveFileName": "SeeedJP_STM32_1.9.tar.bz2",
+          "checksum": "SHA-256:4a1bbc84a029a6d0fe738f866f7d1042baca2dea71099cf582fce682108bc97c",
+          "size": "37387570",
+          "boards": [
+            { "name": "Seeed Wio LTE Cat.1" },
+            { "name": "Seeed Wio 3G" },
+            { "name": "Seeed Wio LTE M1/NB1(BG96)" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "9.3.1-1.3"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "STM32Tools",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "stm32_dfu_upload_tool",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.11.0-1-xpack"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "1.0",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_1.0.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_ReButton_1.0.zip",
+          "checksum": "SHA-256:164b1ba7c055c30a95f5c6b4a06022c4b568c1c5d5940e875a733ae27f15050b",
+          "size": "5408712",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "1.1",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_1.1.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_ReButton_1.1.zip",
+          "checksum": "SHA-256:55bb938e0d485d02566513879c457f8e88f2d6ab1f97e3f595f0edc09e55a799",
+          "size": "5408808",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "1.2",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_1.2.zip",
+          "url": "http://www.seeed.co.jp/Packages_for_Arduino/SeeedJP_ReButton_1.2.zip",
+          "checksum": "SHA-256:159040e1ee2f844f09ac708dafe07a96c78ca620508cf6ffded446bfe9fa20b1",
+          "size": "5408770",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "1.3",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_1.3.zip",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_ReButton_1.3.zip",
+          "checksum": "SHA-256:c43aa85b035d73ed93503600cdd6d2c6c58725e3d85e2d50be67e29436fb78eb",
+          "size": "5408760",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3-seeed"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "1.4",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_1.4.zip",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_ReButton_1.4.zip",
+          "checksum": "SHA-256:48e2093f9f4858460a5739933b56de04966255fc9c3fbae94662be93504d789e",
+          "size": "5408758",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3-seeed"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.11.0-1-xpack"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "1.5",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_1.5.zip",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_ReButton_1.5.zip",
+          "checksum": "SHA-256:09f4f527173cac3f64b6fb11dd70a247ae8ebc7ed5becf307e0c36206e328e7b",
+          "size": "5409729",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3-seeed"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.11.0-1-xpack"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "2.0",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_2.0.zip",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_ReButton_2.0.zip",
+          "checksum": "SHA-256:e362760f2c5108988596c9fa59ac66cd93769a6e9193a7f72c6e664823d4b5df",
+          "size": "5598259",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3-seeed"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.11.0-1-xpack"
+            }
+          ]
+        },
+        {
+          "name": "SeeedJP ReButton",
+          "architecture": "SeeedJP_ReButton",
+          "version": "2.1",
+          "category": "Contributed",
+          "help": { "online": "https://github.com/SeeedJP/SeeedJP_ReButton" },
+          "archiveFileName": "SeeedJP_ReButton_2.1.zip",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_ReButton_2.1.zip",
+          "checksum": "SHA-256:126f4f1828df43960256ced6a1d4e759f156df708cd9d0f878bc3b4a309fa28e",
+          "size": "5598590",
+          "boards": [
+            {
+              "name": "Seeed ReButton"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "5_4-2016q3-seeed"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "openocd",
+              "version": "0.11.0-1-xpack"
+            }
+          ]
+        }
+      ],
+
+      "tools": [
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "4.8.3-2014q1",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+              "checksum": "SHA-256:ebe96b34c4f434667cab0187b881ed585e7c7eb990fe6b69be3c81ec7e11e845",
+              "size": "44423906"
+            },
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+              "size": "84537449"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "size": "52518522"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size": "51029223"
+            }
+          ]
+        },
+        {
+          "name": "stm32_dfu_upload_tool",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_arm.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_arm.tar.bz2",
+              "checksum": "SHA-256:90762998220078436fcc4c6a6d09e1a4b70f38d95b56bc14f6a7f7cbf5b5cdfc",
+              "size": "195210"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
+            }
+          ]
+        },
+        {
+          "name": "stm32_dfu_upload_tool",
+          "version": "1.1.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "checksum": "SHA-256:fa1f3a4a5e9603abbed118010908300a06eb9ce25cf72b5b11780618fe4d0511",
+              "size": "383747"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_arm.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_arm.tar.bz2",
+              "checksum": "SHA-256:90762998220078436fcc4c6a6d09e1a4b70f38d95b56bc14f6a7f7cbf5b5cdfc",
+              "size": "195210"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "checksum": "SHA-256:fa1f3a4a5e9603abbed118010908300a06eb9ce25cf72b5b11780618fe4d0511",
+              "size": "383747"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "checksum": "SHA-256:fa1f3a4a5e9603abbed118010908300a06eb9ce25cf72b5b11780618fe4d0511",
+              "size": "383747"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.1.0.tar.bz2",
+              "checksum": "SHA-256:fa1f3a4a5e9603abbed118010908300a06eb9ce25cf72b5b11780618fe4d0511",
+              "size": "383747"
+            }
+          ]
+        },
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "5_4-2016q3",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-5_4-2016q3-20160926-win32.zip",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.zip"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/gcc-arm-none-eabi-5_4-2016q3.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-5_4-2016q3.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/gcc-arm-none-eabi-6-2017-q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-linux64.tar.gz"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/gcc-arm-none-eabi-5_4-2016q3-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-5_4-2016q3-linux32.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "5_4-2016q3-seeed",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/gcc-arm-none-eabi-5_4-2016q3-20160926-win32-mod.zip",
+              "archiveFileName": "gcc-arm-none-eabi-5_4-2016q3-20160926-win32-mod.zip",
+              "checksum": "SHA-256:b13a8bc92829e8a99d0b6ee33cd5b9ca91e4e59554611ee8857c1a00f4f2d94b"
+            },
+            {
+              "host": "i686-apple-darwin",
+              "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/gcc-arm-none-eabi-5_4-2016q3-20160926-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-5_4-2016q3-20160926-mac.tar.bz2",
+              "checksum": "SHA-256:5656cdec40f99d5c054a85bbc694276e1c4a1488cdacbbc448bc6acd3bbe070d"
+            }
+          ]
+        },
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "6-2017-q2-update",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-win32-20180416.zip",
+              "url": "http://www.seeed.co.jp/Packages_for_Arduino/gcc-arm-none-eabi-6-2017-q2-update-win32-20180416.zip",
+              "checksum": "SHA-256:ec9e254009bcb5f0ce836663a4a4d3700768c7b3a291ad10c29b210d3b1bf8c5",
+              "size": "112900779"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-mac-20180416.tar.bz2",
+              "url": "http://www.seeed.co.jp/Packages_for_Arduino/gcc-arm-none-eabi-6-2017-q2-update-mac-20180416.tar.bz2",
+              "checksum": "SHA-256:115caa3f6f0e6c0c2705e4bdfbbe4c85f693caca4722179ea13e4faaec70dd42",
+              "size": "85976077"
+            }
+          ]
+        },
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "8.2.1-1.7",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-windows.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-windows.tar.bz2",
+              "checksum": "SHA-256:fe7305b48b92e20d71740da8723e59e89abc2e8e159350e9b302adcedbc2b25c",
+              "size": "117852054"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-mac.tar.bz2",
+              "checksum": "SHA-256:a6c0193a02d7cd8e411d438c6461c516d7782776f0c647a0a2168f60068b21b2",
+              "size": "103985447"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-linux64.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-linux64.tar.bz2",
+              "checksum": "SHA-256:509f0358ae2f83612f1120fb63eda5eca3892238f793ae909a5bb1d85db0c1f1",
+              "size": "108286418"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-linux32.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-linux32.tar.bz2",
+              "checksum": "SHA-256:008fdca0f29da0f71519bb78b088e199f30bdf9090b60a18e5372a6942ae5c7a",
+              "size": "109871000"
+            }
+          ]
+        },
+        {
+          "name": "xpack-arm-none-eabi-gcc",
+          "version": "9.3.1-1.3",
+          "systems":
+          [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "checksum": "SHA-256:0e6720296f291141cd757d90e6bf60867a1232de9abc52b0cde28af12eeb94f2",
+              "size": "147111321"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "checksum": "SHA-256:9a9e96b9ac3634d7632d35aa0d8138f8468d4f3f4d752374a95420ff7c8e4476",
+              "size": "150584175"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "checksum": "SHA-256:7432cfff045dc421d2ba177c3777ec1e82d4febe5f5f51fb2e90ff07d27cd466",
+              "size": "148593506"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "checksum": "SHA-256:f22f0d49c27f844dcfe629a6a33878d767b6945acd7508d9578b20b17b106f4c",
+              "size": "148641073"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "checksum": "SHA-256:9045d261b000d921887fc801427542eed2df1616f63a2969a2640f8be2593686",
+              "size": "151422620"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "checksum": "SHA-256:1950c7b0b4e35bacec32450158ec192ac469189a5fb27c2fd7c01e9603e50e64",
+              "size": "154309058"
+            }
+          ]
+        },
+        {
+          "name": "daplink-tools",
+          "version": "1.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "daplink-tools.1.0.zip",
+              "url": "http://www.seeed.co.jp/Packages_for_Arduino/daplink-tools.1.0.zip",
+              "checksum": "SHA-256:0e11d6160830878393b13ccc3a6b54aaee776c5f587cba98325a7589a0f40eaf",
+              "size": "6624"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "daplink-tools.1.0.zip",
+              "url": "http://www.seeed.co.jp/Packages_for_Arduino/daplink-tools.1.0.zip",
+              "checksum": "SHA-256:0e11d6160830878393b13ccc3a6b54aaee776c5f587cba98325a7589a0f40eaf",
+              "size": "6624"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "0.10.0",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/openocd-linux32-0.10.0.tar",
+              "archiveFileName": "openocd-linux32-0.10.0.tar"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/openocd-linux64-0.10.0.tar",
+              "archiveFileName": "openocd-linux64-0.10.0.tar"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/openocd-0.10.0-32.zip",
+              "archiveFileName": "openocd-0.10.0-32.zip"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://github.com/VSChina/azureiotdevkit_tools/releases/download/1.0/openocd-0.10.0.tar.gz",
+              "archiveFileName": "openocd-0.10.0.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "0.10.0-arduino13",
+          "systems": [
+            {
+              "size": "1820630",
+              "checksum": "SHA-256:47ae7a1a7961ac9daef001b011505b38777baac3c02dd7e673f62601df841427",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "openocd-0.10.0-arduino13-static-aarch64-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/openocd-0.10.0-arduino13-static-aarch64-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "1896478",
+              "checksum": "SHA-256:4dd38b701019ad2fbb58173a3bc6c58effd39501a4a8266256dfe169e7516655",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "openocd-0.10.0-arduino13-static-arm-linux-gnueabihf.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/openocd-0.10.0-arduino13-static-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "1883854",
+              "checksum": "SHA-256:788093504b25d2b9b772657215254ba178ed37773364ce240de68281efe40bd5",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "openocd-0.10.0-arduino13-static-i686-ubuntu12.04-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/openocd-0.10.0-arduino13-static-i686-ubuntu12.04-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "2334654",
+              "checksum": "SHA-256:2f3b87c644569f47780b16b071cd0929a64a8899ec769f4ca7480d20d5503365",
+              "host": "i686-mingw32",
+              "archiveFileName": "openocd-0.10.0-arduino13-static-i686-w64-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/openocd-0.10.0-arduino13-static-i686-w64-mingw32.zip"
+            },
+            {
+              "size": "1767137",
+              "checksum": "SHA-256:0f3f6e5e03355ffbbc84c4b4750e63c9315b7638c56d63df1b7795968208e6ba",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "openocd-0.10.0-arduino13-static-x86_64-apple-darwin13.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/openocd-0.10.0-arduino13-static-x86_64-apple-darwin13.tar.bz2"
+            },
+            {
+              "size": "1955043",
+              "checksum": "SHA-256:e4b2ffbc9a29be21c32c6921c2e7c0ee39c664c4faca28a5f839c1df32d3bd24",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "openocd-0.10.0-arduino13-static-x86_64-ubuntu12.04-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/openocd-0.10.0-arduino13-static-x86_64-ubuntu12.04-linux-gnu.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "0.11.0-1-xpack",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/openocd-xpack/releases/download/v0.11.0-1/xpack-openocd-0.11.0-1-linux-x64.tar.gz",
+              "archiveFileName": "xpack-openocd-0.11.0-1-linux-x64.tar.gz",
+              "checksum": "SHA-256:5972fe70a274f054503dd519b68d3909b83f017b5b8dd2b59e84b3b72c9bc3e1"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/openocd-xpack/releases/download/v0.11.0-1/xpack-openocd-0.11.0-1-linux-x64.tar.gz",
+              "archiveFileName": "xpack-openocd-0.11.0-1-linux-x64.tar.gz",
+              "checksum": "SHA-256:5972fe70a274f054503dd519b68d3909b83f017b5b8dd2b59e84b3b72c9bc3e1"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/xpack-dev-tools/openocd-xpack/releases/download/v0.11.0-1/xpack-openocd-0.11.0-1-win32-x64.zip",
+              "archiveFileName": "xpack-openocd-0.11.0-1-win32-x64.zip",
+              "checksum": "SHA-256:ec37f535265ce93953a874b10d07e8578f9814c206d8bce6a241ba7016297e4f"
+            },
+            {
+              "host": "i686-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/openocd-xpack/releases/download/v0.11.0-1/xpack-openocd-0.11.0-1-darwin-x64.tar.gz",
+              "archiveFileName": "xpack-openocd-0.11.0-1-darwin-x64.tar.gz",
+              "checksum": "SHA-256:3e3719fd059d87f3433f1f6d8e37b8582e87ae6a168287eb32a85dbc0f2e1708"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "5.3.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.3.0/CMSIS-5.3.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.3.0.tar.bz2",
+              "checksum": "SHA-256:7f1a669fa23fc51532d807955aa32976b89cb14675189d07a5ce3652bc1c8e3c",
+              "size": "42816664"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.3.0/CMSIS-5.3.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.3.0.tar.bz2",
+              "checksum": "SHA-256:7f1a669fa23fc51532d807955aa32976b89cb14675189d07a5ce3652bc1c8e3c",
+              "size": "42816664"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.3.0/CMSIS-5.3.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.3.0.tar.bz2",
+              "checksum": "SHA-256:7f1a669fa23fc51532d807955aa32976b89cb14675189d07a5ce3652bc1c8e3c",
+              "size": "42816664"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.3.0/CMSIS-5.3.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.3.0.tar.bz2",
+              "checksum": "SHA-256:7f1a669fa23fc51532d807955aa32976b89cb14675189d07a5ce3652bc1c8e3c",
+              "size": "42816664"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "5.5.1",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.5.1/CMSIS-5.5.1.tar.bz2",
+              "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+              "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+              "size": "24351965"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.5.1/CMSIS-5.5.1.tar.bz2",
+              "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+              "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+              "size": "24351965"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.5.1/CMSIS-5.5.1.tar.bz2",
+              "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+              "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+              "size": "24351965"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.5.1/CMSIS-5.5.1.tar.bz2",
+              "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+              "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+              "size": "24351965"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.5.1/CMSIS-5.5.1.tar.bz2",
+              "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+              "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+              "size": "24351965"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.5.1/CMSIS-5.5.1.tar.bz2",
+              "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+              "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+              "size": "24351965"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "5.7.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            }
+          ]
+        },
+        {
+          "name": "STM32Tools",
+          "version": "2.0.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-windows.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-windows.tar.bz2",
+              "checksum": "SHA-256:6316ffd1667344952bc5e16ff60783f9b4211d1eb54fc0d0c28e836b1490b717",
+              "size": "2486087"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-mac.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-mac.tar.bz2",
+              "checksum": "SHA-256:2612be87206d2ba6f7cf797c194dbc070139defc884b881c1957a8d148c2114c",
+              "size": "486398"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
+              "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
+              "size": "479795"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
+              "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
+              "size": "479795"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

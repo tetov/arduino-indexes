@@ -1,0 +1,90 @@
+{
+	"packages": [
+	{
+		"name": "rabid prototypes",
+		"maintainer": "Rabid Prototypes",
+		"websiteURL": "http://www.rabidprototypes.com/",
+		"email": "support@rabidprototypes.com",
+		"help": {
+			"online": "http://forum.arduino.cc/index.php?board=98.0"
+		},
+		"platforms": [
+		{
+			"name": "Rabid Prototypes SAMD Boards",
+			"architecture": "samd",
+			"version": "1.6.5",
+			"category": "Contributed",
+			"help": {
+				"online": "http://forum.arduino.cc/index.php?board=98.0"
+			},
+			"url": "http://www.rabidprototypes.com/arduino/RabidPrototypes_samd_1.6.5c.zip",
+			"archiveFileName": "RabidPrototypes_samd_1.6.5c.zip",
+			"checksum": "SHA-256:86BBBF79F425030D4FB6E19FC494BD0208CE4406F03EB6B3748751EB48B7E95F",
+			"size": "1231385",
+			"boards": [
+			{"name": "Tau / Firecricket"}
+			],
+			"toolsDependencies": [
+			{
+            		"packager": "arduino",
+        	    		"name": "arm-none-eabi-gcc",
+          			"version": "4.8.3-2014q1"
+            	},
+            	{
+              		"packager": "rabid prototypes",
+              		"name": "bossac",
+              		"version": "1.6.1"
+            	},
+            	{
+             		 "packager": "arduino",
+             		 "name": "openocd",
+             		 "version": "0.9.0-arduino"
+           	},
+            	{
+              		"packager": "arduino",
+              		"name": "CMSIS",
+              		"version": "4.0.0-atmel"
+            	}
+			]
+		}
+		],
+		"tools":[
+		{
+			"name": "bossac",
+			"version": "1.6.1",
+			"systems": [
+			{
+				"host": "i686-mingw32",
+				"url": "http://www.rabidprototypes.com/arduino/bossac-1.6.1-mingw32.tar.bz2",
+				"archiveFileName": "bossac-1.6.1-mingw32.tar.bz2",
+				"checksum": "SHA-256:26C587BB176A2BFDA8030234CF89861238AE75ADFE517DBEC1E8D748D1C928CF", 
+				"size": "311604"
+			},
+			{
+				"host": "x86_64-pc-linux-gnu",
+				"url": "http://www.rabidprototypes.com/arduino/bossac-1.6.1-x86_64-linux-gnu.tar.bz2",
+				"archiveFileName": "bossac-1.6.1-x86_64-linux-gnu.tar.bz2",
+				"checksum": "SHA-256:EB9AECEBDBD2521601F2EB90C4CE2A33F72F5D20B4773BDFD23A17D0A5F40C75",
+				"size": "33073"
+			},
+			{
+				"host": "i686-pc-linux-gnu",
+				"url": "http://www.rabidprototypes.com/arduino/bossac-1.6.1-i686-linux-gnu.tar.bz2",
+				"archiveFileName": "bossac-1.6.1-i686-linux-gnu.tar.bz2",
+				"checksum": "SHA-256:5C0D036D4246A19A506AE5C863C6B3B7607B9F9AFFA05E61E98AA3A152AAA903",
+				"size": "33109"
+			},
+            	{
+              		"host": "x86_64-apple-darwin",
+              		"url": "http://www.rabidprototypes.com/arduino/bossac-1.6.1-x86_64-apple-darwin.tar.bz2",
+              		"archiveFileName": "bossac-1.6.1-x86_64-apple-darwin.tar.bz2",
+              		"checksum": "SHA-256:C635D1BC6E29703F604557394FD3168FA57EA632752C9525393CF96F0D0741CA",
+              		"size": "79152"
+            	}
+			]
+		}
+		]
+	}
+	]
+}
+

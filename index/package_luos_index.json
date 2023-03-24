@@ -1,0 +1,72 @@
+{
+  "packages":
+  [
+    {
+      "name": "Luos adapted Arduino boards",
+      "maintainer": "Luos",
+      "websiteURL": "https://luos.io",
+      "email" : "contact@luos.io",
+      "platforms":
+      [
+        {
+          "name": "Luos adapted Arduino SAMD (32-bits ARM Cortex-M0+) Boards",
+          "architecture": "samd",
+          "version": "1.8.11",
+          "category": "Contributed",
+          "url": "https://github.com/Luos-io/Arduino_core/releases/download/1.8.11/samd_Luos_1.8.11.zip",
+          "archiveFileName": "samd_Luos_1.8.11.zip",
+          "checksum": "SHA-256:fa1b2a1933572bee1b1ed5bcc6b664ad979d349375ace24ffabe228629eab981",
+          "size": "12956949",
+          "boards": [
+            { "name": "Arduino MKR WiFi 1010" },
+            { "name": "Arduino Zero" },
+            { "name": "Arduino MKR1000" },
+            { "name": "Arduino MKRZERO" },
+            { "name": "Arduino MKR FOX 1200" },
+            { "name": "Arduino MKR WAN 1300" },
+            { "name": "Arduino MKR WAN 1310" },
+            { "name": "Arduino MKR GSM 1400" },
+            { "name": "Arduino MKR NB 1500" },
+            { "name": "Arduino MKR Vidor 4000" },
+            { "name": "Arduino Nano 33 IoT" },
+            { "name": "Arduino M0 Pro" },
+            { "name": "Arduino M0" },
+            { "name": "Arduino Tian" },
+            { "name": "Adafruit Circuit Playground Express" }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}

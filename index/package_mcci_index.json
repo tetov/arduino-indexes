@@ -1,0 +1,2190 @@
+{
+  "packages": [
+    {
+      "name": "mcci",
+      "maintainer": "MCCI Corporation",
+      "websiteURL": "https://github.com/mcci-catena/arduino-boards",
+      "email": "tech-support@mcci.com",
+      "help": {
+        "online": "https://portal.mcci.com"
+      },
+      "platforms": [
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_SAMD-1.0.0.zip",
+          "archiveFileName": "Arduino_Core_SAMD-1.0.0.zip",
+          "checksum": "SHA-256:930729ae67697a7226b934df1402d32e7473327e73d4f64d64e076342f7cadf4",
+          "size": "18102332",
+          "boards": [
+            {
+              "name": "Catena4410"
+            },
+            {
+              "name": "Catena4450"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_SAMD-1.0.1.zip",
+          "archiveFileName": "Arduino_Core_SAMD-1.0.1.zip",
+          "checksum": "SHA-256:2d3a4b601893e3e9db86b9b34d3ebdaf972e1bfc8d784202c91fdfda6d8465b0",
+          "size": "18102424",
+          "boards": [
+            {
+              "name": "Catena4410"
+            },
+            {
+              "name": "Catena4450"
+            },
+            {
+              "name": "Catena4460"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.1.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-1.1.0.tar.gz",
+          "checksum": "SHA-256:145198ea4975926f8bdc0686e7b4562a0144fa435f1f18400ebde13c978cacbf",
+          "size": "6561646",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.2.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-1.2.0.tar.gz",
+          "checksum": "SHA-256:4e0fccec34f859407c52b086c0fd69cd6396a0b505eab70bda2c5765aeecb133",
+          "size": "6564248",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "1.3.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.3.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-1.3.0.tar.gz",
+          "checksum": "SHA-256:563922a24b90bdb5309a5dd102533e108bc9a0a2e1a71d9b14e888e61dc85251",
+          "size": "6564229",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "1.3.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.3.1.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-1.3.1.tar.gz",
+          "checksum": "SHA-256:d5b4a1c9acdcfb898eacc38ef55395f19b41e40316a892109e0059bae499740c",
+          "size": "6564047",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.0.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-2.0.0.tar.gz",
+          "checksum": "SHA-256:8c0ca0b4ccb1a6f0d69a0af994023baff2d530204af51c04cd26b9b5b34146d2",
+          "size": "6564331",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "2.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.1.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-2.1.0.tar.gz",
+          "checksum": "SHA-256:86306a068853ed8e3d5c53aab771c6c338eaaaae10fc5930411984da1bad03d8",
+          "size": "6564792",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "2.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.2.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-2.2.0.tar.gz",
+          "checksum": "SHA-256:f86536336363c491317a8e7c908f1d209de7ae10c4eb72098a07310676067466",
+          "size": "6566086",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "2.3.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.3.0.tar.gz",
+          "archiveFileName": "Arduino_Core_SAMD-2.3.0.tar.gz",
+          "checksum": "SHA-256:34d299879ab0d8d66422bd2f224655b23dd54f73ff1947e5323586fdebec9cdc",
+          "size": "8790723",
+          "boards": [
+            {
+              "name": "Catena 4410"
+            },
+            {
+              "name": "Catena 4420"
+            },
+            {
+              "name": "Catena 4450"
+            },
+            {
+              "name": "Catena 4460"
+            },
+            {
+              "name": "Catena 4470"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-1.0.0.zip",
+          "archiveFileName": "Arduino_Core_STM32-1.0.0.zip",
+          "checksum": "SHA-256:b7def2314d28afce3db6bb23333c4595ead5d08318e966a10aeb90e3e42f218c",
+          "size": "2625602",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-1.0.1.zip",
+          "archiveFileName": "Arduino_Core_STM32-1.0.1.zip",
+          "checksum": "SHA-256:a2d503519fb39f86afff650fba9087c4f98cf74369db87e51cb4d3afd671e703",
+          "size": "2524351",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-1.0.2.zip",
+          "archiveFileName": "Arduino_Core_STM32-1.0.2.zip",
+          "checksum": "SHA-256:8cd79942fba954cb6a831e6a91916f84229d3724faed5edf6e6db1d5c23171a1",
+          "size": "2503750",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-1_0_3.zip",
+          "archiveFileName": "Arduino_Core_STM32-1_0_3.zip",
+          "checksum": "SHA-256:29403b142127df9a797b7035fa1c33ef3eb02d6db5ee8070db728d1734c49179",
+          "size": "2517760",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-1_0_4.zip",
+          "archiveFileName": "Arduino_Core_STM32-1_0_4.zip",
+          "checksum": "SHA-256:1e73102738f5c6921ca18977bd2619d854c4890bc5733406e96854697412010b",
+          "size": "2517823",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.5",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-1_0_5.zip",
+          "archiveFileName": "Arduino_Core_STM32-1_0_5.zip",
+          "checksum": "SHA-256:de9e90efd5427fdafed728301c65b23da5f038ac12b8b841f5c2bc2f6a727033",
+          "size": "2518284",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.6",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-1_0_6.zip",
+          "archiveFileName": "Arduino_Core_STM32-1_0_6.zip",
+          "checksum": "SHA-256:8dbfa28c5b7c67bb785a78795bfab397a47dc72274530fe9a37e3168d5c418ad",
+          "size": "2518130",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.7",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v1.0.7-mcci.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-1_0_7.tar.gz",
+          "checksum": "SHA-256:2c6da52c8b286018d36128163c0324b43f213201495d4913a9d0cc6f51e746d8",
+          "size": "2117992",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2017.9.22-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.0.8",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v1.0.8-mcci.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-1_0_8.tar.gz",
+          "checksum": "SHA-256:4c132e834905a41301522ed5e842f3ce3669544acba7d07e74fcc0657cefc115",
+          "size": "2117995",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v1.1.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-1_1_0.tar.gz",
+          "checksum": "SHA-256:4fae248ad45f634b09035864b8665a754658b2a2dd2c4d52909b38bb749d7b33",
+          "size": "6170509",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.1.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v1.1.1.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-1_1_1.tar.gz",
+          "checksum": "SHA-256:c31460c09e1d8dbdeeea9db534b4feec35b4f5f6b798c946d8f340c5108f60cd",
+          "size": "6171118",
+          "boards": [
+            {
+              "name": "Catena4551"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "1.1.2",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v1.1.2.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-1_1_2.tar.gz",
+          "checksum": "SHA-256:71f952487fb3375a0f64ac54d12bb52aec69bdcd03dac16f2777148945ecb206",
+          "size": "6195836",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.0.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_0_0.tar.gz",
+          "checksum": "SHA-256:c8aa3a27a745c7db6b1c9893c4d162c40000ec1a961956ad2f8fe2b409fe7d49",
+          "size": "6213029",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.1.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_1_0.tar.gz",
+          "checksum": "SHA-256:5f07857425ecf3e2f42841a900560342b7acaac377ba7d0ca9e7cfb3c9852f51",
+          "size": "6212679",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.2.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_2_0.tar.gz",
+          "checksum": "SHA-256:55cdc762b9ae8d655819ab0a3a6398f5d6f2effbdbb3a3a1fae84b04606df578",
+          "size": "6212730",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.2.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.2.1.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_2_1.tar.gz",
+          "checksum": "SHA-256:f3d7c1541311500fa45af5d54e544750f1e481c640c453cc309514379679cc0b",
+          "size": "6212868",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.3.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.3.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_3_0.tar.gz",
+          "checksum": "SHA-256:9d5f1cf14bddc5f4386e2da1aa2268e0fcb35a9907f61370e1b5c5e7ae4cb447",
+          "size": "6215356",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.4.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.4.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_4_0.tar.gz",
+          "checksum": "SHA-256:58036b1aaac11a08046dcd1b7d63b12ebc70b1f4045efb9d7d7e28a2303b8f70",
+          "size": "6244244",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.5.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.5.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_5_0.tar.gz",
+          "checksum": "SHA-256:6731fd7788c9deaaed4a2e3061ac96b63a046da529e77111c1727b9527e09f1a",
+          "size": "6210002",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.6.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.6.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_6_0.tar.gz",
+          "checksum": "SHA-256:8d90530c2a39f4d7949e88988d354d4a5c095f3086d1697d720a6fda46a4d972",
+          "size": "6210953",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.6.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.6.1.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_6_1.tar.gz",
+          "checksum": "SHA-256:b7f425a5b287a88c215c464cf7020832d7ccb4b8c683c8d28ffa8d62029ba179",
+          "size": "6211123",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.7.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.7.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_7_0.tar.gz",
+          "checksum": "SHA-256:8a166c06154f7d2ccd5f17117041456b48095064fefc869a712ca775e9456a23",
+          "size": "6213335",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "2.8.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/v2.8.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-2_8_0.tar.gz",
+          "checksum": "SHA-256:ad98cfd6c252e4619ec34f1c3de4a169f96281c28af8473134e176f3fc28e36d",
+          "size": "9130772",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            },
+            {
+              "name": "Catena4802"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/refs/tags/v3.0.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-3_0_0.tar.gz",
+          "checksum": "SHA-256:dbd2aa03b60e15d91326f441c31855f879eeb8c2c1adc78c194ba33e05e0e5d5",
+          "size": "5987814",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            },
+            {
+              "name": "Catena4802"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/refs/tags/v3.0.1.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-3_0_1.tar.gz",
+          "checksum": "SHA-256:48638b8a3dc1864310a0e673b0f40cbe60acd4380856f601420fa814f65b4ef5",
+          "size": "5988888",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            },
+            {
+              "name": "Catena4802"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.0.2",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/refs/tags/v3.0.2.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-3_0_2.tar.gz",
+          "checksum": "SHA-256:1535f9f754d0d5ccfc3ff48ab0297a77a282726fc103d35530b84d88ba87a0d4",
+          "size": "5993362",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            },
+            {
+              "name": "Catena4802"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.0.3",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/refs/tags/v3.0.3.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-3_0_3.tar.gz",
+          "checksum": "SHA-256:7c796e38ec21d1f43f040afeb763a256c60ec56ed05204cdd88a5d13cfb61962",
+          "size": "5993523",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            },
+            {
+              "name": "Catena4802"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.0.4",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/refs/tags/v3.0.4.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-3_0_4.tar.gz",
+          "checksum": "SHA-256:47738e92f7ad7f666b8b1dbd9aecfc52b22227422f295a504aa89e97f333ae55",
+          "size": "5993657",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            },
+            {
+              "name": "Catena4802"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.0.5",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/mcci-catena/Arduino_Core_STM32/archive/refs/tags/v3.0.5.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-3_0_5.tar.gz",
+          "checksum": "SHA-256:9d928936276546620a88b1654f975343c94b449d259f65cc45da4b7ac59ad433",
+          "size": "5993777",
+          "boards": [
+            {
+              "name": "Catena4551"
+            },
+            {
+              "name": "Catena4610"
+            },
+            {
+              "name": "Catena4611"
+            },
+            {
+              "name": "Catena4612"
+            },
+            {
+              "name": "Catena4617"
+            },
+            {
+              "name": "Catena4618"
+            },
+            {
+              "name": "Catena4630"
+            },
+            {
+              "name": "Catena4801"
+            },
+            {
+              "name": "Catena4802"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Connection Exerciser ",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Model-3201-BSP-V1_0_0.zip",
+          "archiveFileName": "Model-3201-BSP-V1_0_0.zip",
+          "checksum": "SHA-256:4bcf93c0729ab45bdd109d082b0d4ab647fbae70fb08e37e1d9ce095d48b6034",
+          "size": "6058406",
+          "boards": [
+            {
+              "name": "MCCI-3201-Connection-Exerciser"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Connection Exerciser ",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Model-3201-BSP-V1_0_1.zip",
+          "archiveFileName": "Model-3201-BSP-V1_0_1.zip",
+          "checksum": "SHA-256:5cde9fe347a6e38122ea0ac5c3dd96f9c6ef98b9353e324cf036eee0a07d4f69",
+          "size": "6368961",
+          "boards": [
+            {
+              "name": "MCCI-3201-Connection-Exerciser"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "5_2-2015q4",
+          "name": "gcc-arm-none-eabi",
+          "systems": [
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+              "checksum": "SHA-256:41056ffeba4bcb5bbea13185461a1269613ac13321fbda3e7dc59ee664ee3f06",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+              "size": "96372129"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "checksum": "SHA-256:1e94f8e287d100f0d36702ca23be7cfb7c9dabdb7e4fce9f81872f1e13e5ab8a",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "size": "92811866"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "checksum": "SHA-256:1e94f8e287d100f0d36702ca23be7cfb7c9dabdb7e4fce9f81872f1e13e5ab8a",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "size": "92811866"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+              "checksum": "SHA-256:ca9629dfed6f6fba075b891f6d6d0b7eca5b051d130bdbd1a089af65e14edb88",
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+              "size": "102981732"
+            }
+          ]
+        },
+        {
+          "version": "9.4.0",
+          "name": "nrfjprog",
+          "systems": [
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/nrfjprog-9.4.0-mac.tar.bz2",
+              "checksum": "SHA-256:44ea641461c6d497fe171f27be71c0723869f858fba704b63ec20428ad36e332",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
+              "size": "362222"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/nrfjprog-9.4.0-linux32.tar.bz2",
+              "checksum": "SHA-256:8d8e546dc36954bc7f4ce169db44129043604ad6764a3721bde2436b0fb57a52",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
+              "size": "177428"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/nrfjprog-9.4.0-linux64.tar.bz2",
+              "checksum": "SHA-256:498470e2c94affcd56d77637a02ac09e6c6994d768d8a9675c0d07da56d4e769",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
+              "size": "190020"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/nrfjprog-9.4.0-win32.tar.bz2",
+              "checksum": "SHA-256:f7790939f9f22dafe566fa14f059c80e74e123f2ad07edab19841e150d103a66",
+              "host": "i686-mingw32",
+              "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
+              "size": "851576"
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "name": "wiced_dfu",
+          "systems": [
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/wiced_dfu-1.0.0-linux32.tar.gz",
+              "checksum": "SHA-256:535504475d0238bd47649aa96f7583cef855c0dd19c5398e1475274481b974d8",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
+              "size": "28295"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/wiced_dfu-1.0.0-linux64.tar.gz",
+              "checksum": "SHA-256:abea7bda6fefa275ea795f447a463d1f13fefaad95420b8ec3730996c464e909",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
+              "size": "28667"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/wiced_dfu-1.0.0-mac.tar.gz",
+              "checksum": "SHA-256:294b1a31067d67b92a4b21007697d9e668d2e5d2766ff2e86198f79214c09f3c",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
+              "size": "3742"
+            },
+            {
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/wiced_dfu-1.0.0-win32.tar.gz",
+              "checksum": "SHA-256:2ad36a9bb13eaec6518db5a2aca535fa04ebf64625252ad76c24840091848b60",
+              "host": "i686-mingw32",
+              "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
+              "size": "525710"
+            }
+          ]
+        },
+        {
+          "systems": [
+            {
+              "size": "94146952",
+              "checksum": "SHA-256:37a19a4b987aeb077c29bcc3854e9cc58210292ab08eb990c4ef945a59d86c0d",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-windows.tar.bz2",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-6-2017-q2-update-windows.tar.bz2",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "88715718",
+              "checksum": "SHA-256:0305683c9a7cd368c6cff891883979982f3917ae6edc38fd64f920c188ad4972",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
+              "host": "x86_64-apple-darwin"
+            },
+            {
+              "size": "83912523",
+              "checksum": "SHA-256:81c5b83fd134a34a2f1dd1bd93ece223d4a511134932d41e5dd54a00943c0402",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "82511589",
+              "checksum": "SHA-256:8384a1200b770b34d3a31f41b4125bb9c7707fa69ecaf8b9f3afe9b2b01fa98c",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
+              "host": "i686-pc-linux-gnu"
+            }
+          ],
+          "version": "6-2017-q2-update",
+          "name": "arm-none-eabi-gcc"
+        },
+        {
+          "systems": [
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "i386-apple-darwin11"
+            }
+          ],
+          "version": "2017.9.22-mcci",
+          "name": "STM32Tools"
+        },
+        {
+          "systems": [
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i386-apple-darwin11"
+            }
+          ],
+          "version": "2018.3.23-mcci",
+          "name": "STM32Tools"
+        }
+      ]
+    }
+  ]
+}

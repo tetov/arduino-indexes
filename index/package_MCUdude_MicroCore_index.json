@@ -1,0 +1,369 @@
+{
+  "packages": [
+    {
+      "name": "MicroCore",
+      "maintainer": "MCUdude",
+      "websiteURL": "https://github.com/MCUdude/MicroCore",
+      "email": "",
+      "help": {
+        "online": "http://forum.arduino.cc/index.php?topic=426153"
+      },
+      "platforms": [
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.0.tar.gz",
+          "archiveFileName": "MicroCore-1.0.0.tar.gz",
+          "checksum": "SHA-256:e6b783bab8b00ed6850a48a9d0a8fbd246193438dcb99936cc9483257d8bdffc",
+          "size": "42801",
+          "boards": [
+            {
+              "name": "ATtiny13"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.1.tar.bz2",
+          "archiveFileName": "MicroCore-1.0.1.tar.bz2",
+          "checksum": "SHA-256:ed0f7e870b0985d3052d296c2fc60187755d2561da86d77f980635f303bc2750",
+          "size": "40461",
+          "boards": [
+            {
+              "name": "ATtiny13"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.2.tar.bz2",
+          "archiveFileName": "MicroCore-1.0.2.tar.bz2",
+          "checksum": "SHA-256:3d9b077ff79bd90718c5502b846e221efa1b03d9579371dd645acff61cd0946d",
+          "size": "41381",
+          "boards": [
+            {
+              "name": "ATtiny13"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.3.tar.bz2",
+          "archiveFileName": "MicroCore-1.0.3.tar.bz2",
+          "checksum": "SHA-256:ffce37797a5c1df0016e4e30da29707fe41d6e72bdf2af2235e9c2ddd3d1a0fa",
+          "size": "47676",
+          "boards": [
+            {
+              "name": "ATtiny13"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.4.tar.bz2",
+          "archiveFileName": "MicroCore-1.0.4.tar.bz2",
+          "checksum": "SHA-256:450316cef63178cbdd52dd04d0ddbc8ac52a91321b1e57efdc5b6c48f485bc4e",
+          "size": "50612",
+          "boards": [
+            {
+              "name": "ATtiny13"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.5",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.5.tar.bz2",
+          "archiveFileName": "MicroCore-1.0.5.tar.bz2",
+          "checksum": "SHA-256:cc46ff0351aaeac5e2517fea74a4fb8021a777e1aad857064af3e80e13b59a40",
+          "size": "85974",
+          "boards": [
+            {
+              "name": "ATtiny13"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.6",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.6.tar.bz2",
+          "archiveFileName": "MicroCore-1.0.6.tar.bz2",
+          "checksum": "SHA-256:07ff6bd51c12d88f3cd225f9e8231fec65f54584ab173d7d45d9ed82edcf77bd",
+          "size": "84293",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "1.0.7",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-1.0.7.tar.bz2",
+          "archiveFileName": "MicroCore-1.0.7.tar.bz2",
+          "checksum": "SHA-256:a36a01b9dc68b3181312b7fbbc0e8a6e82426d70432ce4bad571e4d9fa9c66c4",
+          "size": "99970",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-2.0.0.tar.bz2",
+          "archiveFileName": "MicroCore-2.0.0.tar.bz2",
+          "checksum": "SHA-256:4e60a5d4a9e59a22837e0e2637496f4f2eb1cd817911003d41d744f88bbcef77",
+          "size": "100610",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "2.0.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-2.0.1.tar.bz2",
+          "archiveFileName": "MicroCore-2.0.1.tar.bz2",
+          "checksum": "SHA-256:277ea41411ac512a9ed3d1a10a34da9611f5382b179bc9521e5b6ada42b7c0f7",
+          "size": "100502",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "2.0.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-2.0.2.tar.bz2",
+          "archiveFileName": "MicroCore-2.0.2.tar.bz2",
+          "checksum": "SHA-256:3f828b3d37f30b510977829aa4b00b2916e675ac712c02a54bb41ac0d05bfeb3",
+          "size": "101164",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "2.0.3",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-2.0.3.tar.bz2",
+          "archiveFileName": "MicroCore-2.0.3.tar.bz2",
+          "checksum": "SHA-256:bb4474e2741189c65897536a4307374dd2894d18a367d817023c3bdd65010e4e",
+          "size": "101506",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "2.1.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-2.1.0.tar.bz2",
+          "archiveFileName": "MicroCore-2.1.0.tar.bz2",
+          "checksum": "SHA-256:ad06d22e2ecdd61c237e42389d1f3ce1945ff73e0bde7948cf9405c018f8372d",
+          "size": "104470",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "2.2.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-2.2.0.tar.bz2",
+          "archiveFileName": "MicroCore-2.2.0.tar.bz2",
+          "checksum": "SHA-256:e84b9470170052804ec775694c50dc79c3f6b4854f22f550a9ce15944f58fb92",
+          "size": "109350",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MicroCore",
+          "architecture": "avr",
+          "version": "2.2.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MicroCore/MicroCore-2.2.1.tar.bz2",
+          "archiveFileName": "MicroCore-2.2.1.tar.bz2",
+          "checksum": "SHA-256:c88026545a42e511fa4ef690f006978f0efab8fe552868ed9b3f4357efb75760",
+          "size": "126436",
+          "boards": [
+            {
+              "name": "ATtiny13/A"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MicroCore",
+              "name": "avrdude",
+              "version": "7.1-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "avrdude",
+          "version": "7.1-arduino.1",
+          "systems": [
+            {
+              "size": "1161418",
+              "checksum": "SHA-256:6c842593530e8ee463760fca6c6244eeff5718fac6ed5798386a2d9704735fb5",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_ARMv6.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_ARMv6.tar.gz"
+            },
+            {
+              "size": "1261196",
+              "checksum": "SHA-256:37743def85b0fa70b566797d889e6d649f644ad7fa67a3e151b6e61aba9a0d0a",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_ARM64.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_ARM64.tar.gz"
+            },
+            {
+              "size": "834101",
+              "checksum": "SHA-256:436a7a5f467774cdd39683d2226314ba90485b0b08c629602004f4bbfdddf575",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "avrdude_7.1-arduino.1_macOS_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_macOS_64bit.tar.gz"
+            },
+            {
+              "size": "1169286",
+              "checksum": "SHA-256:11f6c709d9f950e35993ca27ed870a86711d7093255a9e4b4463160f1778fd19",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_64bit.tar.gz"
+            },
+            {
+              "size": "1170712",
+              "checksum": "SHA-256:f5eff5141c9385b56ca3be780453149c912abf7b5bf87de8398f661a1369d305",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_32bit.tar.gz"
+            },
+            {
+              "size": "1591591",
+              "checksum": "SHA-256:35d3b917573a91b7a7e5805919a1fa3bc033541e2941b710bfc627071c738731",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude_7.1-arduino.1_Windows_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Windows_32bit.tar.gz"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

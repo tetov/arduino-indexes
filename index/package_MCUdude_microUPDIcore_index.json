@@ -1,0 +1,64 @@
+{
+  "packages": [
+    {
+      "name": "microUPDIcore",
+      "maintainer": "MCUdude",
+      "websiteURL": "https://github.com/MCUdude/microUPDIcore",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "microUPDIcore",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/microUPDIcore/microUPDIcore-1.0.0.tar.bz2",
+          "archiveFileName": "microUPDIcore-1.0.0.tar.bz2",
+          "checksum": "SHA-256:d0079e55a786639e1352abdb919d3c4a96971893c50a4f3094df71978f392121",
+          "size": "33575",
+          "boards": [
+            {
+              "name": "microUPDI Firmware Uploader"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "microUPDIcore",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/microUPDIcore/microUPDIcore-1.0.1.tar.bz2",
+          "archiveFileName": "microUPDIcore-1.0.1.tar.bz2",
+          "checksum": "SHA-256:8252facb71d98180353f04bd9ba4bafd1bc702b6454fb78fb36c13ff2290887c",
+          "size": "33915",
+          "boards": [
+            {
+              "name": "microUPDI Firmware Uploader"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "microUPDIcore",
+          "architecture": "avr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/microUPDIcore/microUPDIcore-1.0.2.tar.bz2",
+          "archiveFileName": "microUPDIcore-1.0.2.tar.bz2",
+          "checksum": "SHA-256:aa43a749ee0968b518fa9235da6f6103a7f33ad980e6dfc45954d9abf65a96a5",
+          "size": "54878",
+          "boards": [
+            {
+              "name": "microUPDI Firmware Uploader"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+   "packages":[
+      {
+         "name":"NorthernWidget",
+         "maintainer":"Northern Widget LLC",
+         "websiteURL":"https://NorthernWidget.com",
+         "email":"info@NorthernWidget.com",
+         "help":{
+            "online":"http://northernwidget.com/contact/"
+         },
+         "platforms":[
+            {
+               "name":"Northern Widget Data Logger AVR Boards",
+               "architecture":"avr",
+               "version":"0.3.0",
+               "category":"Contributed",
+               "url":"https://github.com/NorthernWidget/Arduino_Boards/raw/master/NorthernWidgetAVR.tar.bz2",
+               "archiveFileName":"NorthernWidgetAVR.tar.bz2",
+               "architecture": "avr",
+               "size": "201511",
+               "help":{
+                  "online":"https://northernwidget.com/contact/"
+               },
+               "boards":[
+                  { "name":"ATMega1284p 8MHz"},
+                  { "name":"ATMega644p 8MHz"},
+                  { "name":"ALog BottleLogger v2" },
+                  { "name":"ALog BottleLogger (legacy)" }
+               ],
+               "toolsDependencies":[]
+            }
+         ],
+         "tools":[]
+      }
+   ]
+}

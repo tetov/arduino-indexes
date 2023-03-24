@@ -1,0 +1,66 @@
+{
+  "packages": [
+    {
+      "name": "WizIO",
+      "maintainer": "WizIO",
+      "websiteURL": "https://github.com/Wiz-IO",
+      "email": "the_wizarda@gmail.com",
+      "platforms": [
+        {
+          "name": "Quectel BC66",
+          "architecture": "bc66",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "url": "http://wizio.eu/arduino/bc66/bc66_core.2.0.0.zip",
+          "archiveFileName": "bc66_core.2.0.0.zip",
+          "checksum": "",
+          "size": "748329",
+          "help": { "online": "https://github.com/Wiz-IO/Arduino-Quectel-BC66" },
+          "boards": [
+            { "name": "BC66" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WizIO",
+              "name": "bc66_gcc",
+              "version": "1.70201.0"
+            },
+            {
+              "packager": "WizIO",
+              "name": "bc66_tools",
+              "version": "1.0"
+            }            
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "bc66_gcc",
+          "version": "1.70201.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://wizio.eu/arduino/bc66/gcc.1.70201.0.zip",
+              "archiveFileName": "gcc.1.70201.0.zip",
+              "size": "106761211",
+              "checksum": ""
+            }
+          ]
+        },
+        {
+          "name": "bc66_tools",
+          "version": "1.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://wizio.eu/arduino/bc66/bc66_tools.1.0.zip",
+              "archiveFileName": "bc66_tools.1.0.zip",
+              "size": "659375",
+              "checksum": ""
+            }
+          ]        
+        }
+      ]
+    }
+  ]
+}

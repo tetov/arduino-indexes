@@ -1,0 +1,69 @@
+{
+  "packages": [
+    {
+      "name": "WizIO",
+      "maintainer": "WizIO",
+      "websiteURL": "https://github.com/Wiz-IO/arduino-azure-sphere",
+      "email": "the_wizarda@gmail.com",
+      "platforms": [
+        {
+          "name": "Azure Sphere",
+          "architecture": "azure",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/Wiz-IO/arduino-azure-sphere/raw/master/azure_core.1.0.0.zip",
+          "archiveFileName": "azure_core.1.0.0.zip",
+          "checksum": "",
+          "size": "74580",
+          "help": { "online": "https://github.com/Wiz-IO/arduino-azure-sphere" },
+          "boards": [
+            { "name": "MT3620_AESMS" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WizIO",
+              "name": "azure_gcc",
+              "version": "1.0.0"              
+            },
+            {
+              "packager": "WizIO",
+              "name": "azure_tools",
+              "version": "1.0.0"
+            }            
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "azure_gcc",
+          "version": "1.0.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32",
+              "archiveFileName": "azure_gcc.1.0.0.zip",
+              "url": "https://github.com/Wiz-IO/arduino-azure-sphere/raw/master/azure_gcc.1.0.0.zip",
+              "size": "146",
+              "checksum": ""              
+            } 
+          ]
+        
+        },
+        
+        {
+          "name": "azure_tools",
+          "version": "1.0.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32", 
+              "archiveFileName": "azure_tools.1.0.0.zip",
+              "url": "https://github.com/Wiz-IO/arduino-azure-sphere/raw/master/azure_tools.1.0.0.zip",
+              "size": "4633",
+              "checksum": ""                 
+            } 
+          ] 
+        }
+        
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "packages":
+  [
+    {
+      "name": "e-radionica.com",
+      "maintainer": "e-radionica.com: Arduino compatibles made in Europe",
+      "websiteURL": "https://www.e-radionica.com",
+      "help":
+      {
+        "online": "http://www.forum.e-radionica.com"
+      },
+      "platforms":
+      [
+        {
+          "name": "Croduino boards PB",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "e-radionica.com",
+          "url": "https://e-radionicacom.github.io/Croduino-boards-for-Arduino-IDE-board-manager/croduino-1.0.0.zip",
+          "archiveFileName": "croduino-1.0.0.zip",
+          "checksum": "MD5:57f408bb21f5d35dfec33a8cad4ab9b9",
+          "size": "89092",
+          "boards": [
+            {
+              "name": "Croduino Basic2 PB"
+            }          
+          ],
+          "toolsDependencies":
+          [
+            {
+
+            }
+          ],
+          "name": "Croduino Basic2 PB"
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+} 

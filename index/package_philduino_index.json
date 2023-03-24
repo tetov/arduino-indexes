@@ -1,0 +1,88 @@
+{
+   "packages":[
+      {
+         "name":"philduino",
+         "maintainer":"Philduino",
+         "websiteURL":"http://digistump.com",
+         "email":"support@digistump.com",
+         "help":{
+            "online":"https://digistump.com/board"
+         },
+         "platforms":[
+         {
+          "name": "Philduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Philduino",
+          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/digistump-avr-1.6.7.zip",
+          "archiveFileName": "digistump-avr-1.6.7.zip",
+          "checksum": "SHA-256:7F7E9F5AB982163F7A792C411326F0192A35B8A90890B7934F2F424A5426583D",
+          "size": "2491070",
+          "help": {
+            "online": "https://github.com/digistump/DigistumpArduino/issues"
+          },
+          "boards": [
+            {
+              "name": "Philduino Tiny"
+            }
+
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "philduino",
+              "name": "micronucleus",
+              "version": "2.04"
+            },
+              {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino2"
+            }
+          ]
+        }
+
+         ],
+         "tools":[
+            {
+             "name": "micronucleus",
+             "version": "2.04",
+             "systems": [
+               {
+                 "host": "x86_64-apple-darwin",
+                 "archiveFileName": "micronucleus-2.04.zip",
+                 "url": "https://github.com/micronucleus/micronucleus/archive/2.04.zip",
+                 "checksum": "SHA-256:BEF865F00B3A742409E34E12BF905AFF17992ED0731D2F6B61EAF804FF07BE96",
+                 "size": "6703453"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "archiveFileName": "micronucleus-2.04.zip",
+                 "url": "https://codeload.github.com/micronucleus/micronucleus/zip/2.04",
+                 "checksum": "SHA-256:BEF865F00B3A742409E34E12BF905AFF17992ED0731D2F6B61EAF804FF07BE96",
+                 "size": "6703453"
+               },
+               {
+                 "host": "i686-linux-gnu",
+                 "archiveFileName": "micronucleus-2.04.zip",
+                 "url": "https://github.com/micronucleus/micronucleus/archive/2.04.zip",
+                 "checksum": "SHA-256:BEF865F00B3A742409E34E12BF905AFF17992ED0731D2F6B61EAF804FF07BE96",
+                 "size": "6703453"
+               },
+               {
+                 "host": "x86_64-linux-gnu",
+                 "archiveFileName": "micronucleus-2.04.zip",
+                 "url": "https://github.com/micronucleus/micronucleus/archive/2.04.zip",
+                 "checksum": "SHA-256:BEF865F00B3A742409E34E12BF905AFF17992ED0731D2F6B61EAF804FF07BE96",
+                 "size": "6703453"
+               }
+             ]
+           }
+        ]
+      }
+   ]
+}

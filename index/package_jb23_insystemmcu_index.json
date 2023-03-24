@@ -1,0 +1,31 @@
+{
+  "packages": [
+    {
+      "name": "In System MCU",
+      "maintainer": "Jason Bamford",
+      "websiteURL": "http://www.bamfordresearch.com/",
+      "email": "",
+      "platforms": [
+        {
+          "name": "In System MCU",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.bamfordresearch.com/arduino-platform"
+          },
+          "url": "https://github.com/jb-23/in-system-mcu/archive/refs/tags/bm1.zip",
+          "archiveFileName": "In-System-MCU-1.0.0.zip",
+          "checksum": "SHA-256:174415C70E69364FEC88809892618D5B703595DF9BAB97B661345A77A53D7E7B",
+          "size": "3284",
+          "boards": [
+            {"name": "ATmega328P (8-16+ MHz Crystal)"},
+            {"name": "ATmega328P (8 MHz Internal)"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}

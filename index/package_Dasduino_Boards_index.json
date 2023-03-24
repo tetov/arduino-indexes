@@ -1,0 +1,1808 @@
+{
+    "packages": [
+        {
+            "name": "Dasduino_Boards",
+            "maintainer": "Soldered: Arduino compatibles made in Europe",
+            "websiteURL": "https://soldered.com/en",
+            "help": {
+                "online": "http://www.forum.soldered.com/en"
+            },
+            "platforms": [
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Dasduino_AVR_core-1.0.0.zip",
+                    "archiveFileName": "Dasduino_AVR_core-1.0.0.zip",
+                    "checksum": "SHA-256:5d5dfadf9b5007fa7f3454d88de7c7ed1bb0c970ee53397fe0e72d2649d6995f",
+                    "size": "6004455",
+                    "version": "1.0.0",
+                    "name": "Dasduino AVR Boards",
+                    "architecture": "avr",
+                    "boards": [
+                        {
+                            "name": "Dasduino Core (ATmega328P)"
+                        },
+                        {
+                            "name": "Dasduino Core LoRa (ATmega328P)"
+                        },
+                        {
+                            "name": "Dasduino Coreplus (ATmega2560)"
+                        }
+                    ],
+                    "toolsDependencies": []
+                },
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino_STM32",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Dasduino_STM32_core-1.0.0.zip",
+                    "archiveFileName": "Dasduino_STM32_core-1.0.0.zip",
+                    "checksum": "SHA-256:3cc96d2910a2bf7b5ce389fb6bcb067c73a4a15f61f82eaab27f84478a2c499c",
+                    "size": "7047704",
+                    "version": "1.0.0",
+                    "name": "Dasduino STM32 Boards",
+                    "architecture": "stm32",
+                    "boards": [
+                        {
+                            "name": "Dasduino SWIFT F1"
+                        },
+                        {
+                            "name": "Dasduino SWIFT L0 Lora"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "xpack-arm-none-eabi-gcc",
+                            "version": "9.2.1-1.1"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "STM32Tools",
+                            "version": "1.4.0"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "CMSIS",
+                            "version": "5.5.1"
+                        }
+                    ]
+                },
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Dasduino_ESP32_core-1.0.0.zip",
+                    "archiveFileName": "Dasduino_ESP32_core-1.0.0.zip",
+                    "checksum": "SHA-256:be4943e4b587f2956dff5edbe971fbf5224e983f56926c2893131fb4bd649699",
+                    "size": "47491042",
+                    "version": "1.0.0",
+                    "name": "Dasduino ESP32 Boards",
+                    "architecture": "esp32",
+                    "boards": [
+                        {
+                            "name": "Dasduino ConnectPlus (ESP32)"
+                        },
+                        {
+                            "name": "Dasduino ConnectPlus LoRa (ESP32)"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "1.22.0-96-g2852398-5.2.0",
+                            "name": "xtensa-esp32-elf-gcc"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "3.0.0",
+                            "name": "esptool_py"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "0.2.3",
+                            "name": "mkspiffs"
+                        }
+                    ]
+                },
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino ATtiny Boards",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Dasduino_megaTiny_core-2.0.0.zip",
+                    "archiveFileName": "Dasduino_MegaTiny-2.0.0.zip",
+                    "checksum": "SHA-256:a3248e9eff8df9207a65243e852990632979841285795ba064bd18348a0c0a52",
+                    "size": "9372458",
+                    "version": "2.0.0",
+                    "name": "Dasduino ATtiny Boards",
+                    "architecture": "megaavr",
+                    "boards": [
+                        {
+                            "name": "Dasduino Lite"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "7.3.0-atmel3.6.1-arduino7"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino17"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.3.0"
+                        }
+                    ]
+                },
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino ATtiny Boards",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Dasduino_megaTiny_core-1.0.0.zip",
+                    "archiveFileName": "Dasduino_MegaTiny-1.0.0.zip",
+                    "checksum": "SHA-256:466f04e1a6716f9cf7d29933dac359c70ac729e1b9265ab60eca4d9c84432539",
+                    "size": "9390507",
+                    "version": "1.0.0",
+                    "name": "Dasduino ATtiny Boards",
+                    "architecture": "megaavr",
+                    "boards": [
+                        {
+                            "name": "Dasduino Lite"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "7.3.0-atmel3.6.1-arduino7"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino17"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.3.0"
+                        }
+                    ]
+                },
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino ESP",
+                    "name": "Dasduino ESP8266 Boards",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Dasduino_ESP8266_core-1.0.0.zip",
+                    "version": "1.0.0",
+                    "architecture": "esp8266",
+                    "archiveFileName": "Dasduino_ESP8266_core-1.0.0.zip",
+                    "size": "38573657",
+                    "checksum": "SHA-256:e3803a4107029552b15e2f750e5c321021afd7be69bcb8207b60fc5149a41c65",
+                    "boards": [
+                        {
+                            "name": "Dasduino Connect (ESP8266)"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "3.0.4-gcc10.3-1757bed",
+                            "name": "xtensa-lx106-elf-gcc"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "3.0.4-gcc10.3-1757bed",
+                            "name": "mkspiffs"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "3.0.4-gcc10.3-1757bed",
+                            "name": "mklittlefs"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "3.7.2-post1",
+                            "name": "python3"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "name": "riscv32-esp-elf-gcc",
+                    "version": "gcc8_4_0-esp-2021r2",
+                    "systems": [
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+                            "checksum": "SHA-256:812d735063da9d063b374b59f55832a96c41fbd27ddaef19000a75de8607ba21",
+                            "size": "106837189"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+                            "checksum": "SHA-256:712f1fbc3e08304a6f32aa18b346b16bbcb413b507b3d4c7c3211bf0d7dc4813",
+                            "size": "103273444"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+                            "checksum": "SHA-256:80a3342cda2cd4b6b75ebb2b36d5d12fce7d375cfadadcff01ec3a907f0a16a2",
+                            "size": "103058744"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+                            "checksum": "SHA-256:7f0162a81558ab0ed09d6c5d356def25b5cb3d5c2d61358f20152fa260ccc8ae",
+                            "size": "109447789"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+                            "checksum": "SHA-256:3ff7e5427907cf8e271c1f959b70fb01e39625c3caf61a6567e7b38aa0c11578",
+                            "size": "113672945"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch2-win32.zip",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch2-win32.zip",
+                            "checksum": "SHA-256:937566910600d3d5b4ef6f272084fe59ea82dc3711b260a601be7487ef7a4626",
+                            "size": "144701997"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch2-win64.zip",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch2-win64.zip",
+                            "checksum": "SHA-256:40570481ba0d78f7a51e523ce2e7d144b55352071adeeda0d7e81161c6c73245",
+                            "size": "146606360"
+                        }
+                    ]
+                },
+                {
+                    "name": "xtensa-esp32-elf-gcc",
+                    "version": "gcc8_4_0-esp-2021r2",
+                    "systems": [
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+                            "checksum": "SHA-256:3eb3d68b27fa6ba5af6f88da21cb8face9be0094daaa8960793cfe570ab785ff",
+                            "size": "90565318"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+                            "checksum": "SHA-256:aa534be24e45e06b7080a6a3bb8cd9e3cfb818f5f8bce2244d7cfb5e91336541",
+                            "size": "86860292"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+                            "checksum": "SHA-256:f0e49ce06fe7833ff5d76961dc2dac5449d320f823bb8c05a302cf85a3a6eb04",
+                            "size": "86183421"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+                            "checksum": "SHA-256:06de09b74652de43e5b22db3b7fc992623044baa75e9faaab68317a986715ba3",
+                            "size": "92582250"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+                            "checksum": "SHA-256:96443f69c8569417c780ee749d91ef33cffe22153fffa30a0fbf12107d87381b",
+                            "size": "97808961"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch2-win32.zip",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch2-win32.zip",
+                            "checksum": "SHA-256:c14cc88ddeff6d5494497de33fb5783268c6a171b3bb8c745aafae58507e2356",
+                            "size": "116446514"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch2-win64.zip",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch2-win64.zip",
+                            "checksum": "SHA-256:68db46ed4f188e169b922d43215eea781de28f847e7caed3acd5991d0bfb67bd",
+                            "size": "119516221"
+                        }
+                    ]
+                },
+                {
+                    "name": "xtensa-esp32s2-elf-gcc",
+                    "version": "gcc8_4_0-esp-2021r2",
+                    "systems": [
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+                            "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+                            "checksum": "SHA-256:a6e0947c92b823ca04f062522249f0a428357e0b056f1ff4c6bcabef83cf63a7",
+                            "size": "90901736"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+                            "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+                            "checksum": "SHA-256:d2e5600fc194b508bd393b236a09fd62ed70afb6c36619d4b106b696a56ca66d",
+                            "size": "87176557"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+                            "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+                            "checksum": "SHA-256:3fff4199e986dd74660f17ca27d9414cb98f1b911a7f13bb3b22e784cb1156cf",
+                            "size": "86581102"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+                            "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+                            "checksum": "SHA-256:7732f9fb371d36b6b324820e300beecc33c2719921a61cf1cdb5bc625016b346",
+                            "size": "92875986"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+                            "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+                            "checksum": "SHA-256:e6dd32782fcff8f633299b97d1c671d6b6513390aca2ddbd7543c2cc62e72d7e",
+                            "size": "98212907"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-patch2-win32.zip",
+                            "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-patch2-win32.zip",
+                            "checksum": "SHA-256:2c6aea1a132c6caa5a71cb5389b43454276bf097c98bb25d5bb778ed65036aef",
+                            "size": "116913005"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-patch2-win64.zip",
+                            "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-patch2-win64.zip",
+                            "checksum": "SHA-256:2d57cb5d897592cf0abdae94d1d673cdad294007f6210a96f34e7cd9f26c48a1",
+                            "size": "119924927"
+                        }
+                    ]
+                },
+                {
+                    "name": "esptool_py",
+                    "version": "3.1.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-windows.zip",
+                            "archiveFileName": "esptool-3.1.0-windows.zip",
+                            "checksum": "SHA-256:c9b4f9bc6e94db136c2545c87c00c7ab1441644ca0bac50811bc3c014e22514b",
+                            "size": "7411889"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-macos.tar.gz",
+                            "archiveFileName": "esptool-3.1.0-macos.tar.gz",
+                            "checksum": "SHA-256:1dffcb884665fb616779aea62a68f517aac251ea6dfe95560906c364d6ef3065",
+                            "size": "6776909"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+                            "archiveFileName": "esptool-3.1.0-linux.tar.gz",
+                            "checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+                            "size": "80550"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+                            "archiveFileName": "esptool-3.1.0-linux.tar.gz",
+                            "checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+                            "size": "80550"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+                            "archiveFileName": "esptool-3.1.0-linux.tar.gz",
+                            "checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+                            "size": "80550"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.0-alpha1/esptool-3.1.0-linux.tar.gz",
+                            "archiveFileName": "esptool-3.1.0-linux.tar.gz",
+                            "checksum": "SHA-256:15eca9896a30e804aa24be6f7a06e39397541b8b09a7a4c48deb65f826e7baad",
+                            "size": "80550"
+                        }
+                    ]
+                },
+                {
+                    "version": "3.0.0-gnu12-dc7f933",
+                    "name": "mklittlefs",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:fc56e389383749e4cf4fab0fcf75cc0ebc41e59383caf6c2eff1c3d9794af200",
+                            "size": "44651"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/arm-linux-gnueabihf.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:52b642dd0545eb3bd8dfb75dde6601df21700e4867763fd2696274be279294c5",
+                            "size": "37211"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/i686-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:7886051d8ccc54aed0af2e7cdf6ff992bb51638df86f3b545955697720b6d062",
+                            "size": "48033"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "archiveFileName": "i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "checksum": "SHA-256:43740db30ce451454f2337331f10ab4ed41bd83dbf0fa0cb4387107388b59f42",
+                            "size": "332655"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:e3edd5e05b70db3c7df6b9d626558348ad04804022fe955c799aeb51808c7dc3",
+                            "size": "362608"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:66e84dda0aad747517da3785125e05738a540948aab2b7eaa02855167a1eea53",
+                            "size": "46778"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "checksum": "SHA-256:2e319077491f8e832e96eb4f2f7a70dd919333cee4b388c394e0e848d031d542",
+                            "size": "345132"
+                        }
+                    ]
+                },
+                {
+                    "name": "mkspiffs",
+                    "version": "0.2.3",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                            "checksum": "SHA-256:b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
+                            "size": "249809"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                            "size": "130270"
+                        },
+                        {
+                            "host": "i386-apple-darwin",
+                            "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                            "size": "130270"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+                            "checksum": "SHA-256:5e1a4ff41385e842f389f6b5254102a547e566a06b49babeffa93ef37115cb5d",
+                            "size": "50646"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+                            "checksum": "SHA-256:464463a93e8833209cdc29ba65e1a12fec31718dc10075c195a2445b2c3f6cb0",
+                            "size": "48751"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "checksum": "SHA-256:ade3dc00117912ac08a1bdbfbfe76b12d21a34bc5fa1de0cfc45fe7a8d0a0185",
+                            "size": "40665"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "checksum": "SHA-256:ade3dc00117912ac08a1bdbfbfe76b12d21a34bc5fa1de0cfc45fe7a8d0a0185",
+                            "size": "40665"
+                        }
+                    ]
+                },
+                {
+                    "version": "3.7.2-post1",
+                    "name": "python3",
+                    "systems": [
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-3.7.2.post1-embed-win32v2a.zip",
+                            "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+                            "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+                            "size": "6428926"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-3.7.2.post1-embed-win32v2a.zip",
+                            "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+                            "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+                            "size": "6428926"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-macosx-portable.tar.gz",
+                            "archiveFileName": "python3-macosx-portable.tar.gz",
+                            "checksum": "SHA-256:01a5bf1fa264c6f04cfaadf4c6e9f6caaacb6833ef40104dfbe953fcdb9bca1c",
+                            "size": "25494144"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        }
+                    ]
+                },
+                {
+                    "version": "3.0.4-gcc10.3-1757bed",
+                    "name": "mklittlefs",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/aarch64-linux-gnu.mklittlefs-943d2f7.210717.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.mklittlefs-943d2f7.210717.tar.gz",
+                            "checksum": "SHA-256:8de409e54df316b67ba89c630ac6d22333dfa1f65a8d603573ae048ca95480c5",
+                            "size": "44966"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/arm-linux-gnueabihf.mklittlefs-943d2f7.210717.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.mklittlefs-943d2f7.210717.tar.gz",
+                            "checksum": "SHA-256:4c1b0a5f6464110adc9de39ae930d0371b491f702d554a70211dfe0eea6717c7",
+                            "size": "37463"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/i686-linux-gnu.mklittlefs-943d2f7.210717.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.mklittlefs-943d2f7.210717.tar.gz",
+                            "checksum": "SHA-256:0a2653d8bff693e904e09ea28922c29d8ebf92a55d91dad8ad5c3b70c032b4ae",
+                            "size": "48408"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/i686-w64-mingw32.mklittlefs-943d2f7.210717.zip",
+                            "archiveFileName": "i686-w64-mingw32.mklittlefs-943d2f7.210717.zip",
+                            "checksum": "SHA-256:df7eb4050cd87f4c8960c987465dfb3c30a8a996842313f3e00badf65e099664",
+                            "size": "332965"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-apple-darwin14.mklittlefs-943d2f7.210717.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.mklittlefs-943d2f7.210717.tar.gz",
+                            "checksum": "SHA-256:c2b70b824f460590002f8dc24c4fafef611c09d362f2307f816687a9deebfdaf",
+                            "size": "362750"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-linux-gnu.mklittlefs-943d2f7.210717.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.mklittlefs-943d2f7.210717.tar.gz",
+                            "checksum": "SHA-256:c00fc8d9771c33e60873ac4dfa6147e00d3f9a8a92a563afff4605a0f8a05acc",
+                            "size": "47059"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-w64-mingw32.mklittlefs-943d2f7.210717.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.mklittlefs-943d2f7.210717.zip",
+                            "checksum": "SHA-256:6fcfc3c9a6aaad34ab41c62d2355a2e9536687b0f4108959262924937b8798f0",
+                            "size": "345411"
+                        }
+                    ]
+                },
+                {
+                    "version": "3.0.4-gcc10.3-1757bed",
+                    "name": "mkspiffs",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/aarch64-linux-gnu.mkspiffs-7fefeac.210717.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.mkspiffs-7fefeac.210717.tar.gz",
+                            "checksum": "SHA-256:03a58331a921c54ceb7a2d3fab368dfde81d74b36074d7439bcafca85df7f9e3",
+                            "size": "51256"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/arm-linux-gnueabihf.mkspiffs-7fefeac.210717.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.mkspiffs-7fefeac.210717.tar.gz",
+                            "checksum": "SHA-256:87bcfdca5b63ef48c3b515e994b552b3093cc4f0a4e7ce18f2ea1e5da87d8a51",
+                            "size": "44270"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/i686-linux-gnu.mkspiffs-7fefeac.210717.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.mkspiffs-7fefeac.210717.tar.gz",
+                            "checksum": "SHA-256:c8a1ae974622e698503de0e8f982411cd98a1ecc756f78bbd5ae6f672ebec6c2",
+                            "size": "54516"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/i686-w64-mingw32.mkspiffs-7fefeac.210717.zip",
+                            "archiveFileName": "i686-w64-mingw32.mkspiffs-7fefeac.210717.zip",
+                            "checksum": "SHA-256:be4177ff2efb80a1971c261d81c58ae16976f5dd110307eadae8726ef47448c6",
+                            "size": "338192"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-apple-darwin14.mkspiffs-7fefeac.210717.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.mkspiffs-7fefeac.210717.tar.gz",
+                            "checksum": "SHA-256:86e94d75068381ca3f2c90e2897d8bc2144149f4e9b174feba56d0fdf2d62698",
+                            "size": "368772"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-linux-gnu.mkspiffs-7fefeac.210717.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.mkspiffs-7fefeac.210717.tar.gz",
+                            "checksum": "SHA-256:56b0615f9e36f8624c26f502f9bf97605c319194cadb465ad25d301e8ce04e54",
+                            "size": "52647"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-w64-mingw32.mkspiffs-7fefeac.210717.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.mkspiffs-7fefeac.210717.zip",
+                            "checksum": "SHA-256:b556d32393583f3402473b4a15883869f706a3a4fe1dec596542314039bed07e",
+                            "size": "350354"
+                        }
+                    ]
+                },
+                {
+                    "version": "3.0.4-gcc10.3-1757bed",
+                    "name": "xtensa-lx106-elf-gcc",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/aarch64-linux-gnu.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "checksum": "SHA-256:7fe2b5ad8551e30e6ed919ad291ef3446ff1892aa6de106d7223188ae74cbc4e",
+                            "size": "71328229"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/arm-linux-gnueabihf.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "checksum": "SHA-256:44c085a4b38ea09e7dfdc0932c9ebbc4676e487db0e3c5b8bee03c8b0f1661ee",
+                            "size": "67428183"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/i686-linux-gnu.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "checksum": "SHA-256:421a268b39dcdf02f3df65cf163ec0f727d8bd29ebb8ab508412efb4d8db72ba",
+                            "size": "74504828"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/i686-w64-mingw32.xtensa-lx106-elf-1757bed.210717.zip",
+                            "archiveFileName": "i686-w64-mingw32.xtensa-lx106-elf-1757bed.210717.zip",
+                            "checksum": "SHA-256:353fab32fdd596385a004da9ca5c4661a6dc48bf6a1cca460a22f512df7d9995",
+                            "size": "71729688"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-apple-darwin14.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "checksum": "SHA-256:5a0b00ca67476f89847776330b6cf2c161092ce798c98e28aeac0f7e11d7116a",
+                            "size": "75917944"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-linux-gnu.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.xtensa-lx106-elf-1757bed.210717.tar.gz",
+                            "checksum": "SHA-256:0a8819d7e5753b77c395d4e5047ffa442945fe0d13073e8425b4c398b8315fa6",
+                            "size": "75030450"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.4-gcc10.3/x86_64-w64-mingw32.xtensa-lx106-elf-1757bed.210717.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.xtensa-lx106-elf-1757bed.210717.zip",
+                            "checksum": "SHA-256:036d6ebde43ca5371759793d82d1ab992cf6250e7e0fa5400d8b13146aeb55bd",
+                            "size": "75702794"
+                        }
+                    ]
+                },
+                {
+                    "name": "esptool_py",
+                    "version": "3.0.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-3.0.0.2-windows.zip",
+                            "archiveFileName": "esptool-3.0.0.2-windows.zip",
+                            "checksum": "SHA-256:b192bfc1545a3c92658ce586b4edcc2aca3f0ad4b3fa8417d658bc8a48f1387e",
+                            "size": "3434736"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-3.0.0.2-macos.tar.gz",
+                            "archiveFileName": "esptool-3.0.0.2-macos.tar.gz",
+                            "checksum": "SHA-256:2cafab7f1ebce89475b84c115548eaace40b6366d7b3f9862cdb2fc64f806643",
+                            "size": "3859642"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-3.0.0.2-linux.tar.gz",
+                            "archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+                            "checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+                            "size": "57526"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-3.0.0.2-linux.tar.gz",
+                            "archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+                            "checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+                            "size": "57526"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-3.0.0.2-linux.tar.gz",
+                            "archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+                            "checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+                            "size": "57526"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-3.0.0.2-linux.tar.gz",
+                            "archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+                            "checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+                            "size": "57526"
+                        }
+                    ]
+                },
+                {
+                    "version": "2.6.0",
+                    "name": "esptool_py",
+                    "systems": [
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-2.6.0-windows.zip",
+                            "checksum": "SHA-256:a73f4cf68db240d7f1d250c5c7f2dfcb53c17a37483729f1bf71f8f43d79a799",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "esptool-2.6.0-windows.zip",
+                            "size": "3421208"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool.tar.gz",
+                            "checksum": "SHA-256:304376e217710dcf47e981216c78180feab08390d606c7e6db4bc1477a6b5eb3",
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "esptool.tar.gz",
+                            "size": "6953438"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-2.6.0-linux.tar.gz",
+                            "checksum": "SHA-256:6d162f70f395ca31f5008829dd7e833e729f044a9c7355d5be8ce333a054e110",
+                            "host": "x86_64-pc-linux-gnu",
+                            "archiveFileName": "esptool-2.6.0-linux.tar.gz",
+                            "size": "43535"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-2.6.0-linux.tar.gz",
+                            "checksum": "SHA-256:6d162f70f395ca31f5008829dd7e833e729f044a9c7355d5be8ce333a054e110",
+                            "host": "i686-pc-linux-gnu",
+                            "archiveFileName": "esptool-2.6.0-linux.tar.gz",
+                            "size": "43535"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/esptool-2.6.0-linux.tar.gz",
+                            "checksum": "SHA-256:6d162f70f395ca31f5008829dd7e833e729f044a9c7355d5be8ce333a054e110",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "esptool-2.6.0-linux.tar.gz",
+                            "size": "43535"
+                        }
+                    ]
+                },
+                {
+                    "version": "0.2.3",
+                    "name": "mkspiffs",
+                    "systems": [
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                            "checksum": "SHA-256:b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                            "size": "249809"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "size": "130270"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                            "host": "i386-apple-darwin",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "size": "130270"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+                            "checksum": "SHA-256:5e1a4ff41385e842f389f6b5254102a547e566a06b49babeffa93ef37115cb5d",
+                            "host": "x86_64-pc-linux-gnu",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+                            "size": "50646"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+                            "checksum": "SHA-256:464463a93e8833209cdc29ba65e1a12fec31718dc10075c195a2445b2c3f6cb0",
+                            "host": "i686-pc-linux-gnu",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+                            "size": "48751"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "checksum": "SHA-256:ade3dc00117912ac08a1bdbfbfe76b12d21a34bc5fa1de0cfc45fe7a8d0a0185",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "size": "40665"
+                        }
+                    ]
+                },
+                {
+                    "name": "xtensa-esp32-elf-gcc",
+                    "version": "1.22.0-96-g2852398-5.2.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-win32-1.22.0-96-g2852398-5.2.0.zip",
+                            "archiveFileName": "xtensa-esp32-elf-win32-1.22.0-96-g2852398-5.2.0.zip",
+                            "checksum": "SHA-256:8e2a2e25d4714ae6e4b992be1b1c261caed5b523b0cc0887b6749229c9febbb0",
+                            "size": "125810912"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-macos-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-macos-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "checksum": "SHA-256:6aeae9547f0cd7e442d1df21821cea8b15d0a6ce349bbd86466e2997b738a99c",
+                            "size": "50520203"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-linux64-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "checksum": "SHA-256:798a8638f11ad37f41b9640582f869c61ffb4da6d932279fde94a2b636ad2dac",
+                            "size": "44211883"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-linux32-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "checksum": "SHA-256:4eea601188aa8f3c3d45d7936ab4c0fabb75b4970dccf7a061de47dba49e377f",
+                            "size": "45563578"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-linux-armel-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-linux-armel-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "checksum": "SHA-256:abfe06522f7c3479f6c7434c4bf926c50fa2039362b96abe95fa1f05ec519a9b",
+                            "size": "50670980"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-linux-armel-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-linux-armel-1.22.0-96-g2852398-5.2.0.tar.gz",
+                            "checksum": "SHA-256:abfe06522f7c3479f6c7434c4bf926c50fa2039362b96abe95fa1f05ec519a9b",
+                            "size": "50670980"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.22.0-80-g6c4433a-5.2.0",
+                    "name": "xtensa-esp32-elf-gcc",
+                    "systems": [
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-win32-1.22.0-80-g6c4433a-5.2.0.zip",
+                            "checksum": "SHA-256:f217fccbeaaa8c92db239036e0d6202458de4488b954a3a38f35ac2ec48058a4",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "xtensa-esp32-elf-win32-1.22.0-80-g6c4433a-5.2.0.zip",
+                            "size": "125719261"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "checksum": "SHA-256:a4307a97945d2f2f2745f415fbe80d727750e19f91f9a1e7e2f8a6065652f9da",
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "size": "46517409"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "checksum": "SHA-256:3fe96c151d46c1d4e5edc6ed690851b8e53634041114bad04729bc16b0445156",
+                            "host": "x86_64-pc-linux-gnu",
+                            "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "size": "44219107"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "checksum": "SHA-256:b4055695ffc2dfc0bcb6dafdc2572a6e01151c4179ef5fa972b3fcb2183eb155",
+                            "host": "i686-pc-linux-gnu",
+                            "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "size": "45566336"
+                        }
+                    ]
+                },
+                {
+                    "version": "2.5.0-3-20ed2b9",
+                    "name": "xtensa-lx106-elf-gcc",
+                    "systems": [
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/aarch64-linux-gnu.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "checksum": "SHA-256:2192512ff6e33d4126722b2bfea02c1d8293b0a90094f84a9ac494d5fcaa0f45",
+                            "host": "aarch64-linux-gnu",
+                            "archiveFileName": "aarch64-linux-gnu.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "size": "40974297"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/arm-linux-gnueabihf.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "checksum": "SHA-256:861c4ab7f6f04344f7ee656d90288e6904d7efac83ffe4835b66df3eba35b0a0",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "arm-linux-gnueabihf.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "size": "37013753"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/i686-w64-mingw32.xtensa-lx106-elf-20ed2b9c.zip",
+                            "checksum": "SHA-256:38b9ccc3b286546b026fb8a29fb2bd8fdab32c4711816a1a3cb0f11250b5c541",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "i686-w64-mingw32.xtensa-lx106-elf-20ed2b9c.zip",
+                            "size": "44935132"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/i686-linux-gnu.xtensa-lx106-elf-1f24aeae.tar.gz",
+                            "checksum": "SHA-256:96b106fbc814155e92d1805d3227d36096b88d3d54cfcd885804a0e9cf5631d7",
+                            "host": "i686-pc-linux-gnu",
+                            "archiveFileName": "i686-linux-gnu.xtensa-lx106-elf-1f24aeae.tar.gz",
+                            "size": "42500158"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-apple-darwin14.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "checksum": "SHA-256:fd29ae844915fb2dd800d99ad7967be0e890601c18b80555efbc4eca2dd808c2",
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "x86_64-apple-darwin14.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "size": "44378513"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-linux-gnu.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "checksum": "SHA-256:039f87e2d881b6488a0be8c7fda86cacb1d38502a236cc6768a2dbc2a20ca9cd",
+                            "host": "x86_64-pc-linux-gnu",
+                            "archiveFileName": "x86_64-linux-gnu.xtensa-lx106-elf-20ed2b9c.tar.gz",
+                            "size": "43778575"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-w64-mingw32.xtensa-lx106-elf-20ed2b9c.zip",
+                            "checksum": "SHA-256:cc8c19a458129e49ec195d9438a53c6ce2c1287a04ea1ea22b81dcc65db511a8",
+                            "host": "x86_64-mingw32",
+                            "archiveFileName": "x86_64-w64-mingw32.xtensa-lx106-elf-20ed2b9c.zip",
+                            "size": "48635537"
+                        }
+                    ]
+                },
+                {
+                    "version": "2.5.0-3-20ed2b9",
+                    "name": "esptool",
+                    "systems": [
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/aarch64-linux-gnu.esptool-f80ae31.tar.gz",
+                            "checksum": "SHA-256:888425ff1e33a97ea155b6f128de6b578c34468895ba9b4acd1e4f28608d917a",
+                            "host": "aarch64-linux-gnu",
+                            "archiveFileName": "aarch64-linux-gnu.esptool-f80ae31.tar.gz",
+                            "size": "14681"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/arm-linux-gnueabihf.esptool-f80ae31.tar.gz",
+                            "checksum": "SHA-256:71c878ac6a21ee69dcd615cd28f2dccd29a87079e0b3069eba625089d89e5058",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "arm-linux-gnueabihf.esptool-f80ae31.tar.gz",
+                            "size": "13873"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/i686-w64-mingw32.esptool-f80ae31.zip",
+                            "checksum": "SHA-256:e30f25a19a78635000401b083b479e111d591bac20cfd89b1bfdf36a60e9ee20",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "i686-w64-mingw32.esptool-f80ae31.zip",
+                            "size": "16466"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/i686-linux-gnu.esptool-f80ae31.tar.gz",
+                            "checksum": "SHA-256:fe632f4602d02b6a9425c5bf95074095cb6d3c57912168a0f6b796fddd8ce991",
+                            "host": "i686-pc-linux-gnu",
+                            "archiveFileName": "i686-linux-gnu.esptool-f80ae31.tar.gz",
+                            "size": "16543"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-apple-darwin14.esptool-f80ae31.tar.gz",
+                            "checksum": "SHA-256:0f51e487706a476b0b87299a769282ad65623774770655168a79d1748d2506e7",
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "x86_64-apple-darwin14.esptool-f80ae31.tar.gz",
+                            "size": "15003"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-linux-gnu.esptool-f80ae31.tar.gz",
+                            "checksum": "SHA-256:bded1dca953377838b6086a9bcd40a1dc5286ba5f69f2372c22a1d1819baad24",
+                            "host": "x86_64-pc-linux-gnu",
+                            "archiveFileName": "x86_64-linux-gnu.esptool-f80ae31.tar.gz",
+                            "size": "16526"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-w64-mingw32.esptool-f80ae31.zip",
+                            "checksum": "SHA-256:d6d5976fde82d07e93d5a01f38bbb4f84a7796187ff0541ee62650041791d0e8",
+                            "host": "x86_64-mingw32",
+                            "archiveFileName": "x86_64-w64-mingw32.esptool-f80ae31.zip",
+                            "size": "19724"
+                        }
+                    ]
+                },
+                {
+                    "version": "2.5.0-3-20ed2b9",
+                    "name": "mkspiffs",
+                    "systems": [
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/aarch64-linux-gnu.mkspiffs-7fefeac.tar.gz",
+                            "checksum": "SHA-256:5f1e6a1f0eff4522bed90c539f88efe48ecc9c9ee72b0e3cad35f8b09c334168",
+                            "host": "aarch64-linux-gnu",
+                            "archiveFileName": "aarch64-linux-gnu.mkspiffs-7fefeac.tar.gz",
+                            "size": "51017"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/arm-linux-gnueabihf.mkspiffs-7fefeac.tar.gz",
+                            "checksum": "SHA-256:edc5ea2080f90f33aed84e5a9b6986bf905431e09155cdca96b648eae9656d94",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "arm-linux-gnueabihf.mkspiffs-7fefeac.tar.gz",
+                            "size": "44050"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/i686-w64-mingw32.mkspiffs-7fefeac.zip",
+                            "checksum": "SHA-256:ec661fb02c2635ac722eaaedf0a0c35474c43c72008f0ceefffb19af2f739d15",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "i686-w64-mingw32.mkspiffs-7fefeac.zip",
+                            "size": "337874"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/i686-linux-gnu.mkspiffs-7fefeac.tar.gz",
+                            "checksum": "SHA-256:d080b3b50ee00ac56b7204f8d08b95cd53872a2e09da590775ee631bcb279cad",
+                            "host": "i686-pc-linux-gnu",
+                            "archiveFileName": "i686-linux-gnu.mkspiffs-7fefeac.tar.gz",
+                            "size": "54276"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-apple-darwin14.mkspiffs-7fefeac.tar.gz",
+                            "checksum": "SHA-256:927cb67d045c598a9159ae16bc5fb63a20b3e23ad95eeb44702c938e6272f92f",
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "x86_64-apple-darwin14.mkspiffs-7fefeac.tar.gz",
+                            "size": "368554"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-linux-gnu.mkspiffs-7fefeac.tar.gz",
+                            "checksum": "SHA-256:4547bfe668090944d50af8dbf09abb5b51eb4a892b4784818f06a2274a630878",
+                            "host": "x86_64-pc-linux-gnu",
+                            "archiveFileName": "x86_64-linux-gnu.mkspiffs-7fefeac.tar.gz",
+                            "size": "52429"
+                        },
+                        {
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/x86_64-w64-mingw32.mkspiffs-7fefeac.zip",
+                            "checksum": "SHA-256:0dedc3ee977af99ffd160bb304e8bfb68a8545f2d1f2e4a3b534f2ae1a49d2c9",
+                            "host": "x86_64-mingw32",
+                            "archiveFileName": "x86_64-w64-mingw32.mkspiffs-7fefeac.zip",
+                            "size": "350035"
+                        }
+                    ]
+                },
+                {
+                    "version": "9.2.1-1.1",
+                    "name": "xpack-arm-none-eabi-gcc",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xpack-arm-none-eabi-gcc-9.2.1-1.1-win32-x32.zip",
+                            "archiveFileName": "xpack-arm-none-eabi-gcc-9.2.1-1.1-win32-x32.zip",
+                            "checksum": "SHA-256:d13aaff4caae6e5f1b871d50accc1759c4f5750574dbd4d6f6e3017c33f39dc6",
+                            "size": "128697954"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xpack-arm-none-eabi-gcc-9.2.1-1.1-darwin-x64.tar.gz",
+                            "archiveFileName": "xpack-arm-none-eabi-gcc-9.2.1-1.1-darwin-x64.tar.gz",
+                            "checksum": "SHA-256:6ff68117083624273c56244cf4242989a65069b376a9727ec4a230be824340f3",
+                            "size": "132371371"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xpack-arm-none-eabi-gcc-9.2.1-1.1-linux-x64.tar.gz",
+                            "archiveFileName": "xpack-arm-none-eabi-gcc-9.2.1-1.1-linux-x64.tar.gz",
+                            "checksum": "SHA-256:bbde117b97f229dfe63721c0323c3da6839e83cf302c8f4ff25e0f36ecf7a428",
+                            "size": "135081450"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/xpack-arm-none-eabi-gcc-9.2.1-1.1-linux-x32.tar.gz",
+                            "archiveFileName": "xpack-arm-none-eabi-gcc-9.2.1-1.1-linux-x32.tar.gz",
+                            "checksum": "SHA-256:e9f4b5f3ebe7e4391e2423e4106493d7cfcdee9eee4a1f0766f1c23662093a49",
+                            "size": "137429272"
+                        }
+                    ]
+                },
+                {
+                    "version": "5.5.1",
+                    "name": "CMSIS",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/CMSIS-5.5.1.tar.bz2",
+                            "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+                            "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+                            "size": "24351965"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/CMSIS-5.5.1.tar.bz2",
+                            "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+                            "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+                            "size": "24351965"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/CMSIS-5.5.1.tar.bz2",
+                            "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+                            "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+                            "size": "24351965"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/CMSIS-5.5.1.tar.bz2",
+                            "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+                            "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+                            "size": "24351965"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/CMSIS-5.5.1.tar.bz2",
+                            "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+                            "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+                            "size": "24351965"
+                        },
+                        {
+                            "host": "all",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/CMSIS-5.5.1.tar.bz2",
+                            "archiveFileName": "CMSIS-5.5.1.tar.bz2",
+                            "checksum": "SHA-256:3dddbd241986fc7a7861a62c748abf350055ac4542d362f38f1778caad2c4bf8",
+                            "size": "24351965"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.4.0",
+                    "name": "STM32Tools",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/STM32Tools-1.4.0-windows.tar.bz2",
+                            "archiveFileName": "STM32Tools-1.4.0-windows.tar.bz2",
+                            "checksum": "SHA-256:9d0e5401c28f83de6b9e5c1d3dd08c71f89ed574113af8a0b78c3e677653be07",
+                            "size": "2818862"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/STM32Tools-1.4.0-mac.tar.bz2",
+                            "archiveFileName": "STM32Tools-1.4.0-mac.tar.bz2",
+                            "checksum": "SHA-256:861ab52fbfd6aa02e9efbd4f568bc536c6669975675660417b4c2e719fe15304",
+                            "size": "757807"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/STM32Tools-1.4.0-linux.tar.bz2",
+                            "archiveFileName": "STM32Tools-1.4.0-linux.tar.bz2",
+                            "checksum": "SHA-256:03ce112090a39ea5176b4401ec06208b8d8cccb4eb705c8f03c5aa74f3c99918",
+                            "size": "755585"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/STM32Tools-1.4.0-linux.tar.bz2",
+                            "archiveFileName": "STM32Tools-1.4.0-linux.tar.bz2",
+                            "checksum": "SHA-256:03ce112090a39ea5176b4401ec06208b8d8cccb4eb705c8f03c5aa74f3c99918",
+                            "size": "755585"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Inkplate_Boards",
+            "maintainer": "Soldered: Arduino compatibles made in Europe",
+            "websiteURL": "https://soldered.com/en",
+            "help": {
+                "online": "http://www.forum.soldered.com/en"
+            },
+            "platforms": [
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Inkplate",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Inkplate_core-3.0.0.zip",
+                    "archiveFileName": "Inkplate_core-3.0.0.zip",
+                    "checksum": "SHA-256:873e4643fffe1b5398fe39cc5e89fb3ae02a8b795f0677929922c64cb4e2c9e8",
+                    "size": "77130128",
+                    "version": "3.0.1",
+                    "name": "Inkplate Boards",
+                    "architecture": "esp32",
+                    "boards":[
+                        {
+                            "name":"Inkplate 2"
+                        },
+                        {
+                            "name":"Inkplate 6"
+                        },
+                        {
+                            "name":"Soldered Inkplate 6"
+                        },
+                        {
+                            "name":"Inkplate 10"
+                        },
+                        {
+                            "name":"Soldered Inkplate 10"
+                        },
+                        {
+                            "name":"Inkplate 5"
+                        },
+                        {
+                            "name":"Inkplate 6Plus"
+                        },
+                        {
+                            "name":"Soldered Inkplate 6Plus"
+                        },
+                        {
+                            "name":"Inkplate 6Color"
+                        },
+                        {
+                            "name":"Inkplate Cool"
+                        }
+                   ],
+                   "toolsDependencies":[
+                       {
+                            "packager":"Inkplate_Boards",
+                            "name":"riscv32-esp-elf-gcc",
+                            "version":"gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"xtensa-esp32-elf-gcc",
+                            "version":"gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"esptool_py",
+                            "version":"4.2.1"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"mkspiffs",
+                            "version":"0.2.3"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"mklittlefs",
+                            "version":"3.0.0-gnu12-dc7f933"
+                        }
+                    ]
+                },
+                {
+                    
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Inkplate",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Inkplate_core-3.0.0.zip",
+                    "archiveFileName": "Inkplate_core-3.0.0.zip",
+                    "checksum": "SHA-256:873e4643fffe1b5398fe39cc5e89fb3ae02a8b795f0677929922c64cb4e2c9e8",
+                    "size": "77130128",
+                    "version": "3.0.0",
+                    "name": "Inkplate Boards",
+                    "architecture": "esp32",
+                    "boards":[
+                        {
+                            "name":"Inkplate 2"
+                        },
+                        {
+                            "name":"Inkplate 6"
+                        },
+                        {
+                            "name":"Soldered Inkplate 6"
+                        },
+                        {
+                            "name":"Inkplate 10"
+                        },
+                        {
+                            "name":"Soldered Inkplate 10"
+                        },
+                        {
+                            "name":"Inkplate 5"
+                        },
+                        {
+                            "name":"Inkplate 6PLUS"
+                        },
+                        {
+                            "name":"Soldered Inkplate 6PLUS"
+                        },
+                        {
+                            "name":"Inkplate 6COLOR"
+                        },
+                        {
+                            "name":"Inkplate COOL"
+                        }
+                   ],
+                   "toolsDependencies":[
+                       {
+                            "packager":"Inkplate_Boards",
+                            "name":"riscv32-esp-elf-gcc",
+                            "version":"gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"xtensa-esp32-elf-gcc",
+                            "version":"gcc8_4_0-esp-2021r2-patch3"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"esptool_py",
+                            "version":"4.2.1"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"mkspiffs",
+                            "version":"0.2.3"
+                        },
+                        {
+                            "packager":"Inkplate_Boards",
+                            "name":"mklittlefs",
+                            "version":"3.0.0-gnu12-dc7f933"
+                        }
+                    ]
+                },
+                {
+                    
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Inkplate_core-2.0.0.zip",
+                    "archiveFileName": "Inkplate_core-2.0.0.zip",
+                    "checksum": "SHA-256:845b1a7a2ac348d4a838d711ed30b44bb1ee07e954228be6fd886a0c0067c5ae",
+                    "size": "58409304",
+                    "version": "2.0.0",
+                    "name": "Inkplate Boards",
+                    "architecture": "esp32",
+                    "boards": [
+                        {
+                            "name": "Inkplate 2 (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 6 (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 10 (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 5 (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 6PLUS (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 6COLOR (ESP32)"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "riscv32-esp-elf-gcc",
+                            "version": "gcc8_4_0-esp-2021r2"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "xtensa-esp32-elf-gcc",
+                            "version": "gcc8_4_0-esp-2021r2"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "xtensa-esp32s2-elf-gcc",
+                            "version": "gcc8_4_0-esp-2021r2"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "esptool_py",
+                            "version": "3.1.0"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "mkspiffs",
+                            "version": "0.2.3"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "name": "mklittlefs",
+                            "version": "3.0.0-gnu12-dc7f933"
+                        }
+                    ]
+                },
+                {
+                    "help": {
+                        "online": "http://www.forum.soldered.com"
+                    },
+                    "category": "Dasduino",
+                    "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Inkplate_core-1.0.0.zip",
+                    "archiveFileName": "Inkplate_core-1.0.0.zip",
+                    "checksum": "SHA-256:fe8314ae443f4948d2f50decf608ebe4ceb98a888a874ff6efaea497faa1bef1",
+                    "size": "47397513",
+                    "version": "1.0.0",
+                    "name": "Inkplate Boards",
+                    "architecture": "esp32",
+                    "boards": [
+                        {
+                            "name": "Inkplate 6 (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 10 (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 5 (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 6PLUS (ESP32)"
+                        },
+                        {
+                            "name": "Inkplate 6COLOR (ESP32)"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "1.22.0-96-g2852398-5.2.0",
+                            "name": "xtensa-esp32-elf-gcc"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "3.0.0",
+                            "name": "esptool_py"
+                        },
+                        {
+                            "packager": "Dasduino_Boards",
+                            "version": "0.2.3",
+                            "name": "mkspiffs"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "name": "riscv32-esp-elf-gcc",
+                    "version": "gcc8_4_0-esp-2021r2-patch3",
+                    "systems": [
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+                            "checksum": "SHA-256:179cbad579790ad35e0f414a18d90017c0f158c397022411a8e9867db2174f15",
+                            "size": "106843321"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+                            "checksum": "SHA-256:fb339d476c79c76db8f903b265cab6bb6950d5ed954dec644445252d3378023c",
+                            "size": "103277393"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+                            "checksum": "SHA-256:51a6296d8334b7452dba44b2b62e87afd7fd1c74bafa1aa29b1f4ab72cb9e5e0",
+                            "size": "103062256"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+                            "checksum": "SHA-256:fef60f7ef37ffaa50416d8f244cdbd710d6729dae41ef06c4ec0e50a1f3b7dd7",
+                            "size": "109460025"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                            "checksum": "SHA-256:4aacc1742a76349d790b1ac8e9e9d963daefda5346dbd6741cfe8e7a35a44e4e",
+                            "size": "113703959"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                            "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                            "checksum": "SHA-256:eb2a442d7f551ebeb842995ec372ec4b364314ca2d7aae779399a74972f7d6bc",
+                            "size": "144711970"
+                        }
+                    ]
+                },
+                {
+                    "name": "xtensa-esp32-elf-gcc",
+                    "version": "gcc8_4_0-esp-2021r2-patch3",
+                    "systems": [
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+                            "checksum": "SHA-256:9edd1e77627688f435561922d14299f6a0021ba1f6ff67e472e1108695a69e53",
+                            "size": "90569312"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+                            "checksum": "SHA-256:3a21a3e310e6b1e7d7bed1f3e59698a5bd29ed3a5ca79fba9265d7dd2f1e0cd2",
+                            "size": "86838362"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+                            "checksum": "SHA-256:89313c4c1d8db1b01624f31b58bf3fbe527160569828ac4301e9daa75c52716d",
+                            "size": "86187540"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+                            "checksum": "SHA-256:a1f165a836f175daa6fbfde4ca99cb93b377f021fbfc41f79a700bd4df965a9a",
+                            "size": "92580267"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+                            "checksum": "SHA-256:dda3d7a43efd995d9a51d5a5741626dbf915df46078aef0b5aea7163ac82398b",
+                            "size": "97807647"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+                            "checksum": "SHA-256:fd147592928ef2d7092ba34b01ecd776fe26ba3d7e3f9b6b215a3b46e981ee2c",
+                            "size": "116464819"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+                            "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+                            "checksum": "SHA-256:9395315c07de0b9f05c9a6616ba1f05e76ab651053f2f40479163a8e03cfa830",
+                            "size": "119511910"
+                        }
+                    ]
+                },
+                {
+                    "name": "esptool_py",
+                    "version": "4.2.1",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/esptool-4.2.1-windows.zip",
+                            "archiveFileName": "esptool-4.2.1-windows.zip",
+                            "checksum": "SHA-256:582560067bfbd9895f4862eb5fdf87558ddee5d4d30e7575c9b8bcb0dd60fd94",
+                            "size": "6368279"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/esptool-4.2.1-windows.zip",
+                            "archiveFileName": "esptool-4.2.1-windows.zip",
+                            "checksum": "SHA-256:582560067bfbd9895f4862eb5fdf87558ddee5d4d30e7575c9b8bcb0dd60fd94",
+                            "size": "6368279"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/esptool-4.2.1-macos.tar.gz",
+                            "archiveFileName": "esptool-4.2.1-macos.tar.gz",
+                            "checksum": "SHA-256:a984f7ad8bdb40c42d0d368bf4bb21b69a9587aed46b7b6d7de23ca58a3f150d",
+                            "size": "5816598"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/esptool-4.2.1-linux.tar.gz",
+                            "archiveFileName": "esptool-4.2.1-linux.tar.gz",
+                            "checksum": "SHA-256:5a45fb77eb6574554ec2f45230d0b350f26f9c24ab3b6c13c4031ebdf72a34ab",
+                            "size": "90123"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/esptool-4.2.1-linux.tar.gz",
+                            "archiveFileName": "esptool-4.2.1-linux.tar.gz",
+                            "checksum": "SHA-256:5a45fb77eb6574554ec2f45230d0b350f26f9c24ab3b6c13c4031ebdf72a34ab",
+                            "size": "90123"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/esptool-4.2.1-linux.tar.gz",
+                            "archiveFileName": "esptool-4.2.1-linux.tar.gz",
+                            "checksum": "SHA-256:5a45fb77eb6574554ec2f45230d0b350f26f9c24ab3b6c13c4031ebdf72a34ab",
+                            "size": "90123"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/esptool-4.2.1-linux.tar.gz",
+                            "archiveFileName": "esptool-4.2.1-linux.tar.gz",
+                            "checksum": "SHA-256:5a45fb77eb6574554ec2f45230d0b350f26f9c24ab3b6c13c4031ebdf72a34ab",
+                            "size": "90123"
+                        }
+                    ]
+                },
+                {
+                    "name": "mkspiffs",
+                    "version": "0.2.3",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-win32.zip",
+                            "checksum": "SHA-256:b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
+                            "size": "249809"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                            "size": "130270"
+                        },
+                        {
+                            "host": "i386-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+                            "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+                            "size": "130270"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+                            "checksum": "SHA-256:5e1a4ff41385e842f389f6b5254102a547e566a06b49babeffa93ef37115cb5d",
+                            "size": "50646"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+                            "checksum": "SHA-256:464463a93e8833209cdc29ba65e1a12fec31718dc10075c195a2445b2c3f6cb0",
+                            "size": "48751"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "checksum": "SHA-256:ade3dc00117912ac08a1bdbfbfe76b12d21a34bc5fa1de0cfc45fe7a8d0a0185",
+                            "size": "40665"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+                            "checksum": "SHA-256:ade3dc00117912ac08a1bdbfbfe76b12d21a34bc5fa1de0cfc45fe7a8d0a0185",
+                            "size": "40665"
+                        }
+                    ]
+                },
+                {
+                    "version": "3.0.0-gnu12-dc7f933",
+                    "name": "mklittlefs",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:fc56e389383749e4cf4fab0fcf75cc0ebc41e59383caf6c2eff1c3d9794af200",
+                            "size": "44651"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/arm-linux-gnueabihf.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:52b642dd0545eb3bd8dfb75dde6601df21700e4867763fd2696274be279294c5",
+                            "size": "37211"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/i686-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:7886051d8ccc54aed0af2e7cdf6ff992bb51638df86f3b545955697720b6d062",
+                            "size": "48033"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "archiveFileName": "i686-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "checksum": "SHA-256:43740db30ce451454f2337331f10ab4ed41bd83dbf0fa0cb4387107388b59f42",
+                            "size": "332655"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:e3edd5e05b70db3c7df6b9d626558348ad04804022fe955c799aeb51808c7dc3",
+                            "size": "362608"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+                            "checksum": "SHA-256:66e84dda0aad747517da3785125e05738a540948aab2b7eaa02855167a1eea53",
+                            "size": "46778"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/3.0.0/x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+                            "checksum": "SHA-256:2e319077491f8e832e96eb4f2f7a70dd919333cee4b388c394e0e848d031d542",
+                            "size": "345132"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

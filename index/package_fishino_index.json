@@ -1,0 +1,1716 @@
+{
+  "packages": [
+    {
+      "maintainer": "Fishino",
+      "help": {
+        "online": "http://www.fishino.com/"
+      },
+      "websiteURL": "http://www.fishino.com/",
+      "platforms": [
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.8.2",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.8.2/fishino-pic32_core.v7.8.2.zip",
+          "archiveFileName": "fishino-pic32_core.v7.8.2.zip",
+          "checksum": "SHA-256:6f22c8c0c2193289cb7f51b46e0b95db92091e5cc2e3b5172ec673adce8e5c6b",
+          "size": "7346245",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "MOTORFISH_PROTO"},
+            {"name": "MOTORFISH"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_PIRANHA_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.2",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.8.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.8.1/fishino-pic32_core.v7.8.1.zip",
+          "archiveFileName": "fishino-pic32_core.v7.8.1.zip",
+          "checksum": "SHA-256:cefd159c6f301aebc431d244c18dad329243153f9a00ab188109439dda4a9c25",
+          "size": "7346260",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "MOTORFISH_PROTO"},
+            {"name": "MOTORFISH"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_PIRANHA_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.8.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.8.0/fishino-pic32_core.v7.8.0.zip",
+          "archiveFileName": "fishino-pic32_core.v7.8.0.zip",
+          "checksum": "SHA-256:94dcb3dc7a441cc452358e9b7c7422064cadd2fae329a568909e0a53e5ad069c",
+          "size": "7346259",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "MOTORFISH_PROTO"},
+            {"name": "MOTORFISH"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_PIRANHA_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.7.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.7.1/fishino-pic32_core.v7.7.1.zip",
+          "archiveFileName": "fishino-pic32_core.v7.7.1.zip",
+          "checksum": "SHA-256:3130b245a3414cd081d978301db4f3eb85356266acb5acd5dc261286b0e0e8de",
+          "size": "7336644",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "MOTORFISH"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_PIRANHA_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.7.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.7.0/fishino-pic32_core.v7.7.0.zip",
+          "archiveFileName": "fishino-pic32_core.v7.7.0.zip",
+          "checksum": "SHA-256:0aee5684c51b96eb23f95b2724aa2a2e47e41820d514569cd1bf29acbd16b15d",
+          "size": "7336625",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "MOTORFISH"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_PIRANHA_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.6.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.6.0/fishino-pic32_core.v7.6.0.zip",
+          "archiveFileName": "fishino-pic32_core.v7.6.0.zip",
+          "checksum": "SHA-256:cf7db225097a1f246818c6bed166c6bd4a85a6685e1eb6f4a631fbe2e741089a",
+          "size": "7309912",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "MOTORFISH"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_PIRANHA_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.5.2",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.5.2/fishino-pic32_core.v7.5.2.zip",
+          "archiveFileName": "fishino-pic32_core.v7.5.2.zip",
+          "checksum": "SHA-256:16cb7546cd6e7207a56b2efec403c93bbda25e924e9d3283724e30cce2be9f0f",
+          "size": "7349631",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO32_105M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_PROTO"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "FISHINO_SHARK_96M"},
+            {"name": "FISHINO_SHARK_105M"},
+            {"name": "MOTORFISH"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+       {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.5.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.5.1/fishino-pic32_core.v7.5.1.zip",
+          "archiveFileName": "fishino-pic32_core.v7.5.1.zip",
+          "checksum": "SHA-256:37b4fee28e638b0edc107cdc3fcf87521217cf8535fe0097b307c52d9e6e210b",
+          "size": "7349823",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO32_105M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_PROTO"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "FISHINO_SHARK_96M"},
+            {"name": "FISHINO_SHARK_105M"},
+            {"name": "MOTORFISH"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.5.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.5.0/fishino-pic32_core.v7.5.0.zip",
+          "archiveFileName": "fishino-pic32_core.v7.5.0.zip",
+          "checksum": "SHA-256:f21919a522a1e884ad2f9e94af49988fb6745e4894a314f19b87f84aadb53a04",
+          "size": "7344802",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_PROTO"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"},
+            {"name": "FISHINO_SHARK"},
+            {"name": "MOTORFISH"},
+            {"name": "MOTORFISH_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.3.3",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.3.3/fishino-pic32_core.v7.3.3.zip",
+          "archiveFileName": "fishino-pic32_core.v7.3.3.zip",
+          "checksum": "SHA-256:31493829aa661d8a6275e974c7b5779b20b1f6ac47c1ae0cf7ce38bbeed811a8",
+          "size": "7272914",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_PROTO"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.3.2",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.3.2/fishino-pic32_core.v7.3.2.zip",
+          "archiveFileName": "fishino-pic32_core.v7.3.2.zip",
+          "checksum": "SHA-256:e918f3086ec8ef6b31d24267399e8985ffbf487eff94ef51fdddfcf4ae78bbb6",
+          "size": "7272965",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_PROTO"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.3.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.3.0/fishino-pic32_core.v7.3.0.zip",
+          "archiveFileName": "fishino-pic32_core.v7.3.0.zip",
+          "checksum": "SHA-256:81e5ef056dff65f4ef8f287bf1bb7fd8b13fe41666bdbd9d1eb54a1f82682e15",
+          "size": "7257679",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.1.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.1.0/fishino-pic32_core.v7.1.0.zip",
+          "archiveFileName": "fishino-pic32_core.v7.1.0.zip",
+          "checksum": "SHA-256:803bee5bef94ea48637dc9da162bf38649e000a885564fbf5d6ce7d0a5080710",
+          "size": "7257759",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "7.0.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v7.0.0/fishino-pic32_core.v7.0.0.zip",
+          "archiveFileName": "fishino-pic32_core.v7.0.0.zip",
+          "checksum": "SHA-256:ef9c4927c7375e80842d10f09f6078b0974c7d649bd50d484df9375bcfc7a04e",
+          "size": "7257725",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "6.0.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v6.0.1/fishino-pic32_core.v6.0.1.zip",
+          "archiveFileName": "fishino-pic32_core.v6.0.1.zip",
+          "checksum": "SHA-256:e536b9bd4529c83a608d340a1f5c85e47538e70dac61b02b4a4ec7c969f0eefe",
+          "size": "7257746",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "6.0.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v6.0.0/fishino-pic32_core.v6.0.0.zip",
+          "archiveFileName": "fishino-pic32_core.v6.0.0.zip",
+          "checksum": "SHA-256:ac2df88f45da8673c22a465c73e9fa1b14fc1b70dfb8b80d2ed9b36528db1f66",
+          "size": "7257732",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "1.43-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "2.1.24-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "2.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "5.1.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v5.1.1/fishino-pic32_core.v5.1.1.zip",
+          "archiveFileName": "fishino-pic32_core.v5.1.1.zip",
+          "checksum": "SHA-256:25e94408277aa5dc59fb0cbbaf206e2846a03c4299507c65184ff96327cff456",
+          "size": "7634017",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "4.8.3-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "1.0.0-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "5.1.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v5.1.0/fishino-pic32_core.v5.1.0.zip",
+          "archiveFileName": "fishino-pic32_core.v5.1.0.zip",
+          "checksum": "SHA-256:3362c3294306edc5d2fe1514abe9f74345a0cc1de8c9369e956a403702736eb5",
+          "size": "7632292",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "4.8.3-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "1.0.0-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "5.0.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v5.0.1/fishino-pic32_core.v5.0.1.zip",
+          "archiveFileName": "fishino-pic32_core.v5.0.1.zip",
+          "checksum": "SHA-256:5a2502b962af65fe3dc94457cce64a344575032644dcf1eecce2213c864a471d",
+          "size": "7633887",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "4.8.3-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "1.0.0-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+        {
+          "name": "fishino_pic32",
+          "architecture": "pic32",
+          "version": "5.0.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/pic32/core/v5.0.0/fishino-pic32_core.v5.0.0.zip",
+          "archiveFileName": "fishino-pic32_core.v5.0.0.zip",
+          "checksum": "SHA-256:7f7f3ca301b0eb4742f58aaacbc532e1ce8efa6c2a844cfd4b48b7e9c24bd0d8",
+          "size": "7633749",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO32"},
+            {"name": "FISHINO32_96M"},
+            {"name": "FISHINO_PIRANHA"},
+            {"name": "FISHINO_PIRANHA_96M"},
+            {"name": "FISHINO32_M_PROTO"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "version": "4.8.3-pic32gcc",
+              "name": "pic32-tools"
+            }, 
+            {
+              "packager": "fishino",
+              "version": "1.0.0-pic32gcc",
+              "name": "pic32-prog"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+           },
+           {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "pic32-drivers-windows"
+            }
+          ]
+        },
+
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "7.5.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v7.5.1/fishino-avr_core.v7.5.1.zip",
+          "archiveFileName": "fishino-avr_core.v7.5.1.zip",
+          "checksum": "SHA-256:ff6fad0681fe211760e60da9ed0d56d6938123781b13c16090f455d40c31141a",
+          "size": "230160",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_UNO_R2"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_MEGA_R2"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-fishino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.1",
+              "name": "FishDude"
+            }
+          ]
+        },
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "7.5.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v7.5.0/fishino-avr_core.v7.5.0.zip",
+          "archiveFileName": "fishino-avr_core.v7.5.0.zip",
+          "checksum": "SHA-256:47b2c3f937c47de434114d65ee1657162daebba649902ff6d0d1f7688d8c0daf",
+          "size": "269515",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_UNO_R2"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_MEGA_R2"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "fishino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-fishino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.2.0",
+              "name": "FishDude"
+            }
+          ]
+        },
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "7.3.2",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v7.3.2/fishino-avr_core.v7.3.2.zip",
+          "archiveFileName": "fishino-avr_core.v7.3.2.zip",
+          "checksum": "SHA-256:a7ab30f95e66166ff752cbc1713c0a88adca75986671ec06059bc8db5c6c01d1",
+          "size": "236365",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+            }
+          ]
+        },
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "7.0.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v7.0.1/fishino-avr_core.v7.0.1.zip",
+          "archiveFileName": "fishino-avr_core.v7.0.1.zip",
+          "checksum": "SHA-256:efd36775cb8f0b2e16ffeea7f2d79c247e3b8ca00f985b2cc0de1972d575319e",
+          "size": "236239",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+            }
+          ]
+        },
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "7.0.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v7.0.0/fishino-avr_core.v7.0.0.zip",
+          "archiveFileName": "fishino-avr_core.v7.0.0.zip",
+          "checksum": "SHA-256:84ddea926adaa31ec029be3962da3f0c15907e0ef27c21a41ab6e5e0fd7d96a7",
+          "size": "234475",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.1.0",
+              "name": "FishDude"
+            }
+          ]
+        },
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "6.0.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v6.0.0/fishino-avr_core.v6.0.0.zip",
+          "archiveFileName": "fishino-avr_core.v6.0.0.zip",
+          "checksum": "SHA-256:e4b32b61d120a01f8dae3a63dd72cc6d90a032be02073948272e0ee7bee8365b",
+          "size": "233882",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+            }
+          ]
+        },
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "5.0.1",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v5.0.1/fishino-avr_core.v5.0.1.zip",
+          "archiveFileName": "fishino-avr_core.v5.0.1.zip",
+          "checksum": "SHA-256:2c5371f5144a424fc49efca85413cf7b706d0436d2b04958d3aed48923cf6427",
+          "size": "87632",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.1-arduino5",
+              "name": "avr-gcc"
+            }, 
+            {
+              "packager": "arduino",
+              "version": "6.0.1-arduino5",
+              "name": "avrdude"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+            }
+          ]
+        },
+        {
+          "name": "fishino_avr",
+          "architecture": "avr",
+          "version": "5.0.0",
+          "category": "fishino",
+          "url": "http://fishino.it/arduinoide/avr/core/v5.0.0/fishino-avr_core.v5.0.0.zip",
+          "archiveFileName": "fishino-avr_core.v5.0.0.zip",
+          "checksum": "SHA-256:642c12d40d4b742fffad3607e1a5725fa231f9f6f5a17dcb53b7e467880aadeb",
+          "size": "87626",
+          "help": {
+            "online": "http://www.fishino.com/"
+          },
+          "boards": [
+            {"name": "FISHINO_UNO"},
+            {"name": "FISHINO_MEGA"},
+            {"name": "FISHINO_GUPPY"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.1-arduino5",
+              "name": "avr-gcc"
+            }, 
+            {
+              "packager": "arduino",
+              "version": "6.0.1-arduino5",
+              "name": "avrdude"
+            },
+            {
+              "packager": "fishino",
+              "version": "1.0.0",
+              "name": "FishDude"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "1.43-pic32gcc",
+          "name": "pic32-tools",
+          "systems": [
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v1.43/fishino-pic32-tools-143-3-win32-image.tar.gz",
+              "checksum": "SHA-256:d9576fefec51bf135f2f03771c7e5a540a09f56545d94b2d673fa263539b75a4",
+              "host": "i686-mingw32",
+              "archiveFileName": "fishino-pic32-tools-143-3-win32-image.tar.gz",
+              "size": "134123173"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v1.43/fishino-pic32-tools-143-3-Darwin-image.tar.gz",
+              "checksum": "SHA-256:24b13abe8469010faef90cc06b8abe96dedfa57e506bd4a1485a75e62c0c70b1",
+              "host": "i386-apple-darwin",
+              "archiveFileName": "fishino-pic32-tools-143-3-Darwin-image.tar.gz",
+              "size": "133573116"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v1.43/fishino-pic32-tools-143-3-Linux32-image.tar.gz",
+              "checksum": "SHA-256:39f6decd527a00e86b745985891c0ad9ebe8a8422bd525e191db779c3dac9bff",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "fishino-pic32-tools-143-3-Linux32-image.tar.gz",
+              "size": "136030741"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v1.43/fishino-pic32-tools-143-3-Linux32-image.tar.gz",
+              "checksum": "SHA-256:39f6decd527a00e86b745985891c0ad9ebe8a8422bd525e191db779c3dac9bff",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "fishino-pic32-tools-143-3-Linux32-image.tar.gz",
+              "size": "136030741"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v1.43/fishino-pic32-tools-143-3-arm-linux-image.tar.gz",
+              "checksum": "SHA-256:3fcd48cc60dc67dfaa77abde7172a8c75058ea9019b46e8985b9deac4c37cd2f",
+              "host": "i686-arm-gnu",
+              "archiveFileName": "fishino-pic32-tools-143-3-arm-linux-image.tar.gz",
+              "size": "135410830"
+            }
+          ]
+        },
+        {
+          "version": "4.8.3-pic32gcc",
+          "name": "pic32-tools",
+          "systems": [
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v4.8.3/fishino-pic32-tools-win32-image.v4.8.3.zip",
+              "checksum": "SHA-256:3601B978C209262CC0537138EE431A1D77029649DE0956CE8E1C2F15714161F6",
+              "host": "i686-mingw32",
+              "archiveFileName": "fishino-pic32-tools-win32-image.v4.8.3.zip",
+              "size": "186744977"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v4.8.3/fishino-pic32-tools-Darwin-image.v4.8.3.tar.gz",
+              "checksum": "SHA-256:abf60aba418a0ae8295411a7ae784cf3a65779c8a89457e5eb9e7a6a7c2a9c51",
+              "host": "i386-apple-darwin",
+              "archiveFileName": "fishino-pic32-tools-Darwin-image.v4.8.3.tar.gz",
+              "size": "99409750"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v4.8.3/fishino-pic32-tools-Linux32-image.v4.8.3.tar.gz",
+              "checksum": "SHA-256:dcd504b81ab531fc3a325e24c0a0250997492843a20d53360bbf34cef170bac7",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "fishino-pic32-tools-Linux32-image.v4.8.3.tar.gz",
+              "size": "100765964"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/v4.8.3/fishino-pic32-tools-Linux32-image.v4.8.3.tar.gz",
+              "checksum": "SHA-256:dcd504b81ab531fc3a325e24c0a0250997492843a20d53360bbf34cef170bac7",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "fishino-pic32-tools-Linux32-image.v4.8.3.tar.gz",
+              "size": "100765964"
+            }, 
+            {
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-tools/pic32-tools/v4.8.3/fishino-pic32-tools-arm-linux-image.v4.8.3.tar.gz",
+              "checksum": "SHA-256:9f03328d2ec90900daf6eb1554c63a76144456b4fcc0bc4d6ff2291713e646f2",
+              "host": "i686-arm-gnu",
+              "archiveFileName": "fishino-pic32-tools-arm-linux-image.v4.8.3.tar.gz",
+              "size": "97933297"
+            }
+          ]
+        },
+        
+        {
+          "name": "avr-gcc",
+          "version": "4.9.2-atmel3.5.4-fishino2",
+          "systems": [
+            {
+              "size": "34795976",
+              "checksum": "SHA-256:e42762ea1cef4228b1e3d7bd8447dc8b0e7e182372f1169337708c014d51190b",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-fishino2-armhf-pc-linux-gnu.tar.bz2",
+              "url": "http://fishino.it/arduinoide/avr/tools/avr-gcc/avr-gcc-4.9.2-atmel3.5.4-fishino2-armhf-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "36495754",
+              "checksum": "SHA-256:383d5e9f253327d32fe42bce05cd031ccd63f7377bfed1e7fc244fc2f1ed06e0",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-fishino2-i386-apple-darwin11.tar.bz2",
+              "url": "http://fishino.it/arduinoide/avr/tools/avr-gcc/avr-gcc-4.9.2-atmel3.5.4-fishino2-i386-apple-darwin11.tar.bz2"
+            },
+            {
+              "size": "41929451",
+              "checksum": "SHA-256:1f8057f66140657d46bc25258225473960f09a0b5ce42d822b642087a7b4e2d8",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-fishino2-i686-mingw32.zip",
+              "url": "http://fishino.it/arduinoide/avr/tools/avr-gcc/avr-gcc-4.9.2-atmel3.5.4-fishino2-i686-mingw32.zip"
+            },
+            {
+              "size": "36899220",
+              "checksum": "SHA-256:487b1109aa05b150035861543d010e4dba240ebb914c9238cf90273b95c0b15c",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-fishino2-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://fishino.it/arduinoide/avr/tools/avr-gcc/avr-gcc-4.9.2-atmel3.5.4-fishino2-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "37718756",
+              "checksum": "SHA-256:368d8a4d72a1b870ab3dd9992b0393fcb3b973b07ae3b9352d47b0cf3d7ada7c",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-fishino2-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://fishino.it/arduinoide/avr/tools/avr-gcc/avr-gcc-4.9.2-atmel3.5.4-fishino2-x86_64-pc-linux-gnu.tar.bz2"
+            }
+          ]
+        },
+        
+        {
+          "name": "avr-gcc",
+          "version": "4.9.2-atmel3.5.4-arduino2",
+          "systems": [
+            {
+              "size": "27764772",
+              "checksum": "SHA-256:ee36009e19bd238d1f6351cbc9aa5db69714761f67dec4c1d69d5d5d7758720c",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-armhf-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-armhf-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "28574644",
+              "checksum": "SHA-256:67b3ed3555eacf0b4fc6f62240773b9f0220171fe4de26bb8d711547fc884730",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i386-apple-darwin11.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i386-apple-darwin11.tar.bz2"
+            },
+            {
+              "size": "44386446",
+              "checksum": "SHA-256:6044551cd729d88ea6ffcccf10aad1934c5b164d61f4f5890b0e78524ffff853",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-mingw32.zip"
+            },
+            {
+              "size": "29723974",
+              "checksum": "SHA-256:63a9d4cebbac06fd5fa8f48a2e2ba7d513837dcddc97f560129b4e466af901b5",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "30374404",
+              "checksum": "SHA-256:19480217f1524d78467b83cd742f503182bbcc76b5440093261f146828aa588c",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-x86_64-pc-linux-gnu.tar.bz2"
+            }
+          ]
+        },
+        
+        {
+          "name": "pic32-prog",
+          "version": "2.1.24-pic32gcc",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v2.1.24/fishino-pic32prog-macosx-2.1.24.tar.gz",
+              "archiveFileName": "fishino-pic32prog-macosx-2.1.24.tar.gz",
+              "size": "213586",
+              "checksum": "SHA-256:9ab16bb8704700495108bc468ff9dc74c9a0adc2eb8c4afcde19bf637974a39f"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v2.1.24/fishino-pic32prog-linux64-2.1.24.tar.gz",
+              "archiveFileName": "fishino-pic32prog-linux64-2.1.24.tar.gz",
+              "size": "201019",
+              "checksum": "SHA-256:f3db46b088b955dcaf53a82cd39f7a024b0047f454368abd219c2868eff97b33"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v2.1.24/fishino-pic32prog-linux32-2.1.24.tar.gz",
+              "archiveFileName": "fishino-pic32prog-linux32-2.1.24.tar.gz",
+              "size": "182424",
+              "checksum": "SHA-256:d7d3113ec0dd369079b6f4817003d834dee5528339f358ceefc8336ed1fff4a8"
+            }, 
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v2.1.24/fishino-pic32prog-windows-2.1.24.tar.gz",
+              "archiveFileName": "fishino-pic32prog-windows-2.1.24.tar.gz",
+              "size": "246363",
+              "checksum": "SHA-256:19e6c147ed96dc5585c38a2ebde88fbe9fe8ceeabc929aae7e3a0ed7e475a99d"
+            }, 
+            {
+              "host": "i686-arm-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v2.1.24/fishino-pic32prog-armlinux-2.1.24.tar.gz",
+              "archiveFileName": "fishino-pic32prog-armlinux-2.1.24.tar.gz",
+              "size": "246363",
+              "checksum": "SHA-256:5b153e6aeb2ce3063d4a3178826427f953caa2c1772f06d1a8099cab6fcfc42b"
+            }
+          ]
+        },
+        {
+          "name": "pic32-prog",
+          "version": "1.0.0-pic32gcc",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v1.0.0/fishino-pic32prog-macosx.v1.0.0.tar.gz",
+              "archiveFileName": "fishino-pic32prog-macosx.v1.0.0.tar.gz",
+              "size": "151829",
+              "checksum": "SHA-256:6edcc9c886882e8b54a7286e3fd6ae9928cd15dafb8ddf15d8bd8c37c3caf2a8"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v1.0.0/fishino-pic32prog-linux64.v1.0.0.tar.gz",
+              "archiveFileName": "fishino-pic32prog-linux64.v1.0.0.tar.gz",
+              "size": "103729",
+              "checksum": "SHA-256:1f291bc9889a7fa72c0dea3e6ed273e8ad044f211dd9603055e39ee111de13fb"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v1.0.0/fishino-pic32prog-linux32.v1.0.0.tar.gz",
+              "archiveFileName": "fishino-pic32prog-linux32.v1.0.0.tar.gz",
+              "size": "110658",
+              "checksum": "SHA-256:13a8f838f976f96326179b3955eb2d5ea1eb17e66638c456cec1aa92b5531165"
+            }, 
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v1.0.0/fishino-pic32prog-windows.v1.0.0.zip",
+              "archiveFileName": "fishino-pic32prog-windows.v1.0.0.zip",
+              "size": "51434",
+              "checksum": "SHA-256:C8F91AD8D29ED4EE2249B8EB9AB476F0B4CB54FF5F856C5953A1DC2EE1D51D19"
+            }, 
+            {
+              "host": "i686-arm-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/pic32-prog/v1.0.0/fishino-pic32prog-armlinux.v1.0.0.zip",
+              "archiveFileName": "fishino-pic32prog-armlinux.v1.0.0.zip",
+              "size": "120326",
+              "checksum": "SHA-256:c78800da0aa08eed3ed3725e6ad3fc2b7f05ba68226e87f308cb30dcb8edd693"
+            }
+          ]
+        },
+
+        {
+          "name": "avrdude",
+          "version": "6.3.0-arduino9",
+          "systems": [
+            {
+              "size": "644550",
+              "checksum": "SHA-256:25a6834ae48019fccf37024236a1f79fe21760414292a4f3fa058d937ceee1ce",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude-6.3.0-arduino9-armhf-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-armhf-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "697309",
+              "checksum": "SHA-256:bfa06bc042dff252d3a8eded98da159484e75b46d2697da4d9446dcd2aea8465",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "avrdude-6.3.0-arduino9-i386-apple-darwin11.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-i386-apple-darwin11.tar.bz2"
+            },
+            {
+              "size": "711229",
+              "checksum": "SHA-256:c8cccb84e2fe49ee837b24f0a60a99e9c371dae26e84c5b0b22b6b6aab2f1f6a",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino9-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "701590",
+              "checksum": "SHA-256:4235a2d58e3c3224c603d6c5f0610507ed6c48ebf4051fdcce9f77a7646e218b",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino9-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "645974",
+              "checksum": "SHA-256:f3c5cfa8d0b3b0caee81c5b35fb6acff89c342ef609bf4266734c6266a256d4f",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude-6.3.0-arduino9-i686-w64-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-i686-w64-mingw32.zip"
+            }
+          ]
+        },
+
+        {
+          "name": "FishDude",
+          "version": "1.2.2",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.2/fishino-FishDude-macosx.v1.2.2.tar.gz",
+              "archiveFileName": "fishino-FishDude-macosx.v1.2.2.tar.gz",
+              "size": "539856",
+              "checksum": "SHA-256:99b34dc9587eb644ca3e29f2577e6bdfc575a733f58352830c595cb697fccc1a"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.2/fishino-FishDude-linux64.v1.2.2.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux64.v1.2.2.tar.gz",
+              "size": "660473",
+              "checksum": "SHA-256:1dace21ab31a7c6041e66976afb1b167f7e9025df24b645a4220cb84eae27d84"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.2/fishino-FishDude-linux32.v1.2.2.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux32.v1.2.2.tar.gz",
+              "size": "308391",
+              "checksum": "SHA-256:f57cc1e6ddbcc921aefb280ecc3723bc4d3d73504e28cf8f169470f609ce16c6"
+            }, 
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.2/fishino-FishDude-windows.v1.2.2.zip",
+              "archiveFileName": "fishino-FishDude-windows.v1.2.2.zip",
+              "size": "316388",
+              "checksum": "SHA-256:cb22efec459a405d7e13f65c31b5ba1474220fb163ba36b7c3b321f7a546c2f5"
+            } 
+          ]
+        },
+
+        {
+          "name": "FishDude",
+          "version": "1.2.1",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.1/fishino-FishDude-macosx.v1.2.1.tar.gz",
+              "archiveFileName": "fishino-FishDude-macosx.v1.2.1.tar.gz",
+              "size": "539708",
+              "checksum": "SHA-256:932725cdb7c9a33c99c91732172c0a98927268ea3d713371da275a1afdbcd2c4"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.1/fishino-FishDude-linux64.v1.2.1.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux64.v1.2.1.tar.gz",
+              "size": "585969",
+              "checksum": "SHA-256:1045b82c26c96a92aa0c482dafcb54166ed8cbb8cc0090acf5387a31ed3fcea4"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.1/fishino-FishDude-linux32.v1.2.1.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux32.v1.2.1.tar.gz",
+              "size": "308223",
+              "checksum": "SHA-256:688a5cfbf615850d4884d2d1e5bfb16b1178b0d7cab2c8a7330455fc8c952fd3"
+            }, 
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.1/fishino-FishDude-windows.v1.2.1.zip",
+              "archiveFileName": "fishino-FishDude-windows.v1.2.1.zip",
+              "size": "306659",
+              "checksum": "SHA-256:6c387a52361e79d70b9ea8467cb3e63a2a2c4a010309a8097734c44d0aabf3fe"
+            } 
+          ]
+        },
+        {
+          "name": "FishDude",
+          "version": "1.2.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.0/fishino-FishDude-macosx.v1.2.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-macosx.v1.2.0.tar.gz",
+              "size": "538883",
+              "checksum": "SHA-256:a1bf2325df4f282671903fb193b49d4edaa2648048aa7087e0bf00308fb20105"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.0/fishino-FishDude-linux64.v1.2.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux64.v1.2.0.tar.gz",
+              "size": "585449",
+              "checksum": "SHA-256:6b6dd669807b6c128c5b885031b25be1132bbe05398a6204c27b133544b9c0f5"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.0/fishino-FishDude-linux32.v1.2.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux32.v1.2.0.tar.gz",
+              "size": "307652",
+              "checksum": "SHA-256:9ef3eb82d1d4e10836a79158893fc1582ea41b8f191816f5fd23b63714187a28"
+            }, 
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.2.0/fishino-FishDude-windows.v1.2.0.zip",
+              "archiveFileName": "fishino-FishDude-windows.v1.2.0.zip",
+              "size": "306176",
+              "checksum": "SHA-256:ff0f5208c018c69edc24e0ff856e1b050e7f02f0b4f8166e8c3ccb0f3898e1eb"
+            } 
+          ]
+        },
+        {
+          "name": "FishDude",
+          "version": "1.1.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.1.0/fishino-FishDude-macosx.v1.1.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-macosx.v1.1.0.tar.gz",
+              "size": "538095",
+              "checksum": "SHA-256:20353aa926eb006a4483e5320a11da432cda8d725f8e73c0fefce5a3b2442fea"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.1.0/fishino-FishDude-linux64.v1.1.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux64.v1.1.0.tar.gz",
+              "size": "320514",
+              "checksum": "SHA-256:b7c4843f12e7e93c0fa00978a76154c2d90b3de6e6d3fbb7b6e9ba8318154527"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.1.0/fishino-FishDude-linux32.v1.1.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux32.v1.1.0.tar.gz",
+              "size": "295583",
+              "checksum": "SHA-256:900502b25efc660c67442a1dc1403256058a16fa1f5fa496c8c01f56b6769d32"
+            }, 
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.1.0/fishino-FishDude-windows.v1.1.0.zip",
+              "archiveFileName": "fishino-FishDude-windows.v1.1.0.zip",
+              "size": "305892",
+              "checksum": "SHA-256:1ae6af71ad8cc96e821666b5865e2a951a22036c468b2acc346b4cc6eb80cdd3"
+            } 
+          ]
+        },
+        {
+          "name": "FishDude",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.0.0/fishino-FishDude-macosx.v1.0.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-macosx.v1.0.0.tar.gz",
+              "size": "542944",
+              "checksum": "SHA-256:d2f998b6a7bf0031947ec1549676cfbae7165729c5efdee8e3250021588a07c9"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.0.0/fishino-FishDude-linux64.v1.0.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux64.v1.0.0.tar.gz",
+              "size": "460242",
+              "checksum": "SHA-256:538520b8c728cbcdcd1720790f1f7a30224e0e9c20fecb4efde7cc56559a0806"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.0.0/fishino-FishDude-linux32.v1.0.0.tar.gz",
+              "archiveFileName": "fishino-FishDude-linux32.v1.0.0.tar.gz",
+              "size": "291605",
+              "checksum": "SHA-256:ca30efc6c24c8cbbacc91a048b77b7c1e1fc95c10b39aba54ff21f995f9bdccf"
+            }, 
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/tools/FishDude/v1.0.0/fishino-FishDude-windows.v1.0.0.zip",
+              "archiveFileName": "fishino-FishDude-windows.v1.0.0.zip",
+              "size": "298148",
+              "checksum": "SHA-256:deb5c189738fe1eb6b006735be9a9e0fe5d643a3e8e980eba29a5b06f90cd98c"
+            } 
+          ]
+        },
+        {
+          "name": "pic32-drivers-windows",
+          "version": "2.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v2.0.0/fishino-USB-drivers-windows-v2.0.0.zip",
+              "archiveFileName": "fishino-USB-drivers-windows-v2.0.0.zip",
+              "size": "962019",
+              "checksum": "SHA-256:39f16651c21f451d106b8cda5281d16129d755a73728e976a725341f3f671a5f"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v2.0.0/fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "archiveFileName": "fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v2.0.0/fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "archiveFileName": "fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v2.0.0/fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "archiveFileName": "fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }, 
+            {
+              "host": "i686-arm-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v2.0.0/fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "archiveFileName": "fishino-USB-drivers-otherOSes-v2.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }
+          ]
+        },
+        {
+          "name": "pic32-drivers-windows",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v1.0.0/fishino-pic32_drivers_windows.v1.0.0.zip",
+              "archiveFileName": "fishino-pic32_drivers_windows.v1.0.0.zip",
+              "size": "962019",
+              "checksum": "SHA-256:39f16651c21f451d106b8cda5281d16129d755a73728e976a725341f3f671a5f"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v1.0.0/fishino-pic32_otherOSes.v1.0.0.zip",
+              "archiveFileName": "fishino-pic32_otherOSes.v1.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }, 
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v1.0.0/fishino-pic32_otherOSes.v1.0.0.zip",
+              "archiveFileName": "fishino-pic32_otherOSes.v1.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }, 
+            {
+              "host": "i686-pc-linux-gnu", 
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v1.0.0/fishino-pic32_otherOSes.v1.0.0.zip",
+              "archiveFileName": "fishino-pic32_otherOSes.v1.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }, 
+            {
+              "host": "i686-arm-gnu",
+              "url": "http://fishino.it/arduinoide/pic32/drivers/v1.0.0/fishino-otherOSes.v1.0.0.zip",
+              "archiveFileName": "fishino-otherOSes.v1.0.0.zip",
+              "size": "162",
+              "checksum": "SHA-256:83320249beaf1bd023a7e42da0a8717421681b62f070331df6084048f8d763f8"
+            }
+          ]
+
+          }
+      ],
+      "email": "packages@fishino.com",
+      "name": "fishino"
+    }
+  ]
+}

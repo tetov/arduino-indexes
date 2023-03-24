@@ -1,0 +1,460 @@
+{
+   "packages":
+   [
+      {
+         "name": "industruino",
+         "maintainer": "Industruino",
+         "websiteURL": "https://industruino.com/",
+         "email": "connect@industruino.com",
+         "help": {
+            "online": "https://github.com/Industruino/IndustruinoSAMD"
+         },
+         "platforms":
+         [
+            {
+               "name": "Industruino SAMD Boards (32-bits ARM Cortex-M0+)",
+               "architecture": "samd",
+               "version": "1.0.0",
+               "category": "Contributed",
+               "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/core/industruino-samd-1.0.0.tar.bz2",
+               "archiveFileName": "industruino-samd-1.0.0.tar.bz2",
+               "checksum": "SHA-256:f2e03e584117474c3a6481922c7030558236588762dceea0421ea79ceec3ae11",
+               "size": "172665",
+               "boards":
+               [
+                  { "name": "Industruino D21G" }
+               ],
+               "toolsDependencies":
+               [
+                  {
+                     "packager": "industruino",
+                     "name": "arm-none-eabi-gcc",
+                     "version": "4.8.3-2014q1"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "bossac",
+                     "version": "1.7.0-industruino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "openocd",
+                     "version": "0.9.0-arduino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "avrdude",
+                     "version": "6.3.0-arduino8"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS",
+                     "version": "4.5.0"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS-Atmel",
+                     "version": "1.0.0"
+                  }
+               ]
+            },
+            {
+               "name": "Industruino SAMD Boards (32-bits ARM Cortex-M0+)",
+               "architecture": "samd",
+               "version": "1.0.1",
+               "category": "Contributed",
+               "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/core/industruino-samd-1.0.1.tar.bz2",
+               "archiveFileName": "industruino-samd-1.0.1.tar.bz2",
+               "checksum": "SHA-256:ffd9a0d53f0e659432182987bfc70eeca8ea8cceaeac802be677614ed51c371f",
+               "size": "203844",
+               "boards":
+               [
+                  { "name": "Industruino D21G" }
+               ],
+               "toolsDependencies":
+               [
+                  {
+                     "packager": "industruino",
+                     "name": "arm-none-eabi-gcc",
+                     "version": "4.8.3-2014q1"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "bossac",
+                     "version": "1.7.0-industruino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "openocd",
+                     "version": "0.9.0-arduino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "avrdude",
+                     "version": "6.3.0-arduino8"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS",
+                     "version": "4.5.0"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS-Atmel",
+                     "version": "1.0.0"
+                  }
+               ]
+            },
+            {
+               "name": "Industruino SAMD Boards (32-bits ARM Cortex-M0+)",
+               "architecture": "samd",
+               "version": "1.0.2",
+               "category": "Contributed",
+               "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/core/industruino-samd-1.0.2.tar.bz2",
+               "archiveFileName": "industruino-samd-1.0.2.tar.bz2",
+               "checksum": "SHA-256:bbbea11ab729fc959bce1f70c594527c4afe52ef077e00e0c7e5d64d8903766c",
+               "size": "211179",
+               "boards":
+               [
+                  { "name": "Industruino D21G" }
+               ],
+               "toolsDependencies":
+               [
+                  {
+                     "packager": "industruino",
+                     "name": "arm-none-eabi-gcc",
+                     "version": "4.8.3-2014q1"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "bossac",
+                     "version": "1.7.0-industruino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "openocd",
+                     "version": "0.9.0-arduino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "avrdude",
+                     "version": "6.3.0-arduino8"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS",
+                     "version": "4.5.0"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS-Atmel",
+                     "version": "1.0.0"
+                  }
+               ]
+            },
+            {
+               "name": "Industruino SAMD Boards (32-bits ARM Cortex-M0+)",
+               "architecture": "samd",
+               "version": "1.0.3",
+               "category": "Contributed",
+               "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/core/industruino-samd-1.0.3.tar.bz2",
+               "archiveFileName": "industruino-samd-1.0.3.tar.bz2",
+               "checksum": "SHA-256:191ee176b02471d1c34fbff9664504c4810ca082fc9af3305d979d55268a6a20",
+               "size": "214289",
+               "boards":
+               [
+                  { "name": "Industruino D21G" }
+               ],
+               "toolsDependencies":
+               [
+                  {
+                     "packager": "industruino",
+                     "name": "arm-none-eabi-gcc",
+                     "version": "4.8.3-2014q1"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "bossac",
+                     "version": "1.7.0-industruino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "openocd",
+                     "version": "0.9.0-arduino"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "avrdude",
+                     "version": "6.3.0-arduino8"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS",
+                     "version": "4.5.0"
+                  },
+                  {
+                     "packager": "industruino",
+                     "name": "CMSIS-Atmel",
+                     "version": "1.0.0"
+                  }
+               ]
+            }
+         ],
+         "tools":
+         [
+            {
+               "name": "arm-none-eabi-gcc",
+               "version": "4.8.3-2014q1",
+               "systems":
+               [
+                  {
+                     "host": "i686-mingw32",
+                     "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                     "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+                     "size": "84537449"
+                  },
+                  {
+                     "host": "x86_64-apple-darwin",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                     "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                     "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+                     "size": "52518522"
+                  },
+                  {
+                     "host": "x86_64-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                     "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                     "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+                     "size": "51395093"
+                  },
+                  {
+                     "host": "i686-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                     "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                     "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+                     "size": "51029223"
+                  }
+               ]
+            },
+            {
+               "name": "bossac",
+               "version": "1.7.0-industruino",
+               "systems":
+               [
+                  {
+                     "host": "i686-mingw32",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-mingw32.tar.gz",
+                     "archiveFileName": "bossac-1.7.0-industruino-mingw32.tar.gz",
+                     "checksum": "SHA-256:960d91feb565e957dbac9399e16839aa4eb4400153f2373896b733eeea778ab2",
+                     "size": "565844"
+                  },
+                  {
+                     "host": "x86_64-apple-darwin",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-i386-apple-darwin15.6.0.tar.gz",
+                     "archiveFileName": "bossac-1.7.0-industruino-i386-apple-darwin15.6.0.tar.gz",
+                     "checksum": "SHA-256:a2455d20fd8269d0655ebc50014e539911070a0b14964082337655f17de7cbf2",
+                     "size": "128421"
+                  },
+                  {
+                     "host": "x86_64-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-x86_64-linux-gnu.tar.gz",
+                     "archiveFileName": "bossac-1.7.0-industruino-x86_64-linux-gnu.tar.gz",
+                     "checksum": "SHA-256:2cbeb64a0e0a58f3b769ef6cdcfe55fa939b3015845b3081a9beebe9432ba4a6",
+                     "size": "62348"
+                  },
+                  {
+                     "host": "i686-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-i686-linux-gnu.tar.gz",
+                     "archiveFileName": "bossac-1.7.0-industruino-i686-linux-gnu.tar.gz",
+                     "checksum": "SHA-256:77b06322da2a9bdc17ddcbc29627802e8b2bf47b5625fe6fb17d90203e4a4071",
+                     "size": "63204"
+                  }
+               ]
+            },
+            {
+               "name": "openocd",
+               "version": "0.9.0-arduino",
+               "systems":
+               [
+                  {
+                     "host": "i686-mingw32",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                     "archiveFileName": "OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                     "checksum": "SHA-256:5310bdd3730168a33b09b68558e908ca8b2fec25620c488f50a5fb35d0d1effd",
+                     "size": "2360705"
+                  },
+                  {
+                     "host": "x86_64-apple-darwin",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                     "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                     "checksum": "SHA-256:ef90769c07b8018cec3a5054e690ac6c196e03720e102ac5038c3f9da4e44782",
+                     "size": "2275101"
+                  },
+                  {
+                     "host": "x86_64-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                     "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                     "checksum": "SHA-256:c350409f7badf213dfcc516ea34289461ad92d87806e8e33945508a2c6b2c0b3",
+                     "size": "1210796"
+                  },
+                  {
+                     "host": "i686-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                     "archiveFileName": "OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                     "checksum": "SHA-256:4c9793dfd7822b0fc959d039e5ecabfa89092ee2911abfdc7b5905deb171499a",
+                     "size": "1129654"
+                  }
+               ]
+            },
+            {
+               "name": "avrdude",
+               "version": "6.3.0-arduino8",
+               "systems":
+               [
+                  {
+                     "size": "697268",
+                     "checksum": "SHA-256:be8a33a7ec01bb7123279466ffa31371e0aa4fccefffcc23ce71810b59531947",
+                     "host": "i386-apple-darwin11",
+                     "archiveFileName": "avrdude-6.3.0-arduino8-i386-apple-darwin11.tar.bz2",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/avrdude-6.3.0-arduino8-i386-apple-darwin11.tar.bz2"
+                  },
+                  {
+                     "size": "711544",
+                     "checksum": "SHA-256:85f38d02e2398d3b7f93da2ca8b830ee65bb73f66cc7a7b30c466d3cebf2da6e",
+                     "host": "x86_64-linux-gnu",
+                     "archiveFileName": "avrdude-6.3.0-arduino8-x86_64-pc-linux-gnu.tar.bz2",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/avrdude-6.3.0-arduino8-x86_64-pc-linux-gnu.tar.bz2"
+                  },
+                  {
+                     "size": "701718",
+                     "checksum": "SHA-256:8e2e4bc71d22e9d11ed143763b97f3aa2d164cdeee678a9deaf5b36e245b2d20",
+                     "host": "i686-linux-gnu",
+                     "archiveFileName": "avrdude-6.3.0-arduino8-i686-pc-linux-gnu.tar.bz2",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/avrdude-6.3.0-arduino8-i686-pc-linux-gnu.tar.bz2"
+                  },
+                  {
+                     "size": "645996",
+                     "checksum": "SHA-256:3a7592f6c33efd658b820c73d1058d3c868a297cbddb37da5644973c3b516d5e",
+                     "host": "i686-mingw32",
+                     "archiveFileName": "avrdude-6.3.0-arduino8-i686-w64-mingw32.zip",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/avrdude-6.3.0-arduino8-i686-w64-mingw32.zip"
+                  }
+               ]
+            },
+            {
+               "name": "CMSIS",
+               "version": "4.5.0",
+               "systems":
+               [
+                  {
+                     "host": "i686-mingw32",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+                     "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                     "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                     "size": "31525196"
+                  },
+                  {
+                     "host": "x86_64-apple-darwin",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+                     "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                     "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                     "size": "31525196"
+                  },
+                  {
+                     "host": "x86_64-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+                     "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                     "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                     "size": "31525196"
+                  },
+                  {
+                     "host": "i686-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+                     "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                     "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                     "size": "31525196"
+                  },
+                  {
+                     "host": "all",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-4.5.0.tar.bz2",
+                     "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                     "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                     "size": "31525196"
+                  }
+               ]
+            },
+            {
+               "name": "CMSIS-Atmel",
+               "version": "1.0.0",
+               "systems":
+               [
+                  {
+                     "host": "i686-mingw32",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-Atmel-1.0.0.tar.bz2",
+                     "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+                     "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+                     "size": "1281654"
+                  },
+                  {
+                     "host": "x86_64-apple-darwin",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-Atmel-1.0.0.tar.bz2",
+                     "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+                     "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+                     "size": "1281654"
+                  },
+                  {
+                     "host": "x86_64-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-Atmel-1.0.0.tar.bz2",
+                     "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+                     "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+                     "size": "1281654"
+                  },
+                  {
+                     "host": "i686-pc-linux-gnu",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-Atmel-1.0.0.tar.bz2",
+                     "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+                     "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+                     "size": "1281654"
+                  },
+                  {
+                     "host": "arm-linux-gnueabihf",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-Atmel-1.0.0.tar.bz2",
+                     "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+                     "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+                     "size": "1281654"
+                  },
+                  {
+                     "host": "all",
+                     "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/CMSIS-Atmel-1.0.0.tar.bz2",
+                     "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+                     "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+                     "size": "1281654"
+                  }
+               ]
+            },
+
+
+
+            {
+               "name": "windows-drivers",
+               "version": "0.0.1",
+               "systems":
+               [
+                  {
+                     "host": "i686-mingw32",
+                     "url": "https://static.industruino.com/downloads/drivers/drivers-industruino-windows-0.0.1.zip",
+                     "archiveFileName": "drivers-industruino-windows-0.0.1.zip",
+                     "checksum": "SHA-256:f1d7c7d30ca71f7224dac077f18f25f62ff97b43dd1e4a43ec4930a13a3ac484",
+                     "size": "2545"
+                  }
+               ]
+            }
+
+
+
+         ]
+       }
+
+   ]
+}
