@@ -20621,6 +20621,68 @@
           ]
         },
         {
+          "name": "mdns-discovery",
+          "version": "1.0.9",
+          "systems": [
+            {
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "mdns-discovery_v1.0.9_Linux_32bit.tar.gz",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_Linux_32bit.tar.gz",
+              "size": 2386191,
+              "checksum": "SHA-256:560f81857f4ae7f9cbce4c1b5922681f0a78a655b75449c79ba7bc5a6e31fa00"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "mdns-discovery_v1.0.9_Linux_64bit.tar.gz",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_Linux_64bit.tar.gz",
+              "size": 2458409,
+              "checksum": "SHA-256:a4bf9e46a15487ec729f98c23f05b2d772feaa82789c1d12a485be9acb77b48a"
+            },
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "mdns-discovery_v1.0.9_Windows_32bit.zip",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_Windows_32bit.zip",
+              "size": 2587871,
+              "checksum": "SHA-256:fcc0b8e1ada4a14509947c056333e0db66e1a448bfcd2735b4e05a8d4a56db3c"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "archiveFileName": "mdns-discovery_v1.0.9_Windows_64bit.zip",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_Windows_64bit.zip",
+              "size": 2633749,
+              "checksum": "SHA-256:67523361a8f173d4f134092b9092765f32cef3c6d19735287f913dfeb0a97572"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "mdns-discovery_v1.0.9_macOS_64bit.tar.gz",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_macOS_64bit.tar.gz",
+              "size": 2477992,
+              "checksum": "SHA-256:489b25ed06bd4e5150a66a396db3f0def76ad30fc08572506c215ed600c97a3e"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "archiveFileName": "mdns-discovery_v1.0.9_macOS_ARM64.tar.gz",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_macOS_ARM64.tar.gz",
+              "size": 2370520,
+              "checksum": "SHA-256:b13afa80c12e6faecc61e05901fce1649254997ed26d61e6c4a446b3a41c3b6d"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "mdns-discovery_v1.0.9_Linux_ARMv6.tar.gz",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_Linux_ARMv6.tar.gz",
+              "size": 2292400,
+              "checksum": "SHA-256:dbb8918582efedab947a5f433da9befad79f2055d467b0de05eba9009a96a598"
+            },
+            {
+              "host": "arm64-linux-gnueabihf",
+              "archiveFileName": "mdns-discovery_v1.0.9_Linux_ARM64.tar.gz",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.9_Linux_ARM64.tar.gz",
+              "size": 2293464,
+              "checksum": "SHA-256:0435fd5013c3d2958b790d3b9989f1c685c04316dcdd997298a4c489f7a2a049"
+            }
+          ]
+        },
+        {
           "name": "serial-monitor",
           "version": "0.12.0",
           "systems": [
@@ -20727,6 +20789,102 @@
               "url": "https://downloads.arduino.cc/monitor/serial-monitor/serial-monitor_v0.13.0_Linux_ARM64.tar.gz",
               "size": 1865413,
               "checksum": "SHA-256:7604ba7b3eca774fb104e6e7e861f0b5d314999a2cdcc51a24a761958695e6df"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "renesas",
+      "maintainer": "Renesas Electronics Corporation",
+      "websiteURL": "https://github.com/renesas/Arduino",
+      "email": "Middle_support@lm.renesas.com",
+      "platforms": [
+        {
+          "name": "RL78/G22 Fast Prototyping Board",
+          "architecture": "rl78g22_fpb",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          },
+          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.0.0/core-ArduinoCore-rl78g22-fpb-2.0.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g22-fpb-2.0.0.zip",
+          "checksum": "SHA-256:1944d20d49f11ffaddb5a0cb1c28c27098510572678b02a6785bfd51fa9e88a4",
+          "size": "1898305",
+          "boards": [
+            {
+              "name": "RL78/G22 Fast Prototyping Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "llvm-rl78",
+              "packager": "renesas",
+              "version": "10.0.0.202209"
+            },
+            {
+              "name": "rl78",
+              "packager": "renesas",
+              "version": "1.1.1"
+            }
+          ]
+        },
+        {
+          "name": "RL78/G23-64p Fast Prototyping Board",
+          "architecture": "rl78g23_fpb_p64",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          },
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.0.0/core-ArduinoCore-rl78g23-fpb-p64-2.0.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.0.0.zip",
+          "checksum": "SHA-256:3c6747418d2843af1e3fee9b6fc542783bc124513e3aeec5b506139cb9fda4e0",
+          "size": "1985725",
+          "boards": [
+            {
+              "name": "RL78/G23-64p Fast Prototyping Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "llvm-rl78",
+              "packager": "renesas",
+              "version": "10.0.0.202209"
+            },
+            {
+              "name": "rl78",
+              "packager": "renesas",
+              "version": "1.1.1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "llvm-rl78",
+          "version": "10.0.0.202209",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?f=rl78/10.0.0.202209/llvm-10.0.0.202209-rl78-elf.zip",
+              "archiveFileName": "llvm-10.0.0.202209-rl78-elf.zip",
+              "checksum": "SHA-256:17a1a8b362de358050a69e37ecb7c86523d6967cba6df63b703994c669f9a2ac",
+              "size": "149440013"
+            }
+          ]
+        },
+        {
+          "name": "rl78",
+          "version": "1.1.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.0.0/win32-tool-rl78g2x-1.1.1.zip",
+              "archiveFileName": "win32-tool-rl78g2x-1.1.1.zip",
+              "checksum": "SHA-256:1a057062b5045397506e72f98a9d27ac796494eadc82ab2b8bf0644a12f2aaae",
+              "size": "194296"
             }
           ]
         }
