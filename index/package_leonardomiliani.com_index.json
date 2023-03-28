@@ -3,14 +3,14 @@
         {
             "name": "megax8",
             "maintainer": "Leonardo Miliani",
-            "websiteURL": "http://www.leonardomiliani.com",
+            "websiteURL": "https://www.leonardomiliani.com",
             "email": "leonardo@leonardomiliani.com",
             "help": {
                 "online": "https://github.com/leomil72/megax8"
             },
             "platforms": [
                 {
-                    "name": "ATmega168P/328P Boards",
+                    "name": "ATmega168P/ATmega328P Boards",
                     "architecture": "avr",
                     "version": "1.1.0",
                     "category": "Contributed",
