@@ -578,6 +578,54 @@
                             "version": "6.3.0-arduino17"
                         }
                     ]
+                },
+                {
+                    "name": "ATtiny boards",
+                    "architecture": "avr",
+                    "version": "1.1.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/leomil72/tiny/releases/download/1.1.0/tiny-1.1.0.zip",
+                    "archiveFileName": "tiny-1.1.0.zip",
+                    "checksum": "SHA-256:56af40bcc25d05beb4b5dc3483df28c4e7ece5a41e0e9fc59a0fd7cdfa372e5d",
+                    "size": "167438",
+                    "boards": [
+                        {
+                            "name": "ATtiny24"
+                        },
+                        {
+                            "name": "ATtiny44"
+                        },
+                        {
+                            "name": "ATtiny84"
+                        },
+                        {
+                            "name": "ATtiny25"
+                        },
+                        {
+                            "name": "ATtiny45"
+                        },
+                        {
+                            "name": "ATtiny85"
+                        },
+                        {
+                            "name": "ATtiny2313"
+                        },
+                        {
+                            "name": "ATtiny4313"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "7.3.0-atmel3.6.1-arduino5"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino17"
+                        }
+                    ]
                 }
             ],
             "tools": [
