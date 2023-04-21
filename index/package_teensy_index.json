@@ -128,6 +128,46 @@
   {
     "name": "Teensy",
     "architecture": "avr",
+    "version": "1.58.1",
+    "category": "Contributed",
+    "help": { "online": "https://forum.pjrc.com/forum.php" },
+    "url": "https://www.pjrc.com/teensy/td_158-1/teensy-package.tar.bz2",
+    "archiveFileName": "teensy-package.tar.bz2",
+    "checksum": "SHA-256:3a3f3728045621d25068c5b5dfc24bf171550127e9fae4d0e8be2574c6636cff",
+    "size": "35201368",
+    "boards": [
+      { "name": "Teensy 4.1" },
+      { "name": "Teensy MicroMod" },
+      { "name": "Teensy 4.0" },
+      { "name": "Teensy 3.6" },
+      { "name": "Teensy 3.5" },
+      { "name": "Teensy 3.2" },
+      { "name": "Teensy 3.0" },
+      { "name": "Teensy LC" },
+      { "name": "Teensy++ 2.0" },
+      { "name": "Teensy 2.0" }
+    ],
+    "toolsDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-tools",
+      "version": "1.58.0"
+    }, {
+      "packager": "teensy",
+      "name": "teensy-compile",
+      "version": "11.3.1"
+    } ],
+    "discoveryDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-discovery"
+    } ],
+    "monitorDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-monitor"
+    } ]
+  },
+  {
+    "name": "Teensy",
+    "architecture": "avr",
     "version": "0.59.1",
     "category": "Contributed",
     "help": { "online": "https://forum.pjrc.com/forum.php" },
