@@ -12,6 +12,34 @@
                 {
                     "name": "CH55xDuino MCS51 plain C core (non-C++)",
                     "architecture": "mcs51",
+                    "version": "0.0.17",
+                    "category": "Contributed",
+                    "boards": [
+                        {"name": "CH552 Board"},
+                        {"name": "CH551 Board"},
+                        {"name": "CH559 Board"},
+                        {"name": "CH549 (experimental)"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "name": "MCS51Tools",
+                            "version": "2023.04.23",
+                            "packager": "CH55xDuino"
+                        },
+                        {
+                            "name": "sdcc",
+                            "version": "build.13407_2",
+                            "packager": "CH55xDuino"
+                        }
+                    ],
+                    "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/ch55xduino-core-0.0.17.tar.bz2",
+                    "archiveFileName": "ch55xduino-core-0.0.17.tar.bz2",
+                    "checksum": "SHA-256:706c402bf94740091ba4fec0c3b4adb18d3ef6f564bb86e84117ef3c7d0ce12a",
+                    "size": "145290"
+                },
+                {
+                    "name": "CH55xDuino MCS51 plain C core (non-C++)",
+                    "architecture": "mcs51",
                     "version": "0.0.16",
                     "category": "Contributed",
                     "boards": [
@@ -418,6 +446,37 @@
             "tools" : [
                 {
                     "name": "MCS51Tools",
+                    "version": "2023.04.23",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/ch55xduino-tools_aarch64-2023.04.23.tar.bz2",
+                            "archiveFileName": "ch55xduino-tools_aarch64-2023.04.23.tar.bz2",
+                            "checksum": "SHA-256:55d98e59de70696098229a2e4ea9e20e814bbb8fc8f4b4e0e516393b9580b193",
+                            "size": "18376"
+                        },{
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/ch55xduino-tools_linux64-2023.04.23.tar.bz2",
+                            "archiveFileName": "ch55xduino-tools_linux64-2023.04.23.tar.bz2",
+                            "checksum": "SHA-256:7959f2ff9cb13d755e0c603a1d965deec5db141e04bfe571e1003a07c714130f",
+                            "size": "19287"
+                        },{
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/ch55xduino-tools_macosx-2023.04.23.tar.bz2",
+                            "archiveFileName": "ch55xduino-tools_macosx-2023.04.23.tar.bz2",
+                            "checksum": "SHA-256:56843980d63076a8fbcb618b9866d4a40e8e0545a0ced290f5b8e1e05f6b9c08",
+                            "size": "52567"
+                        },{
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/ch55xduino-tools_mingw32-2023.04.23.tar.bz2",
+                            "archiveFileName": "ch55xduino-tools_mingw32-2023.04.23.tar.bz2",
+                            "checksum": "SHA-256:25cd5a1de572dad844e5604529876e414f56df9969a0e58282e2e499a2a18829",
+                            "size": "725860"
+                        }
+                    ]
+                },
+                {
+                    "name": "MCS51Tools",
                     "version": "2022.10.19",
                     "systems": [
                         {
@@ -626,6 +685,37 @@
                             "archiveFileName": "ch55xduino-tools_mingw32-2020.05.31.tar.bz2",
                             "checksum": "SHA-256:bd2a98d92888b021adc68c05a0d7a995bb1814bfb076d3805d27b9ffd65bfbcb",
                             "size": "506274"
+                        }
+                    ]
+                },
+                {
+                    "name": "sdcc",
+                    "version": "build.13407_2",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/sdcc-mcs51-aarch64-linux-gnu-20230423-13407_2.tar.bz2",
+                            "archiveFileName": "sdcc-mcs51-aarch64-linux-gnu-20230423-13407_2.tar.bz2",
+                            "checksum": "SHA-256:38ae0cce5e9196fd56a60723b506a2190a6355c2bf74f87be36547ff4572cb78",
+                            "size": "6711546"
+                        },{
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/sdcc-mcs51-amd64-ubuntu20.04-linux2.5-20220422-13407_2.tar.bz2",
+                            "archiveFileName": "sdcc-mcs51-amd64-ubuntu20.04-linux2.5-20220422-13407_2.tar.bz2",
+                            "checksum": "SHA-256:4b521ee9a79339480f60450c32c6ef3d38c09f6958bd49df6bef5e83dcf1a056",
+                            "size": "4051770"
+                        },{
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/sdcc-mcs51-i586-mingw32msvc-20220422-13407_2.tar.bz2",
+                            "archiveFileName": "sdcc-mcs51-i586-mingw32msvc-20220422-13407_2.tar.bz2",
+                            "checksum": "SHA-256:12dd3203fe09ed8d0ebbf23aa5b2554d99a30228c26b490701cf9ac9135df093",
+                            "size": "2437993"
+                        },{
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/sdcc-mcs51-x86_64-apple-macosx-20220422-13407_2.tar.bz2",
+                            "archiveFileName": "sdcc-mcs51-x86_64-apple-macosx-20220422-13407_2.tar.bz2",
+                            "checksum": "SHA-256:c8be0fc9a1e0e6f048e3f127e7f8ec0378da275c3a62e3d00d700b7c7dfec698",
+                            "size": "2568657"
                         }
                     ]
                 },
