@@ -1104,6 +1104,81 @@
 			},
 
 			{
+				"name": "Seeed SAMD Boards",
+				"architecture": "samd",
+				"version": "1.8.4",
+				"category": "Contributed",
+				"url": "https://files.seeedstudio.com/arduino/core/samd/ArduinoCore-samd-1.8.4.tar.bz2",
+				"archiveFileName": "ArduinoCore-samd-1.8.4.tar.bz2",
+				"checksum": "SHA-256:755a0c8be88084e093d66b570378516e4f3b613ad8a41ffeb89c833567df85cb",
+				"size": "1490092",
+				"help": {
+					"online": "https://wiki.seeedstudio.com"
+				},
+				"boards": [{
+						"name": "Seeeduino Wio Terminal"
+					},
+					{
+						"name": "Seeeduino XIAO M0"
+					},
+					{
+						"name": "Seeeduino Femto M0"
+					},
+					{
+						"name": "Seeeduino Zero"
+					},
+					{
+						"name": "Seeeduino LoRaWAN"
+					},
+					{
+						"name": "Wio GPS Board"
+					},
+					{
+						"name": "Wio Lite MG126"
+					},
+					{
+						"name": "Grove UI Wireless"
+					}
+				],
+				"toolsDependencies": [{
+						"packager": "Seeeduino",
+						"name": "arm-none-eabi-gcc",
+						"version": "7-2017q4"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "bossac",
+						"version": "1.7.0-arduino3"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "bossac",
+						"version": "1.8.0-48-gb176eee"
+					},
+					{
+						"packager": "arduino",
+						"name": "openocd",
+						"version": "0.10.0-arduino7"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "CMSIS",
+						"version": "5.7.0"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "CMSIS-Atmel",
+						"version": "1.2.1"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "arduinoOTA",
+						"version": "1.2.1"
+					}
+				]
+			},
+
+			{
 				"name": "Seeed i.MX RT (NXP 32-bits ARM Cortex-M7) Boards",
 				"architecture": "imxrt",
 				"category": "Contributed",
