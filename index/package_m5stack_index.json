@@ -12,12 +12,12 @@
         {
           "name": "M5Stack",
           "architecture": "esp32",
-          "version": "2.0.6-1.0",
+          "version": "2.0.7",
           "category": "M5Stack",
-          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.6-1.0.zip",
-          "archiveFileName": "esp32-2.0.6-1.0.zip",
-          "checksum": "SHA-256:09aa9cbf8a81a9db796255aed4a5ec5c173c02962b1f06cd92e457fdb2180941",
-          "size": "253516588",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.7.zip",
+          "archiveFileName": "esp32-2.0.7.zip",
+          "checksum": "SHA-256:c972af405a0ce433a397fd5ddefdb8d1286c171d94e02aa7839deb03f1992527",
+          "size": "253713902",
           "help": {
             "online": ""
           },
@@ -32,7 +32,10 @@
                 "name": "M5Core"
               },
               {
-                "name": "Core2"
+                "name": "M5Core2"
+              },
+              {
+                "name": "M5CoreS3"
               },
               {
                 "name": "CoreInk"
