@@ -1110,8 +1110,8 @@
 				"category": "Contributed",
 				"url": "https://files.seeedstudio.com/arduino/core/samd/ArduinoCore-samd-1.8.4.tar.bz2",
 				"archiveFileName": "ArduinoCore-samd-1.8.4.tar.bz2",
-				"checksum": "SHA-256:6ae5b914f117b374d4fb0da4190bab590fbed7e898ff3719933b71b8c4203532",
-				"size": "10134452",
+				"checksum": "SHA-256:8c10ec531eff25ff780a511dff43f61170fcc82420dec00581b9391af1a8c499",
+				"size": "3540351",
 				"help": {
 					"online": "https://wiki.seeedstudio.com"
 				},
