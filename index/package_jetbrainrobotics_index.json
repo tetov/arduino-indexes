@@ -79,7 +79,7 @@
   <meta name="current-catalog-service-hash" content="581425c0eaaa5e5e53c5b736f58a14dbe5d38b0be425901738ad0670bd1d5a33">
 
 
-  <meta name="request-id" content="0801:4A2E:5045B3E:53F6A3E:645D81C0" data-pjax-transient="true"/><meta name="html-safe-nonce" content="363785c134102fe756bd3a6498f397b5f8d2c772b4a4fc1f36ccdbeceee50450" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwODAxOjRBMkU6NTA0NUIzRTo1M0Y2QTNFOjY0NUQ4MUMwIiwidmlzaXRvcl9pZCI6Ijg0ODc5NTc4MzIyNjAyMjM0MjQiLCJyZWdpb25fZWRnZSI6InNlYSIsInJlZ2lvbl9yZW5kZXIiOiJzZWEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="b5212470ef3f1495e8bf3183754ddaa89ec7ca49e3c4f8461f0abe644393330d" data-pjax-transient="true"/>
+  <meta name="request-id" content="1D81:577B:1C351D6:29ED8C5:645ED32E" data-pjax-transient="true"/><meta name="html-safe-nonce" content="dc614b5eecd9664f9127f18b37888de6d65dbe1eccdeaf63640c45351399fa0f" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIxRDgxOjU3N0I6MUMzNTFENjoyOUVEOEM1OjY0NUVEMzJFIiwidmlzaXRvcl9pZCI6IjgxMTY5NDkzNjYwMDE4MTYzNjYiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="b37e26235ac627aecf86c4114e3cc3d2584a1a2c0b69e7ac0d450436700c5299" data-pjax-transient="true"/>
 
 
     <meta name="hovercard-subject-tag" content="repository:358170266" data-turbo-transient>
@@ -587,7 +587,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="a2ajMKGpnQo5yKb/L3RVgCYsgE9J3f+Of+lVgOkSFXh7uYGP8+OdBMsSfd3WbzVOVQVOaXKOviQ9AISe1WJRSA==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="XxPPhJM2sDSz63aSK9RkxKnqGCC7fA1Z/miYX1GQp8UBnSa/Vni35oSbajIMAfTHhvauCk3YbCHeXEI9NQ85Xg==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -1379,7 +1379,7 @@
     <div class="d-flex">
         
 <div class="ml-1" >
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/jetbrainrobotics/CustomBoardFiles/edit/main/package_jetbrainrobotics_index.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="WaT-ddyDAObob9ovEKydCcRnByXeRO7PYkp62Hl6RxTMp00jPZmSG2oOq_jT0g5MKSq5eGpSOrIncxHWkT5HNA" autocomplete="off" />
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/jetbrainrobotics/CustomBoardFiles/edit/main/package_jetbrainrobotics_index.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="o_9zYBh1fvchd3-UG4l3k1nBIUlSuZ0sp0QdbVoRLRv3kRCbQRMdw3aEQsmd8HJtBjTnTe46DOLhoresktIVYg" autocomplete="off" />
       <button disabled="disabled" title="You must be signed in to make or propose changes" data-hotkey="e" data-disable-with="" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
 </svg>
@@ -1389,7 +1389,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/jetbrainrobotics/CustomBoardFiles/edit/main/package_jetbrainrobotics_index.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="F8Z-2gwIW7qeV7gOnWm_stdhT-SeNWsqPnKY6NIfpECCxc2M7RLJRxw2ydleFyz3OizxuSojv1d7S_PmOlukYA" autocomplete="off" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/jetbrainrobotics/CustomBoardFiles/edit/main/package_jetbrainrobotics_index.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="LrXugMk7_lSKjrpmcHAAfWTVnSIr0EtojgLBg7UaBCh62417kF2dYN19hzv2CQWDOyBbJpdT2qbI5GtCfdk8UQ" autocomplete="off" />
               <button disabled="disabled" title="You must be signed in to make or propose changes" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-muted text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
