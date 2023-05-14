@@ -34,8 +34,8 @@
                     ],
                     "url": "https://github.com/DeqingSun/ch55xduino/releases/download/0.0.17/ch55xduino-core-0.0.17.tar.bz2",
                     "archiveFileName": "ch55xduino-core-0.0.17.tar.bz2",
-                    "checksum": "SHA-256:1c1b1293b93f7838b0ac43881c2e816c8a2b22abab1cf682566808c0775f4b73",
-                    "size": "145826"
+                    "checksum": "SHA-256:f28cca41a3b36b7dc975d23e1911486d1a4542ac6c52749c901bbb5934998def",
+                    "size": "145917"
                 },
                 {
                     "name": "CH55xDuino MCS51 plain C core (non-C++)",
