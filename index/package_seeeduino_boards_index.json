@@ -1287,39 +1287,6 @@
 			{
 				"name": "Seeed nRF52 Boards",
 				"architecture": "nrf52",
-				"version": "1.1.3",
-				"category": "Contributed",
-				"url": "https://files.seeedstudio.com/arduino/core/nRF52/nrf52-1.1.3.tar.bz2",
-				"archiveFileName": "nrf52-1.1.3.tar.bz2",
-				"checksum": "SHA-256:d021e6250c77c7927c4c27abbcbc9f4267eefb68d857ee566f6fc0b1102a40d1",
-				"size": "34594908",
-				"boards": [{
-					"name": "Seeed XIAO nRF52840 Sense"
-				},
-				{
-					"name": "Seeed XIAO nRF52840"
-				}
-				],
-				"toolsDependencies": [{
-						"packager": "Seeeduino",
-						"name": "arm-none-eabi-gcc",
-						"version": "9-2019q4"
-						},
-					{
-						"packager": "Seeeduino",
-						"name": "nrfjprog",
-						"version": "9.4.0"
-					},
-					{
-						"packager": "Seeeduino",
-						"name": "CMSIS",
-						"version": "5.7.0"
-					}
-				]
-			},
-			{
-				"name": "Seeed nRF52 Boards",
-				"architecture": "nrf52",
 				"version": "1.1.1",
 				"category": "Contributed",
 				"url": "https://files.seeedstudio.com/arduino/core/nRF52/nrf52-1.1.1.tar.bz2",
