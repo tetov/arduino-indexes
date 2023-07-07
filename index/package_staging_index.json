@@ -19355,6 +19355,54 @@
               "checksum": "SHA-256:a4467350e39314690cec2e96b80e7e3cab463c84eff9b81593ad57754d76ee00"
             }
           ]
+        },
+        {
+          "name": "espflash",
+          "version": "2.0.0",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "espflash_2.0.0_Linux_64bit.tar.gz",
+              "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Linux_64bit.tar.gz",
+              "size": 3168742,
+              "checksum": "SHA-256:b234547df8a08339e461d0aab8130c344be6c48279642fac92bfe77084a5f0f9"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "archiveFileName": "espflash_2.0.0_Windows_64bit.zip",
+              "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Windows_64bit.zip",
+              "size": 2898625,
+              "checksum": "SHA-256:8e6c5f6a39bd5358663766417e676dcc7236c8d5ab57bb51760c20bc99f394e1"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "espflash_2.0.0_macOS_64bit.tar.gz",
+              "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_macOS_64bit.tar.gz",
+              "size": 2847611,
+              "checksum": "SHA-256:3bd2f862086e0da40a00f94a5ec9a76b2fafda814fef67cebb61f65d42081421"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "espflash_2.0.0_Linux_ARMv7.tar.gz",
+              "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Linux_ARMv7.tar.gz",
+              "size": 2709470,
+              "checksum": "SHA-256:43a3508d9221da49f4b9aa3ca529a882698abda4b1efe51f1e148f052ca4b44e"
+            },
+            {
+              "host": "arm64-linux-gnueabihf",
+              "archiveFileName": "espflash_2.0.0_Linux_ARM64.tar.gz",
+              "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Linux_ARM64.tar.gz",
+              "size": 2955495,
+              "checksum": "SHA-256:a59c4031899d420794c6aab3df674c28e3d965b966ae9417dcd9c0c82e416950"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "archiveFileName": "espflash_2.0.0_macOS_ARM64.tar.gz",
+              "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_macOS_ARM64.tar.gz",
+              "size": 2802057,
+              "checksum": "SHA-256:a0f0562110c8c0fb6fe6d3ef520b4bcf42dc66c57062d7888f1610da4f8f2c88"
+            }
+          ]
         }
       ]
     },
