@@ -14108,29 +14108,29 @@
               "host": "x86_64-apple-darwin",
               "archiveFileName": "espflash_2.0.0_macOS_64bit.tar.gz",
               "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_macOS_64bit.tar.gz",
-              "size": 2847611,
-              "checksum": "SHA-256:3bd2f862086e0da40a00f94a5ec9a76b2fafda814fef67cebb61f65d42081421"
+              "size": 2847601,
+              "checksum": "SHA-256:f5a7b65f679b2c4ad6d30af02377f6c0bdf3c2e20d32cbc3e5ac1af95cd8f0fd"
             },
             {
               "host": "arm-linux-gnueabihf",
               "archiveFileName": "espflash_2.0.0_Linux_ARMv7.tar.gz",
               "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Linux_ARMv7.tar.gz",
-              "size": 2709470,
-              "checksum": "SHA-256:43a3508d9221da49f4b9aa3ca529a882698abda4b1efe51f1e148f052ca4b44e"
+              "size": 2709225,
+              "checksum": "SHA-256:9c3df96c360e978186b44007667ca6e7c3d5a5104f7eb855fc212b3840e4805a"
             },
             {
               "host": "arm64-linux-gnueabihf",
               "archiveFileName": "espflash_2.0.0_Linux_ARM64.tar.gz",
               "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Linux_ARM64.tar.gz",
-              "size": 2955495,
-              "checksum": "SHA-256:a59c4031899d420794c6aab3df674c28e3d965b966ae9417dcd9c0c82e416950"
+              "size": 2955417,
+              "checksum": "SHA-256:19532401fffd22e9b67de09c92a1eddd65aa2b47b369292aae844665198dd852"
             },
             {
               "host": "arm64-apple-darwin",
               "archiveFileName": "espflash_2.0.0_macOS_ARM64.tar.gz",
               "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_macOS_ARM64.tar.gz",
-              "size": 2802057,
-              "checksum": "SHA-256:a0f0562110c8c0fb6fe6d3ef520b4bcf42dc66c57062d7888f1610da4f8f2c88"
+              "size": 2802102,
+              "checksum": "SHA-256:362db4880b2e46a758b0a223e0a4ed25faf1747dc4546f5ee50d9d33bab64966"
             }
           ]
         }
