@@ -19893,6 +19893,68 @@
               "checksum": "SHA-256:362db4880b2e46a758b0a223e0a4ed25faf1747dc4546f5ee50d9d33bab64966"
             }
           ]
+        },
+        {
+          "name": "uno-r4-wifi-fwuploader-plugin",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_32bit.tar.gz",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:3a0cf3a35d2cb5afd046e60c441cb58805b2cac4e49fd9da57f95c80283ced55",
+              "size": "4804225"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_64bit.tar.gz",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:f17f088b6dfa5e292b9350c76c56aeb465d2b4acbd866815a13f947e23342a1f",
+              "size": "4856595"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_Windows_32bit.zip",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_Windows_32bit.zip",
+              "checksum": "SHA-256:e49eb41199c2fa6751448265ba9dbbe41f5b8a544f982d7d36a7746dca746565",
+              "size": "5074405"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "checksum": "SHA-256:2b9aade645b1fb753a8120fbaec747d6b8fddf1fc3dd13e6147ba078765a92cf",
+              "size": "5085458"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_macOS_64bit.tar.gz",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:f5334ee385e47735121ae568a31ca03dc0603da1132f2ec4316bf904eedc72de",
+              "size": "5426761"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_macOS_ARM64.tar.gz",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_macOS_ARM64.tar.gz",
+              "checksum": "SHA-256:e47af33debce4b476047f5789d62d253401ba91c4633e1c4569652031bcb9c38",
+              "size": "4782730"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_ARMv6.tar.gz",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:ce645ca45773d9297d1b4c3f8a5a3572c019c7279b5d7d671f03a1ba1acde951",
+              "size": "4566072"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_ARM64.tar.gz",
+              "archiveFileName": "uno-r4-wifi-fwuploader-plugin_1.0.0_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:d021c9981fc3d91b6c5ffc449ddb8364d263d2c73c0c3c54c05eab3274b646c6",
+              "size": "4460245"
+            }
+          ]
         }
       ]
     },
