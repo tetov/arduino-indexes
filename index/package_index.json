@@ -14763,6 +14763,33 @@
         },
         {
           "name": "esptool",
+          "version": "3.3.3",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "esptool_3.3.3_Linux_64bit.tar.gz",
+              "url": "https://downloads.arduino.cc/tools/esptool_3.3.3_Linux_64bit.tar.gz",
+              "size": 12850181,
+              "checksum": "SHA-256:bdcab463fe2d1eb65d4d0d575ac2be2efbef470994998021a99bd8fe63853335"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "archiveFileName": "esptool_3.3.3_Windows_64bit.zip",
+              "url": "https://downloads.arduino.cc/tools/esptool_3.3.3_Windows_64bit.zip",
+              "size": 6347021,
+              "checksum": "SHA-256:b12354d11596397d3a84970d16c9267d6f5770fba5c75d78e1adfc5a7088f4de"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "esptool_3.3.3_macOS_64bit.tar.gz",
+              "url": "https://downloads.arduino.cc/tools/esptool_3.3.3_macOS_64bit.tar.gz",
+              "size": 5787840,
+              "checksum": "SHA-256:302e547fe2aa222cbbd67aaf2126ac451f48d1eff46d30f0454613d22e8c2a21"
+            }
+          ]
+        },
+        {
+          "name": "esptool",
           "version": "4.6.2",
           "systems": [
             {
