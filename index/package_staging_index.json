@@ -20160,6 +20160,68 @@
               "size": "4460245"
             }
           ]
+        },
+        {
+          "name": "nina-fwuploader-plugin",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_Linux_32bit.tar.gz",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:a14f0e876628865c78decf816b71d61844cd621e18d111ca0af3d6f0cd686210",
+              "size": "4620524"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_Linux_64bit.tar.gz",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:11eeb6b078eba2dcbe4b8ab187221cb5e0528c6b67fcc927ea75fc8d204d6354",
+              "size": "4724967"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_Windows_32bit.zip",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_Windows_32bit.zip",
+              "checksum": "SHA-256:c3aa316f4c07c8d7469b3c993d0e7dd7e3d98c0e82a55638ea69ca9526a15961",
+              "size": "4842900"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "checksum": "SHA-256:ab958c206c883c3eebf7b9241dfc9fbbdf34d1961abb5bc55d5f257f4d815175",
+              "size": "4926670"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_macOS_64bit.tar.gz",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:6418cdb8684fc7ea8724526bfd1a7f5568f8a59c58c65a5953441e1aa7f10d5b",
+              "size": "4688967"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_macOS_ARM64.tar.gz",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_macOS_ARM64.tar.gz",
+              "checksum": "SHA-256:25fc6732197453f1b9fd054c15a60907fb88a15b394b8443a7e50a1d9f69e474",
+              "size": "4478600"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_Linux_ARMv6.tar.gz",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:1ae067a6bd9e1797f741bcbd9068f69ac22bfd6eff08d319197333a5a4d857f8",
+              "size": "4457747"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/nina-fwuploader-plugin/nina-fwuploader-plugin_1.0.0_Linux_ARM64.tar.gz",
+              "archiveFileName": "nina-fwuploader-plugin_1.0.0_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:8a6fd11271329fd06a0690a3798b8bb74ce4b2e983064f84d71246f1f824841f",
+              "size": "4451720"
+            }
+          ]
         }
       ]
     },

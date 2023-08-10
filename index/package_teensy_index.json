@@ -244,6 +244,46 @@
       "packager": "teensy",
       "name": "teensy-monitor"
     } ]
+  },
+  {
+    "name": "Teensy",
+    "architecture": "avr",
+    "version": "0.59.3",
+    "category": "Contributed",
+    "help": { "online": "https://forum.pjrc.com/forum.php" },
+    "url": "https://www.pjrc.com/teensy/td_159-beta3/teensy-package.tar.bz2",
+    "archiveFileName": "teensy-package.tar.bz2",
+    "checksum": "SHA-256:a9e66829c3df390589b741427703c8b7904c818dcc24e3ff8fb84573fbedb281",
+    "size": "35100947",
+    "boards": [
+      { "name": "Teensy 4.1" },
+      { "name": "Teensy MicroMod" },
+      { "name": "Teensy 4.0" },
+      { "name": "Teensy 3.6" },
+      { "name": "Teensy 3.5" },
+      { "name": "Teensy 3.2" },
+      { "name": "Teensy 3.0" },
+      { "name": "Teensy LC" },
+      { "name": "Teensy++ 2.0" },
+      { "name": "Teensy 2.0" }
+    ],
+    "toolsDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-tools",
+      "version": "0.59.3"
+    }, {
+      "packager": "teensy",
+      "name": "teensy-compile",
+      "version": "11.3.1"
+    } ],
+    "discoveryDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-discovery"
+    } ],
+    "monitorDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-monitor"
+    } ]
   }
 
   ],
@@ -452,6 +492,47 @@
       "archiveFileName": "teensy-tools-windows.tar.bz2",
       "checksum": "SHA-256:50276c96cc0a711ab8e98713c39eba8e4f1d836eaac42080dfe866f71eaeeaa6",
       "size": "5252136"
+    } ]
+
+  }, {
+    "name": "teensy-tools",
+    "version": "0.59.3",
+    "systems": [ {
+      "host": "i686-linux-gnu",
+      "url": "https://www.pjrc.com/teensy/td_159-beta3/teensy-tools-linux32.tar.bz2",
+      "archiveFileName": "teensy-tools-linux32.tar.bz2",
+      "checksum": "SHA-256:de73ade387d19dde226199cc5cd101132617495744bada531105f1c900ea9a10",
+      "size": "5381485"
+    }, {
+      "host": "x86_64-linux-gnu",
+      "url": "https://www.pjrc.com/teensy/td_159-beta3/teensy-tools-linux64.tar.bz2",
+      "archiveFileName": "teensy-tools-linux64.tar.bz2",
+      "checksum": "SHA-256:0f5c6439583bd9a1e6ad847fc96572d9c932fa3f3b79480adf5f1ff03b9cf2da",
+      "size": "5245380"
+    }, {
+      "host": "aarch64-linux-gnu",
+      "url": "https://www.pjrc.com/teensy/td_159-beta3/teensy-tools-linuxaarch64.tar.bz2",
+      "archiveFileName": "teensy-tools-linuxaarch64.tar.bz2",
+      "checksum": "SHA-256:62da629b7bf390ba94342e0378b5d066576fdf040b09f515d56061c4caf83a37",
+      "size": "5789528"
+    }, {
+      "host": "arm-linux-gnueabihf",
+      "url": "https://www.pjrc.com/teensy/td_159-beta3/teensy-tools-linuxarm.tar.bz2",
+      "archiveFileName": "teensy-tools-linuxarm.tar.bz2",
+      "checksum": "SHA-256:e43ef967a6bf9a11631def6e0444f220bc2b9cb50e77e4dad799898662407b80",
+      "size": "4933824"
+    }, {
+      "host": "x86_64-apple-darwin14",
+      "url": "https://www.pjrc.com/teensy/td_159-beta3/teensy-tools-macos.tar.bz2",
+      "archiveFileName": "teensy-tools-macos.tar.bz2",
+      "checksum": "SHA-256:b2de9e91542f05319b6c53a2f18fe6ce077b373dd45f09b299f95dd7076f3729",
+      "size": "6187815"
+    }, {
+      "host": "i686-mingw32",
+      "url": "https://www.pjrc.com/teensy/td_159-beta3/teensy-tools-windows.tar.bz2",
+      "archiveFileName": "teensy-tools-windows.tar.bz2",
+      "checksum": "SHA-256:8577d4f064c892fd2e3d5f142a201f30d07782a07c4762d247a09afc610d6863",
+      "size": "5253446"
     } ]
 
   }, {
