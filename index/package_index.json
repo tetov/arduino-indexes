@@ -14725,6 +14725,13 @@
               "checksum": "SHA-256:b234547df8a08339e461d0aab8130c344be6c48279642fac92bfe77084a5f0f9"
             },
             {
+              "host": "i686-mingw32",
+              "archiveFileName": "espflash_2.0.0_Windows_64bit.zip",
+              "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Windows_64bit.zip",
+              "size": 2898625,
+              "checksum": "SHA-256:8e6c5f6a39bd5358663766417e676dcc7236c8d5ab57bb51760c20bc99f394e1"
+            },
+            {
               "host": "x86_64-mingw32",
               "archiveFileName": "espflash_2.0.0_Windows_64bit.zip",
               "url": "https://downloads.arduino.cc/tools/espflash_2.0.0_Windows_64bit.zip",
@@ -14771,6 +14778,13 @@
               "url": "https://downloads.arduino.cc/tools/esptool_3.3.3_Linux_64bit.tar.gz",
               "size": 12850181,
               "checksum": "SHA-256:bdcab463fe2d1eb65d4d0d575ac2be2efbef470994998021a99bd8fe63853335"
+            },
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "esptool_3.3.3_Windows_64bit.zip",
+              "url": "https://downloads.arduino.cc/tools/esptool_3.3.3_Windows_64bit.zip",
+              "size": 6347021,
+              "checksum": "SHA-256:b12354d11596397d3a84970d16c9267d6f5770fba5c75d78e1adfc5a7088f4de"
             },
             {
               "host": "x86_64-mingw32",
