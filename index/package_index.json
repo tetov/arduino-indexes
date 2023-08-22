@@ -14966,6 +14966,40 @@
               "size": "4451720"
             }
           ]
+        },
+        {
+          "name": "portenta-c33-fwuploader-plugin",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/portenta-c33-fwuploader-plugin/portenta-c33-fwuploader-plugin_1.0.0_Linux_64bit.tar.gz",
+              "archiveFileName": "portenta-c33-fwuploader-plugin_1.0.0_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:04cab94965341e932a35fab698a2f0411922f05f3d48e6b5eb6b808ae5000b52",
+              "size": "4132728"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/portenta-c33-fwuploader-plugin/portenta-c33-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "archiveFileName": "portenta-c33-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "checksum": "SHA-256:ef8376c5086845dadad84cb18d4b9deded05bf3629c3cd508544e21159322faf",
+              "size": "4334081"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/portenta-c33-fwuploader-plugin/portenta-c33-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "archiveFileName": "portenta-c33-fwuploader-plugin_1.0.0_Windows_64bit.zip",
+              "checksum": "SHA-256:ef8376c5086845dadad84cb18d4b9deded05bf3629c3cd508544e21159322faf",
+              "size": "4334081"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/arduino-fwuploader/plugins/portenta-c33-fwuploader-plugin/portenta-c33-fwuploader-plugin_1.0.0_macOS_64bit.tar.gz",
+              "archiveFileName": "portenta-c33-fwuploader-plugin_1.0.0_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:fc2f3031aada65ce198acf156fc48542f68e3f5bc333a7afb90bf77c98bdb9b0",
+              "size": "4084329"
+            }
+          ]
         }
       ]
     },
