@@ -1916,30 +1916,6 @@
             {
               "host": "x86_64-mingw32",
               "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.2/esptool-3.3-windows.zip",
-              "archiveFileName": "esp          },
-            {
-              "host": "aarch64-linux-gnu",
-              "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.4/esptool-4.2.1-linux.tar.gz",
-              "archiveFileName": "esptool-4.2.1-linux.tar.gz",
-              "checksum": "SHA-256:5a45fb77eb6574554ec2f45230d0b350f26f9c24ab3b6c13c4031ebdf72a34ab",
-              "size": "90123"
-            }
-          ]
-        },
-        {
-          "name": "esptool_py",
-          "version": "3.3.0",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.2/esptool-3.3-windows.zip",
-              "archiveFileName": "esptool-3.3-windows.zip",
-              "checksum": "SHA-256:55a1d7165414bf4dbd2bb16ca094e555d671958450f5d1536b457a518d2b15df",
-              "size": "7436864"
-            },
-            {
-              "host": "x86_64-mingw32",
-              "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.2/esptool-3.3-windows.zip",
               "archiveFileName": "esptool-3.3-windows.zip",
               "checksum": "SHA-256:55a1d7165414bf4dbd2bb16ca094e555d671958450f5d1536b457a518d2b15df",
               "size": "7436864"
@@ -2351,6 +2327,24 @@
             },
             {
               "url": "https://dl.espressif.com/dl/esptool-2.3.1-linux.tar.gz",
+              "checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "esptool-2.3.1-linux.tar.gz",
+              "size": "39563"
+            },
+            {
+              "url": "https://dl.espressif.com/dl/esptool-2.3.1-linux.tar.gz",
+              "checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "esptool-2.3.1-linux.tar.gz",
+              "size": "39563"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}sptool-2.3.1-linux.tar.gz",
               "checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
               "host": "i686-pc-linux-gnu",
               "archiveFileName": "esptool-2.3.1-linux.tar.gz",
