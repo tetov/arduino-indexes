@@ -426,6 +426,103 @@
           "category": "M5Stack",
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.3.zip",
           "archiveFileName": "esp32-2.0.3.zip",
+          "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454e07e4068c2c49045da2e0bcb3858d4231223e02588b016a",
+          "size": "237278627",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "M5Core"
+            },
+            {
+              "name": "FIRE"
+            },
+            {
+              "name": "Core2"
+            },
+            {
+              "name": "M5Station"
+            },
+            {
+              "name": "M5StickC"
+            },
+            {
+              "name": "M5StickC-Plus"
+            },
+            {
+              "name": "M5Atom"
+            },
+            {
+              "name": "TimerCAM"
+            },
+            {
+              "name": "UnitCAM"
+            },
+            {
+              "name": "PoECAM"
+            },
+            {
+              "name": "CoreInk"
+            },
+            {
+              "name": "M5Paper"
+            },
+            {
+              "name": "Tough"
+            },
+            {
+              "name": "STAMP-PICO"
+            },
+            {
+              "name": "STAMP-C3"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "m5stack",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch3"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch3"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32s2-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch3"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32s3-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch3"
+            },
+            {
+              "packager": "m5stack",
+              "name": "esptool_py",
+              "version": "3.3.0"
+            },
+            {
+              "packager": "m5stack",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "m5stack",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            }
+          ]
+        },
+        {
+          "name": "M5Stack",
+          "architecture": "esp32",
+          "version": "2.0.3",
+          "category": "M5Stack",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.3.zip",
+          "archiveFileName": "esp32-2.0.3.zip",
           "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454ee610f67f8db26218cc18f9a",
           "size": "237267496",
           "help": {
@@ -2327,24 +2424,6 @@
             },
             {
               "url": "https://dl.espressif.com/dl/esptool-2.3.1-linux.tar.gz",
-              "checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
-              "host": "i686-pc-linux-gnu",
-              "archiveFileName": "esptool-2.3.1-linux.tar.gz",
-              "size": "39563"
-            },
-            {
-              "url": "https://dl.espressif.com/dl/esptool-2.3.1-linux.tar.gz",
-              "checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
-              "host": "arm-linux-gnueabihf",
-              "archiveFileName": "esptool-2.3.1-linux.tar.gz",
-              "size": "39563"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}sptool-2.3.1-linux.tar.gz",
               "checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
               "host": "i686-pc-linux-gnu",
               "archiveFileName": "esptool-2.3.1-linux.tar.gz",
