@@ -15195,6 +15195,101 @@
           ]
         },
         {
+          "name": "Arduino UNO R4 Boards",
+          "architecture": "renesas_uno",
+          "version": "1.0.4",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_uno-1.0.4.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_uno-1.0.4.tar.bz2",
+          "checksum": "SHA-256:39e24f12aa1f2b2890760666ff8879cf1b055b5d4155068ed8ef95f1dc35184a",
+          "size": "10138227",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino UNO R4 Minima"
+            },
+            {
+              "name": "Arduino UNO R4 WiFi"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.11.0-arduino5",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.9.1-arduino5",
+              "name": "bossac"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Renesas Portenta Boards",
+          "architecture": "renesas_portenta",
+          "version": "1.0.4",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_portenta-1.0.4.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_portenta-1.0.4.tar.bz2",
+          "checksum": "SHA-256:8c99b506c86471d3097c1a38dbee29bc95a0a45af7f844fcfde7c94d6304dcc2",
+          "size": "16179573",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Portenta C33"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.11.0-arduino5",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.9.1-arduino5",
+              "name": "bossac"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
+        },
+        {
           "name": "Arduino ESP32 Boards",
           "architecture": "esp32",
           "version": "2.0.10",
