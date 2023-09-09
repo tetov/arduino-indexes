@@ -15839,10 +15839,10 @@
           "architecture": "esp32",
           "version": "2.0.12",
           "category": "ESP32",
-          "url": "https://github.com/arduino/arduino-esp32/releases/download/2.0.12/esp32-2.0.12.zip",
-          "archiveFileName": "esp32-2.0.12.zip",
-          "checksum": "SHA-256:75938602ae4c6c7a39747596e0525fed40b2b278c3253415ef32825e005f3a58",
-          "size": "253627291",
+          "url": "http://downloads.arduino.cc/cores/staging/esp32-2.0.12.1.zip",
+          "archiveFileName": "esp32-2.0.12.1.zip",
+          "checksum": "SHA-256:c092f6a42c1ffb2273dce17d083dacf3b9dc24806c3bfa47e7a0642505b318ef",
+          "size": "86640531",
           "help": {
             "online": ""
           },
@@ -15870,16 +15870,6 @@
             {
               "packager": "esp32",
               "name": "xtensa-esp-elf-gdb",
-              "version": "11.2_20220823"
-            },
-            {
-              "packager": "esp32",
-              "name": "riscv32-esp-elf-gcc",
-              "version": "esp-2021r2-patch5-8.4.0"
-            },
-            {
-              "packager": "esp32",
-              "name": "riscv32-esp-elf-gdb",
               "version": "11.2_20220823"
             },
             {
