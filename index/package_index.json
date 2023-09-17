@@ -10771,8 +10771,8 @@
           "category": "ESP32",
           "url": "https://github.com/arduino/arduino-esp32/releases/download/2.0.13/esp32-2.0.13.zip",
           "archiveFileName": "esp32-2.0.13.zip",
-          "checksum": "SHA-256:22b02fa08d81bb0c2a3cebc61a4f5f5a2eea54d3329757113cbdf02c2a949680",
-          "size": "86625149",
+          "checksum": "SHA-256:37ea9ab016617de17b3c2676cd8e1d76f7f8d8df239c911d6bb283de2e4facc9",
+          "size": "86625150",
           "help": {
             "online": ""
           },
