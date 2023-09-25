@@ -887,36 +887,7 @@
             {
               "name": "Tough"
             },
-            {
-              "name": "STAMP-PICO"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
-              "version": "1.22.0-80-g6c4433a-5.2.0",
-              "name": "xtensa-esp32-elf-gcc"
-            },
-            {
-              "packager": "m5stack",
-              "version": "3.0.0",
-              "name": "esptool_py"
-            },
-            {
-              "packager": "m5stack",
-              "version": "0.2.3",
-              "name": "mkspiffs"
-            }
-          ],
-          "size": "35881277"
-        },
-        {
-          "category": "M5Stack",
-          "name": "M5Stack",
-          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-1.0.7.zip",
-          "checksum": "SHA-256:55be72f7100e0a5667e43244162bf073b288c4dfa71aa829b1d63f650713dc8b",
-          "help": {
-            "online": ""
+           ne": ""
           },
           "version": "1.0.7",
           "architecture": "esp32",
@@ -2224,7 +2195,48 @@
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/earlephilhower/url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+              "archiveFileName": "x86_64-apple-darwin14.mklittlefs-c41e51a.200706.tar.gz",
+              "checksum": "SHA-256:e3edd5e05b70db3c7df6b9d626558348ad04804022fe955c799aeb51808c7dc3",
+              "size": "362608"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
+              "checksum": "SHA-256:66e84dda0aad747517da3785125e05738a540948aab2b7eaa02855167a1eea53",
+              "size": "46778"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+              "archiveFileName": "x86_64-w64-mingw32.mklittlefs-c41e51a.200706.zip",
+              "checksum": "SHA-256:2e319077491f8e832e96eb4f2f7a70dd919333cee4b388c394e0e848d031d542",
+              "size": "345132"
+            }
+          ]
+        },
+        {
+          "name": "mkspiffs",
+          "version": "0.2.3",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-win32.zip",
+              "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-win32.zip",
+              "checksum": "SHA-256:b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
+              "size": "249809"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+              "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+              "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+              "size": "130270"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
               "archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
               "checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
               "size": "130270"
