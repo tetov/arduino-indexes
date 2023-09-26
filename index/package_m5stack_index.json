@@ -734,34 +734,7 @@
             {
               "name": "M5Paper"
             },
-            {
-              "name": "Tough"
-            },
-            {
-              "name": "STAMP-PICO"
-            },
-            {
-              "name": "STAMP-C3"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
-              "name": "riscv32-esp-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r1"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r1"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32s2-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r1"
-            },
-            {
-              "packager": "m5stack",
+            "m5stack",
               "name": "esptool_py",
               "version": "3.1.0"
             },
@@ -887,7 +860,36 @@
             {
               "name": "Tough"
             },
-           ne": ""
+            {
+              "name": "STAMP-PICO"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "m5stack",
+              "version": "1.22.0-80-g6c4433a-5.2.0",
+              "name": "xtensa-esp32-elf-gcc"
+            },
+            {
+              "packager": "m5stack",
+              "version": "3.0.0",
+              "name": "esptool_py"
+            },
+            {
+              "packager": "m5stack",
+              "version": "0.2.3",
+              "name": "mkspiffs"
+            }
+          ],
+          "size": "35881277"
+        },
+        {
+          "category": "M5Stack",
+          "name": "M5Stack",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-1.0.7.zip",
+          "checksum": "SHA-256:55be72f7100e0a5667e43244162bf073b288c4dfa71aa829b1d63f650713dc8b",
+          "help": {
+            "online": ""
           },
           "version": "1.0.7",
           "architecture": "esp32",
