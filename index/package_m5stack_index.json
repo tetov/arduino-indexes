@@ -426,27 +426,7 @@
           "category": "M5Stack",
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.3.zip",
           "archiveFileName": "esp32-2.0.3.zip",
-          "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454ee610f67f8db26218cc18f9a",
-          "size": "237267496",
-          "help": {
-            "online": ""
-          },
-          "boards": [
-            {
-              "name": "M5Core"
-            },
-            {
-              "name": "FIRE"
-            },
-            {
-              "name": "Core2"
-            },
-            {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
+          "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454e            },
             {
               "name": "M5Atom"
             },
@@ -734,7 +714,34 @@
             {
               "name": "M5Paper"
             },
-            "m5stack",
+            {
+              "name": "Tough"
+            },
+            {
+              "name": "STAMP-PICO"
+            },
+            {
+              "name": "STAMP-C3"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "m5stack",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r1"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r1"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32s2-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r1"
+            },
+            {
+              "packager": "m5stack",
               "name": "esptool_py",
               "version": "3.1.0"
             },
