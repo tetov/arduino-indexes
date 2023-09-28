@@ -10209,6 +10209,326 @@
           ]
         },
         {
+          "name": "Arduino Mbed OS Edge Boards",
+          "architecture": "mbed_edge",
+          "version": "4.0.8",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-edge-4.0.8.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-edge-4.0.8.tar.bz2",
+          "checksum": "SHA-256:633b40af1dae10fc72f522b41f094c1bbbbed03e546758f06a080263cfba7a9f",
+          "size": "5422701",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Edge Control"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.10.0-arduino1",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.0.6",
+              "name": "rp2040tools"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Mbed OS Nano Boards",
+          "architecture": "mbed_nano",
+          "version": "4.0.8",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-nano-4.0.8.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-nano-4.0.8.tar.bz2",
+          "checksum": "SHA-256:939c6828a56f9e5c8649db97e33fe1294ba5d7d52f5d5336f336cfb69b1aeedc",
+          "size": "6732651",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Nano 33 BLE"
+            },
+            {
+              "name": "Arduino Nano 33 BLE Sense"
+            },
+            {
+              "name": "Arduino Nano RP2040 Connect"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.10.0-arduino1",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.0.6",
+              "name": "rp2040tools"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Mbed OS Portenta Boards",
+          "architecture": "mbed_portenta",
+          "version": "4.0.8",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-portenta-4.0.8.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-portenta-4.0.8.tar.bz2",
+          "checksum": "SHA-256:cb30adaabd8edbcb56e30fd264e498496e27fc9253c9c9e5b70523e959ec7c1d",
+          "size": "20864770",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Portenta H7"
+            },
+            {
+              "name": "Arduino Portenta X8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.10.0-arduino1",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.8.0-arduino.2",
+              "name": "imgtool"
+            },
+            {
+              "packager": "arduino",
+              "version": "32.0.0",
+              "name": "adb"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Mbed OS RP2040 Boards",
+          "architecture": "mbed_rp2040",
+          "version": "4.0.8",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-RP2040-4.0.8.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-RP2040-4.0.8.tar.bz2",
+          "checksum": "SHA-256:c5d106120e8d79518d682bde2113884ac28c7018b82891c1e388e5d5c1bed171",
+          "size": "4257029",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Raspberry Pi Pico"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.10.0-arduino1",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.0.6",
+              "name": "rp2040tools"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Mbed OS Nicla Boards",
+          "architecture": "mbed_nicla",
+          "version": "4.0.8",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-nicla-4.0.8.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-nicla-4.0.8.tar.bz2",
+          "checksum": "SHA-256:9d46302ef7548cd7efceb298db8dd93b88ea0d1a4fbdd1caebf77c6b4cf0c279",
+          "size": "19772500",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Nicla Sense ME"
+            },
+            {
+              "name": "Nicla Voice"
+            },
+            {
+              "name": "Nicla Vision"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.10.0-arduino1",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.0.6",
+              "name": "rp2040tools"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Mbed OS Opta Boards",
+          "architecture": "mbed_opta",
+          "version": "4.0.8",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-opta-4.0.8.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-opta-4.0.8.tar.bz2",
+          "checksum": "SHA-256:f9c8fc8fbf9d80d23153504a5633d366f33aef85afa68dfd7a27dc586ccfa911",
+          "size": "15722710",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Finder Opta"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.10.0-arduino1",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.8.0-arduino.2",
+              "name": "imgtool"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Mbed OS Giga Boards",
+          "architecture": "mbed_giga",
+          "version": "4.0.8",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-giga-4.0.8.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-giga-4.0.8.tar.bz2",
+          "checksum": "SHA-256:03513e4050ba63e281a9e175e687376dd662932d3b5284567c0c18e2eaf0fff9",
+          "size": "15874891",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Giga"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.10.0-arduino1",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.8.0-arduino.2",
+              "name": "imgtool"
+            }
+          ]
+        },
+        {
           "name": "Arduino Renesas Portenta Boards",
           "architecture": "renesas_portenta",
           "version": "1.0.0",
