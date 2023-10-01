@@ -426,27 +426,7 @@
           "category": "M5Stack",
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.3.zip",
           "archiveFileName": "esp32-2.0.3.zip",
-          "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454ee610f67f8db26218cc18f9a",
-          "size": "237267496",
-          "help": {
-            "online": ""
-          },
-          "boards": [
-            {
-              "name": "M5Core"
-            },
-            {
-              "name": "FIRE"
-            },
-            {
-              "name": "Core2"
-            },
-            {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
+          "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454e            },
             {
               "name": "M5Atom"
             },
@@ -1167,7 +1147,23 @@
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https:/5b82e",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+              "checksum": "SHA-256:7f0162a81558ab0ed09d6c5d356def25b5cb3d5c2d61358f20152fa260ccc8ae",
+              "size": "109447789"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+              "checksum": "SHA-256:3ff7e5427907cf8e271c1f959b70fb01e39625c3caf61a6567e7b38aa0c11578",
+              "size": "113672945"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-win32.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-win32.zip",
+              "checksum": "SHA-256:c8ff08883c1456c278fad85e1c43b7c6e251d525683214168655550e85c5b82e",
               "size": "140809778"
             },
             {
