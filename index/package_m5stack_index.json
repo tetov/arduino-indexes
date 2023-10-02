@@ -426,7 +426,27 @@
           "category": "M5Stack",
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.3.zip",
           "archiveFileName": "esp32-2.0.3.zip",
-          "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454e            },
+          "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454ee610f67f8db26218cc18f9a",
+          "size": "237267496",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "M5Core"
+            },
+            {
+              "name": "FIRE"
+            },
+            {
+              "name": "Core2"
+            },
+            {
+              "name": "M5StickC"
+            },
+            {
+              "name": "M5StickC-Plus"
+            },
             {
               "name": "M5Atom"
             },
@@ -1016,22 +1036,7 @@
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
-              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
-              "checksum": "SHA-256:f7d73e5f9e2df3ea6ca8e2c95d6ca6d23d6b38fd101ea5d3012f3cb3cd59f39f",
-              "size": "192388486"
-            },
-            {
-              "host": "aarch64-linux-gnu",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-arm64.tar.gz",
-              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-arm64.tar.gz",
-              "checksum": "SHA-256:cf520ae3a72f65b9758ea187524b105b8b7546566d738c32e60a0df9846ef1af",
-              "size": "188626914"
-            },
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-armel.tar.gz",
-              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-armel.tar.gz",
+              "url": "https://github.com/espressif/crosstool-NG/releases/downloa  "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-armel.tar.gz",
               "checksum": "SHA-256:2dc3536214caa1697f6834bb4701d05894ca55b53589fc5b54064b050ef93799",
               "size": "188624050"
             },
