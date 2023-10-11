@@ -3330,6 +3330,55 @@
               "name": "python3"
             }
           ]
+        },
+        {
+          "name": "DxCore",
+          "architecture": "megaavr",
+          "version": "1.5.11",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/DxCore/DxCore-1.5.11.tar.bz2",
+          "archiveFileName": "DxCore-1.5.11.tar.bz2",
+          "checksum": "SHA-256:1db979b4f009977f9ec21e382c411b308abff83a6b4ed028de4bd93dd9083c11",
+          "size": "2344384",
+          "boards": [
+            {
+              "name": "DxCore: For all non-tinyAVR modern AVR devices: All AVRxxDAyy, AVRxxDByy, AVRxxDDyy (where xx = flash size, and yy is pincount <br/>\n      DA and DB come with 128k 64k or 32k flash and 64, 48, 32, or 28 pins. AVR DD comes with 64k, 32k or 16k flash, in pincounts of 32, 28, 20 or 14 pins<br/>\n      This core also supports the AVR Ex-series AVRxxEAyy and, pending release, will support the AVRxxDUyy and AVRxxEByy parts,"
+            },
+            {
+              "name": "<b> Supported</b>: AVR128DA28/32/48/64, AVR128DB28/32/48/64, AVR64DD14/20/28/32, AVR64DA28/32/48/64, AVR64DB28/32/48/64<br/>\n      AVR32DD14/20/28/32, AVR32DA28/32/48, AVR32DB28/32/48, AVR16DD14/20/28/32, AVR64EA28/32/48, AVR32EA28/32/48, AVR16EA28/32/48"
+            },
+            {
+              "name": "<b> Planned pending release</b>: AVR32EB14/20/28/32, AVR16EB14/20/28/32, AVR8EB14/20/28/32, AVR64DU28/32, AVR32DU14/20/28/32, AVR16DU14/20/28/32<br/>"
+            },
+            {
+              "name": "<b>Release Notes</b>: 1.5.11 - Critical bugfix for PWM on DA and DB, and a toolchain package update. This also happens to pull in some other very minor stuff."
+            },
+            {
+              "name": "<b>Supported UPDI programmers</b>: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to <br/>load Optiboot (included) for serial programming if you determine that it is appropriate for your application. <br/>SerialUPDI may not be functionally spectacular, but it supports the latest parts released, and it is fast as all hell, and the adapters cost practically nothing."
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino7b1"
+            },
+            {
+              "packager": "DxCore",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
       ],
       "tools": [
@@ -3772,6 +3821,54 @@
             {
               "size": "41618613",
               "checksum": "SHA-256:c643dd4657bd1a62438b22cfa05790aaf250f620d6cb2e956d193796ec81d5fc",
+              "host": "i686-w64-mingw32",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7b-i686-w64-mingw32.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7b-i686-w64-mingw32.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-azduino7b1",
+          "systems": [
+            {
+              "size": "38113733",
+              "checksum": "SHA-256:936e74042f77da04b54723a2f34cf541f02c076d47dba0325f4ccfa3b93650a3",
+              "host": "aarch64-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7b-aarch64-pc-linux-gnu.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7b-aarch64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "34736688",
+              "checksum": "SHA-256:326eed20d14ad28807f2b0e355f79f2570a448073d706e66cfc9a52e20b5b8eb",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7b-arm-linux-gnueabihf.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7b-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "37307286",
+              "checksum": "SHA-256:0c448287cd340966f74db9469e8de00ceff49b08d6909568edf64a881a9ac72b",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7b-i686-pc-linux-gnu.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7b-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "37926737",
+              "checksum": "SHA-256:c49b00ec3cf91136944188547696fe93558b20d8e852882b259331f2aacaadde",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7b-x86_64-apple-darwin14.tar.bz2",
+              "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7b-x86_64-apple-darwin14.tar.bz2"
+            },
+            {
+              "size": "37967368",
+              "checksum": "SHA-256:0d4cd92e17c639f5881f784af4ea030765c2a93a2debd42a59710b71c9967512",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7b-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "https://github.com/SpenceKonde/DxCore/raw/gh-pages/avr-gcc-7.3.0-atmel3.6.1-azduino7b-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "41622998",
+              "checksum": "SHA-256:d8103298edc77339c3736077df61ba63ca7501ac88d72a916a794904497da295",
               "host": "i686-w64-mingw32",
               "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-azduino7b-i686-w64-mingw32.tar.bz2",
               "url": "https://spencekondetoolchains.s3.amazonaws.com/avr-gcc-7.3.0-atmel3.6.1-azduino7b-i686-w64-mingw32.tar.bz2"
@@ -6601,6 +6698,52 @@
               "packager": "DxCore",
               "name": "avr-gcc",
               "version": "7.3.0-atmel3.6.1-azduino7b"
+            },
+            {
+              "packager": "DxCore",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17or18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "megaTinyCore",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
+        },
+        {
+          "name": "megaTinyCore",
+          "architecture": "megaavr",
+          "version": "2.6.10",
+          "category": "Contributed",
+          "url": "https://SpenceKonde.github.io/megaTinyCore/megaTinyCore-2.6.10.tar.bz2",
+          "archiveFileName": "megaTinyCore-2.6.10.tar.bz2",
+          "checksum": "SHA-256:62703a44f94a8033faac2f5283e3fe708d65a7cd5e1db8dd17edfaddee96f5da",
+          "size": "993438",
+          "boards": [
+            {
+              "name": "Full Arduino support for the tinyAVR 0-series, 1-series, and the new 2-series!<br/> 24-pin parts: ATtiny3227/3217/1627/1617/1607/827/817/807/427<br/> 20-pin parts: ATtiny3226/3216/1626/1616/1606/826/816/806/426/416/406<br/> 14-pin parts: ATtiny3224/1624/1614/1604/824/814/804/424/414/404/214/204<br/> 8-pin parts: ATtiny412/402/212/202<br/> Microchip Boards: Curiosity Nano 3217/1627/1607 and Xplained Pro (3217/817), Mini (817) Nano (416). Direct USB uploads may not work on linux, but you can export hex and <br/> upload through the mass storage projection."
+            },
+            {
+              "name": "2.6.10 is a critical bugfix to 2.6.9. This also pulls in the fix for missing constants for ADCPowerOptions(), and board manager installations no longer elide the text portions of the documentation."
+            },
+            {
+              "name": "2.6.9 was largely a bugfix release, fixing the bootloaders (reburn bootloader if using optiboot if having entry condition issues, older versions with the new entry condition options had bad bootloader binaries that ignored the requested entry conditions.</br> 2.6.8 and older should not be used."
+            },
+            {
+              "name": "Supported UPDI programmers: SerialUPDI (serial adapter w/diode or resistor), jtag2updi, nEDBG, mEDBG, EDBG, SNAP, Atmel-ICE and PICkit4 - or use one of those to load<br/> the Optiboot serial bootloader (included) for serial programming. Which programing method makes more sense depends on your application and requirements. <br/><br/> The full documentation is not included with board manager installations (it is hard to find and the images bloat the download); we recommend viewing it through github at the link above<br/> or if it must be read withouht an internet connection by downaloding the manual installation package"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DxCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-azduino7b1"
             },
             {
               "packager": "DxCore",
