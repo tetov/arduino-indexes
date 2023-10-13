@@ -887,7 +887,36 @@
             {
               "name": "Tough"
             },
-           ne": ""
+            {
+              "name": "STAMP-PICO"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "m5stack",
+              "version": "1.22.0-80-g6c4433a-5.2.0",
+              "name": "xtensa-esp32-elf-gcc"
+            },
+            {
+              "packager": "m5stack",
+              "version": "3.0.0",
+              "name": "esptool_py"
+            },
+            {
+              "packager": "m5stack",
+              "version": "0.2.3",
+              "name": "mkspiffs"
+            }
+          ],
+          "size": "35881277"
+        },
+        {
+          "category": "M5Stack",
+          "name": "M5Stack",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-1.0.7.zip",
+          "checksum": "SHA-256:55be72f7100e0a5667e43244162bf073b288c4dfa71aa829b1d63f650713dc8b",
+          "help": {
+            "online": ""
           },
           "version": "1.0.7",
           "architecture": "esp32",
@@ -2127,46 +2156,7 @@
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/espressif/openocd-esp32/releases/download/v0.11.0-esp32-20220706/openocd-esp32-macos-0.11.0-esp32-20220706.tar.gz",
-              "archiveFileName": "openocd-esp32-macos-0.11.0-esp32-20220706.tar.gz",
-              "checksum": "SHA-256:333ee2ec3c9b5dc6ad4509faae55335cdea7f8bf83a56bfcf5327e4497c8538a",
-              "size": "2077882"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/espressif/openocd-esp32/releases/download/v0.11.0-esp32-20220706/openocd-esp32-linux-amd64-0.11.0-esp32-20220706.tar.gz",
-              "archiveFileName": "openocd-esp32-linux-amd64-0.11.0-esp32-20220706.tar.gz",
-              "checksum": "SHA-256:26f1f18dd93eb70a13203848d3fb1cc2e0de1fd6749c7dd771b2de8709735aed",
-              "size": "2011201"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/espressif/openocd-esp32/releases/download/v0.11.0-esp32-20220706/openocd-esp32-linux-amd64-0.11.0-esp32-20220706.tar.gz",
-              "archiveFileName": "openocd-esp32-linux-amd64-0.11.0-esp32-20220706.tar.gz",
-              "checksum": "SHA-256:26f1f18dd93eb70a13203848d3fb1cc2e0de1fd6749c7dd771b2de8709735aed",
-              "size": "2011201"
-            },
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/espressif/openocd-esp32/releases/download/v0.11.0-esp32-20220706/openocd-esp32-linux-armhf-0.11.0-esp32-20220706.tar.gz",
-              "archiveFileName": "openocd-esp32-linux-armhf-0.11.0-esp32-20220706.tar.gz",
-              "checksum": "SHA-256:7f3b57332104e8b8e6194553365a70a9d3754878cfc063d5dc5d839513a63de9",
-              "size": "1902964"
-            },
-            {
-              "host": "aarch64-linux-gnu",
-              "url": "https://github.com/espressif/openocd-esp32/releases/download/v0.11.0-esp32-20220706/openocd-esp32-linux-arm64-0.11.0-esp32-20220706.tar.gz",
-              "archiveFileName": "openocd-esp32-linux-arm64-0.11.0-esp32-20220706.tar.gz",
-              "checksum": "SHA-256:f97792bc2852937ec0accb9f0eb2e49926c0f747a71f101a4e34aed75d2c6fcc",
-              "size": "1954685"
-            }
-          ]
-        },
-        {
-          "version": "3.0.0-gnu12-dc7f933",
-          "name": "mklittlefs",
-          "systems": [
-            {
-              "host": "aarch64-linux-gnu",
+              "archiveFileName": "openocd-esp32-macos-0.11.0-esp32-20220706.tar.gz",": "aarch64-linux-gnu",
               "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/3.0.0-gnu12/aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
               "archiveFileName": "aarch64-linux-gnu.mklittlefs-c41e51a.200706.tar.gz",
               "checksum": "SHA-256:fc56e389383749e4cf4fab0fcf75cc0ebc41e59383caf6c2eff1c3d9794af200",
