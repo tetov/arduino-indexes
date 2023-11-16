@@ -15461,8 +15461,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-edge-4.0.9.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-edge-4.0.9.tar.bz2",
-          "checksum": "SHA-256:5e5ac15c3ac4ccb19d73ef6ca8ab440698c96d9cf558e5ff93c3839cb3002f63",
-          "size": "6011995",
+          "checksum": "SHA-256:870a8965e5cde6cbaa0d9b35d863de33c99d691dc4ddc0d2134e61e78da1cc14",
+          "size": "6110736",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
