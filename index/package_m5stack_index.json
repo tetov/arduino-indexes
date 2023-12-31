@@ -287,264 +287,6 @@
           "toolsDependencies": [
             {
               "packager": "m5stack",
-              "name       "name": "M5Core"
-            },
-            {
-              "name": "M5Core2"
-            },
-            {
-              "name": "M5CoreS3"
-            },
-            {
-              "name": "CoreInk"
-            },
-            {
-              "name": "Fire"
-            },
-            {
-              "name": "M5Paper"
-            },
-            {
-              "name": "PoECAM"
-            },
-            {
-              "name": "M5Station"
-            },
-            {
-              "name": "TimerCAM"
-            },
-            {
-              "name": "Tough"
-            },
-            {
-              "name": "UnitCAM"
-            },
-            {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
-            {
-              "name": "STAMP-PICO"
-            },
-            {
-              "name": "M5Stamp-C3"
-            },
-            {
-              "name": "M5Stamp-S3"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
-              "name": "riscv32-esp-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32s2-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32s3-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "esptool_py",
-              "version": "4.2.1"
-            },
-            {
-              "packager": "m5stack",
-              "name": "openocd-esp32",
-              "version": "v0.11.0-esp32-20220706"
-            },
-            {
-              "packager": "m5stack",
-              "name": "mkspiffs",
-              "version": "0.2.3"
-            },
-            {
-              "packager": "m5stack",
-              "name": "mklittlefs",
-              "version": "3.0.0-gnu12-dc7f933"
-            }
-          ]
-        },
-        {
-          "name": "M5Stack",
-          "architecture": "esp32",
-          "version": "2.0.6",
-          "category": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.0.6.zip",
-          "archiveFileName": "esp32-2.0.6.zip",
-          "checksum": "SHA-256:2edae185d1a17f4d2baa2b151cb747f0d7cefd561ca5bedd7ad91e15e5c4eb7c",
-          "size": "253710190",
-          "help": {
-            "online": ""
-          },
-          "boards": [
-            {
-              "name": "M5Atom"
-            },
-            {
-              "name": "M5AtomS3"
-            },
-            {
-              "name": "M5Core"
-            },
-            {
-              "name": "Core2"
-            },
-            {
-              "name": "CoreInk"
-            },
-            {
-              "name": "Fire"
-            },
-            {
-              "name": "M5Paper"
-            },
-            {
-              "name": "PoECAM"
-            },
-            {
-              "name": "M5Station"
-            },
-            {
-              "name": "TimerCAM"
-            },
-            {
-              "name": "Tough"
-            },
-            {
-              "name": "UnitCAM"
-            },
-            {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
-            {
-              "name": "M5Stamp-C3"
-            },
-            {
-              "name": "STAMP-PICO"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
-              "name": "riscv32-esp-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32s2-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "xtensa-esp32s3-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r2-patch5"
-            },
-            {
-              "packager": "m5stack",
-              "name": "esptool_py",
-              "version": "4.2.1"
-            },
-            {
-              "packager": "m5stack",
-              "name": "openocd-esp32",
-              "version": "v0.11.0-esp32-20220706"
-            },
-            {
-              "packager": "m5stack",
-              "name": "mkspiffs",
-              "version": "0.2.3"
-            },
-            {
-              "packager": "m5stack",
-              "name": "mklittlefs",
-              "version": "3.0.0-gnu12-dc7f933"
-            }
-          ]
-        },
-        {
-          "name": "M5Stack",
-          "architecture": "esp32",
-          "version": "2.0.5-1.0",
-          "category": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.0.5.zip",
-          "archiveFileName": "esp32-2.0.5.zip",
-          "checksum": "SHA-256:b878a6eecefbf98e403fd5433c78965e7c57e3d39d280a6490655404be90d6e2",
-          "size": "250363319",
-          "help": {
-            "online": ""
-          },
-          "boards": [
-            {
-              "name": "M5Atom"
-            },
-            {
-              "name": "M5Core"
-            },
-            {
-              "name": "Core2"
-            },
-            {
-              "name": "CoreInk"
-            },
-            {
-              "name": "Fire"
-            },
-            {
-              "name": "M5Paper"
-            },
-            {
-              "name": "PoECAM"
-            },
-            {
-              "name": "M5Station"
-            },
-            {
-              "name": "TimerCAM"
-            },
-            {
-              "name": "Tough"
-            },
-            {
-              "name": "UnitCAM"
-            },
-            {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
-            {
-              "name": "M5Stamp-C3"
-            },
-            {
-              "name": "STAMP-PICO"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
               "name": "riscv32-esp-elf-gcc",
               "version": "gcc8_4_0-esp-2021r2-patch3"
             },
@@ -585,7 +327,7 @@
           "architecture": "esp32",
           "version": "2.0.4",
           "category": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.0.4.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.4.zip",
           "archiveFileName": "esp32-2.0.4.zip",
           "checksum": "SHA-256:8e241fe6b325b3904d07e4068c2c49045da2e0bcb3858d4231223e02588b016a",
           "size": "237278627",
@@ -597,7 +339,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -636,7 +378,7 @@
               "name": "STAMP-PICO"
             },
             {
-              "name": "M5Stamp-C3"
+              "name": "STAMP-C3"
             }
           ],
           "toolsDependencies": [
@@ -682,7 +424,7 @@
           "architecture": "esp32",
           "version": "2.0.3",
           "category": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.0.3.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.3.zip",
           "archiveFileName": "esp32-2.0.3.zip",
           "checksum": "SHA-256:84850672d21e0655f3fed4c2338f1e760d125454ee610f67f8db26218cc18f9a",
           "size": "237267496",
@@ -694,7 +436,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -730,7 +472,7 @@
               "name": "STAMP-PICO"
             },
             {
-              "name": "M5Stamp-C3"
+              "name": "STAMP-C3"
             }
           ],
           "toolsDependencies": [
@@ -776,7 +518,7 @@
           "architecture": "esp32",
           "version": "2.0.2",
           "category": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.0.2.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.2.zip",
           "archiveFileName": "esp32-2.0.2.zip",
           "checksum": "SHA-256:de539dcfda4e520f5539eb471d5ef9a1ab907373669ac90a0eb09d2f5c6ead4e",
           "size": "145624210",
@@ -788,7 +530,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -824,7 +566,7 @@
               "name": "STAMP-PICO"
             },
             {
-              "name": "M5Stamp-C3"
+              "name": "STAMP-C3"
             }
           ],
           "toolsDependencies": [
@@ -865,7 +607,7 @@
           "architecture": "esp32",
           "version": "2.0.1",
           "category": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.0.1.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.1.zip",
           "archiveFileName": "esp32-2.0.1.zip",
           "checksum": "SHA-256:14dcd949ef9ae66dfddc3dcc7d38a1d10c82c2b78c8505bdc172c3b04555ebc8",
           "size": "143223648",
@@ -877,7 +619,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -913,7 +655,7 @@
               "name": "STAMP-PICO"
             },
             {
-              "name": "M5Stamp-C3"
+              "name": "STAMP-C3"
             }
           ],
           "toolsDependencies": [
@@ -955,7 +697,7 @@
           "version": "2.0.0",
           "architecture": "esp32",
           "archiveFileName": "esp32-2.0.0.zip",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.0.0.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.0.zip",
           "checksum": "SHA-256:376f0ec9b0675d6d3577909f053afef946d42b3a940f03b7d6f974b203b10513",
           "size": "134351097",
           "help": {
@@ -966,7 +708,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -999,7 +741,7 @@
               "name": "STAMP-PICO"
             },
             {
-              "name": "M5Stamp-C3"
+              "name": "STAMP-C3"
             }
           ],
           "toolsDependencies": [
@@ -1038,7 +780,7 @@
         {
           "category": "M5Stack",
           "name": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-1.0.9.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-1.0.9.zip",
           "checksum": "SHA-256:4201c17a5ae7cc12a30dc4aa5d181302444a3d421122b1e880f4cd56e943deb2",
           "help": {
             "online": ""
@@ -1051,7 +793,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -1101,12 +843,12 @@
               "name": "mkspiffs"
             }
           ],
-          "size": "35882439"
+          "size": "35882437"
         },
         {
           "category": "M5Stack",
           "name": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-1.0.8.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-1.0.8.zip",
           "checksum": "SHA-256:491538612ae536da38a83ab1372905a90ed51e04138fb6c6fd71a8f6c26ac4c1",
           "help": {
             "online": ""
@@ -1119,7 +861,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -1171,7 +913,7 @@
         {
           "category": "M5Stack",
           "name": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-1.0.7.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-1.0.7.zip",
           "checksum": "SHA-256:55be72f7100e0a5667e43244162bf073b288c4dfa71aa829b1d63f650713dc8b",
           "help": {
             "online": ""
@@ -1184,7 +926,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -1233,7 +975,7 @@
         {
           "category": "M5Stack",
           "name": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-1.0.6.zip",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-1.0.6.zip",
           "checksum": "SHA-256:a0d3c9ab170f468b7f118f787e831f839c659639a88c8c2f168fe8af032f3b37",
           "help": {
             "online": ""
@@ -1246,7 +988,7 @@
               "name": "M5Core"
             },
             {
-              "name": "Fire"
+              "name": "FIRE"
             },
             {
               "name": "Core2"
@@ -1289,64 +1031,208 @@
       ],
       "tools": [
         {
-          "name": "xtensa-esp32-elf-gcc",
-          "version": "esp-2021r2-patch5-8.4.0",
+          "name": "riscv32-esp-elf-gcc",
+          "version": "gcc8_4_0-esp-2021r2-patch5",
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
-              "checksum": "SHA-256:8ef14e0409c2011b41e504a30f70d3e35287313a795d1f2462ad2cd0e2052d37",
-              "size": "94397702"
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
+              "checksum": "SHA-256:f7d73e5f9e2df3ea6ca8e2c95d6ca6d23d6b38fd101ea5d3012f3cb3cd59f39f",
+              "size": "192388486"
             },
             {
               "host": "aarch64-linux-gnu",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-arm64.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-arm64.tar.gz",
-              "checksum": "SHA-256:e7d217ac2ef52c746a41f8647840b2717edcd8afc15f081bc1c4505e10a189b7",
-              "size": "90684219"
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-arm64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-arm64.tar.gz",
+              "checksum": "SHA-256:cf520ae3a72f65b9758ea187524b105b8b7546566d738c32e60a0df9846ef1af",
+              "size": "188626914"
             },
             {
               "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-armel.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-armel.tar.gz",
-              "checksum": "SHA-256:ea6631f8a5105ae90d7fc462c10ed4f9049924ea8c2f9391d90b339d5f881dac",
-              "size": "89954866"
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-armel.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-armel.tar.gz",
+              "checksum": "SHA-256:2dc3536214caa1697f6834bb4701d05894ca55b53589fc5b54064b050ef93799",
+              "size": "188624050"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-i686.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-linux-i686.tar.gz",
-              "checksum": "SHA-256:ecb90af9cede0982672234da0b1bd7b7f76eadde60aa5c82eefdf37d64ffe49f",
-              "size": "96354023"
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-i686.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-linux-i686.tar.gz",
+              "checksum": "SHA-256:165d6d53e76d79f5ade7e2b7ade54b2b495ecfda0d1184d84d6343659d0e3bdb",
+              "size": "194606113"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-macos.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-macos.tar.gz",
-              "checksum": "SHA-256:19af109fda024a3a4c989f7ccaa104f9b1b74cfd6c9363e730bb8cb9b50d5dc4",
-              "size": "101712946"
-            },
-            {
-              "host": "arm64-apple-darwin",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-macos-arm64.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-macos-arm64.tar.gz",
-              "checksum": "SHA-256:b14189772d70a96813895fff7731d0f2fec0c825cfc02e002d6d91a0cc4b6b1d",
-              "size": "93104016"
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-macos.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-macos.tar.gz",
+              "checksum": "SHA-256:d6d4cef216cbf28d6fbb88f3e127d4f42a376d9497c260bf8c1ad9cef440f839",
+              "size": "199411930"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-win32.zip",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-win32.zip",
-              "checksum": "SHA-256:9851c2cfa355e1fad8abfb643a1c945d27385b1851f3ae468915ea78fcbec940",
-              "size": "118610020"
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-win32.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-win32.zip",
+              "checksum": "SHA-256:1e0cfcfbc8f82c441261cadd21742f66d716ec18c18bf10ed7c7d5b0bee6752f",
+              "size": "257844437"
             },
             {
               "host": "x86_64-mingw32",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-win64.zip",
-              "archiveFileName": "xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-win64.zip",
-              "checksum": "SHA-256:a328b3c55631846241bbe7999a309b20b797c8dc50b6e8dccf463e66a2da5fb4",
-              "size": "121846722"
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-win64.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-win64.zip",
+              "checksum": "SHA-256:b08f568e8fe5069dd521b87da21b8e56117e5c2c3b492f73a51966a46d3379a4",
+              "size": "259712666"
+            }
+          ]
+        },
+        {
+          "name": "riscv32-esp-elf-gcc",
+          "version": "gcc8_4_0-esp-2021r2-patch3",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+              "checksum": "SHA-256:179cbad579790ad35e0f414a18d90017c0f158c397022411a8e9867db2174f15",
+              "size": "106843321"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+              "checksum": "SHA-256:fb339d476c79c76db8f903b265cab6bb6950d5ed954dec644445252d3378023c",
+              "size": "103277393"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+              "checksum": "SHA-256:51a6296d8334b7452dba44b2b62e87afd7fd1c74bafa1aa29b1f4ab72cb9e5e0",
+              "size": "103062256"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+              "checksum": "SHA-256:fef60f7ef37ffaa50416d8f244cdbd710d6729dae41ef06c4ec0e50a1f3b7dd7",
+              "size": "109460025"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+              "checksum": "SHA-256:4aacc1742a76349d790b1ac8e9e9d963daefda5346dbd6741cfe8e7a35a44e4e",
+              "size": "113703959"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+              "checksum": "SHA-256:eb2a442d7f551ebeb842995ec372ec4b364314ca2d7aae779399a74972f7d6bc",
+              "size": "144711970"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+              "checksum": "SHA-256:f5607e5187317d521f0474cade83f8eb590f2d165d95c3779b6ce11fbac21d1f",
+              "size": "146606480"
+            }
+          ]
+        },
+        {
+          "name": "riscv32-esp-elf-gcc",
+          "version": "gcc8_4_0-esp-2021r2",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+              "checksum": "SHA-256:812d735063da9d063b374b59f55832a96c41fbd27ddaef19000a75de8607ba21",
+              "size": "106837189"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+              "checksum": "SHA-256:712f1fbc3e08304a6f32aa18b346b16bbcb413b507b3d4c7c3211bf0d7dc4813",
+              "size": "103273444"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+              "checksum": "SHA-256:80a3342cda2cd4b6b75ebb2b36d5d12fce7d375cfadadcff01ec3a907f0a16a2",
+              "size": "103058744"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-i686.tar.gz",
+              "checksum": "SHA-256:7f0162a81558ab0ed09d6c5d356def25b5cb3d5c2d61358f20152fa260ccc8ae",
+              "size": "109447789"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-macos.tar.gz",
+              "checksum": "SHA-256:3ff7e5427907cf8e271c1f959b70fb01e39625c3caf61a6567e7b38aa0c11578",
+              "size": "113672945"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-win32.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-win32.zip",
+              "checksum": "SHA-256:c8ff08883c1456c278fad85e1c43b7c6e251d525683214168655550e85c5b82e",
+              "size": "140809778"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-win64.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-win64.zip",
+              "checksum": "SHA-256:6c04cb4728db928ec6473e63146b695b6dec686a0d40dd73dd3353f05247b19e",
+              "size": "142365782"
+            }
+          ]
+        },
+        {
+          "name": "riscv32-esp-elf-gcc",
+          "version": "gcc8_4_0-esp-2021r1",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz",
+              "checksum": "SHA-256:3459618f33bbd5f54d7d7783e807cb6eef6472a220f2f1eb3faced735b9d13bb",
+              "size": "152812483"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-armel.tar.gz",
+              "checksum": "SHA-256:24b9e54b348bbd5fb816fc4c52abb47337c702beecdbba840750b7cfb9d38069",
+              "size": "151726623"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-linux-i686.tar.gz",
+              "checksum": "SHA-256:954d340ebffef12a2ce9be1ea004e6f45a8863f1e6f41f46fd3f04f58499627c",
+              "size": "155430963"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+              "checksum": "SHA-256:612fb3a3f84f703222327bd16581df8f80fda8cdf137637fe5d611587d1b664e",
+              "size": "159836199"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-win32.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r1-win32.zip",
+              "checksum": "SHA-256:5711eb407ffe44adddbd1281b6b575a5645e7193ca78faefa27dc5bc5b662bec",
+              "size": "191266312"
             }
           ]
         },
@@ -1619,42 +1505,7 @@
               "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
               "checksum": "SHA-256:a4307a97945d2f2f2745f415fbe80d727750e19f91f9a1e7e2f8a6065652f9da",
               "host": "x86_64-apple-darwin",
-              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
-              "size": "46517409"
-            },
-            {
-              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
-              "checksum": "SHA-256:3fe96c151d46c1d4e5edc6ed690851b8e53634041114bad04729bc16b0445156",
-              "host": "x86_64-pc-linux-gnu",
-              "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
-              "size": "44219107"
-            },
-            {
-              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
-              "checksum": "SHA-256:b4055695ffc2dfc0bcb6dafdc2572a6e01151c4179ef5fa972b3fcb2183eb155",
-              "host": "i686-pc-linux-gnu",
-              "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
-              "size": "45566336"
-            },
-            {
-              "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux-armel-1.22.0-87-gb57bad3-5.2.0.tar.gz",
-              "checksum": "SHA-256:9c68c87bb23b1256dc0a1859b515946763e5292dcab4a4159a52fae5618ce861",
-              "host": "arm-linux-gnueabihf",
-              "archiveFileName": "xtensa-esp32-elf-linux-armel-1.22.0-87-gb57bad3-5.2.0.tar.gz",
-              "size": "50655584"
-            }
-          ]
-        },
-        {
-          "name": "xtensa-esp32s2-elf-gcc",
-          "version": "esp-2021r2-patch5-8.4.0",
-          "systems": [
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch5/xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
-              "archiveFileName": "xtensa-esp32s2-elf-gcc8_4_0-esp-2021r2-patch5-linux-amd64.tar.gz",
-              "checksum": "SHA-256:19c77bd91fefab7c8c40a6334f9b985e2d9a1c7fac6d424b692110930dd3682f",
-              "size": "67849099"
+              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-80-g6c4433"size": "67849099"
             },
             {
               "host": "aarch64-linux-gnu",
