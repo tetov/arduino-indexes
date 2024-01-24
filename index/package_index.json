@@ -2144,43 +2144,6 @@
           ]
         },
         {
-          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
-          "architecture": "samd",
-          "version": "1.6.0",
-          "category": "Arduino",
-          "url": "http://downloads.arduino.cc/cores/samd-1.6.0.tar.bz2",
-          "archiveFileName": "samd-1.6.0.tar.bz2",
-          "checksum": "SHA-256:c1d5118ea1bf03c71203de4eafa90dedf265ceb44c0e3712f5a1eba1b12321b0",
-          "size": "177135",
-          "boards": [
-            {
-              "name": "Arduino Zero"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.5-arduino"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
           "name": "Arduino SAM Boards (32-bits ARM Cortex-M3)",
           "architecture": "sam",
           "version": "1.6.11",
@@ -11555,7 +11518,7 @@
           ]
         },
         {
-          "name": "Arduino NRF52 Boards",
+          "name": "Arduino nRF52 Boards",
           "architecture": "nrf52",
           "version": "1.0.0",
           "category": "Arduino",
