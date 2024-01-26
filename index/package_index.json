@@ -3995,6 +3995,68 @@
           ]
         },
         {
+          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
+          "architecture": "samd",
+          "version": "1.8.14",
+          "category": "Arduino",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "url": "http://downloads.arduino.cc/cores/staging/core-ArduinoCore-samd-1.8.14.tar.bz2",
+          "archiveFileName": "core-ArduinoCore-samd-1.8.14.tar.bz2",
+          "checksum": "SHA-256:bbb35d6edd6e57e13d29e7dcc9975fb605e180fc36b451b890d36820300a023b",
+          "size": "3061758",
+          "boards": [
+            { "name": "Arduino MKR WiFi 1010" },
+            { "name": "Arduino Zero" },
+            { "name": "Arduino MKR 1000" },
+            { "name": "Arduino MKR Zero" },
+            { "name": "Arduino MKR FOX 1200" },
+            { "name": "Arduino MKR WAN 1300" },
+            { "name": "Arduino MKR WAN 1310" },
+            { "name": "Arduino MKR GSM 1400" },
+            { "name": "Arduino MKR NB 1500" },
+            { "name": "Arduino MKR Vidor 4000" },
+            { "name": "Arduino Nano 33 IoT" },
+            { "name": "Arduino M0 Pro" },
+            { "name": "Arduino M0" },
+            { "name": "Arduino Tian" },
+            { "name": "Adafruit Circuit Playground Express" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
           "name": "[DEPRECATED - Please install standalone packages] Arduino Mbed OS Boards",
           "architecture": "mbed",
           "version": "1.1.0",
@@ -16375,6 +16437,9 @@
       "maintainer": "Intel",
       "websiteURL": "http://maker.intel.com/",
       "name": "Intel",
+      "help": {
+        "online": ""
+      },
       "platforms": [
         {
           "name": "Intel i586 Boards",
@@ -17371,6 +17436,7 @@
       "name": "atmel-avr-xminis",
       "maintainer": "Atmel University France",
       "websiteURL": "https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule/wiki",
+      "email": "",
       "help":
       {
         "online": "http://www.arduino.cc/en/Reference/HomePage"
@@ -18367,6 +18433,9 @@
       "maintainer": "Renesas Electronics Corporation",
       "websiteURL": "https://github.com/renesas/Arduino",
       "email": "Middle_support@lm.renesas.com",
+      "help": {
+        "online": ""
+      },
       "platforms": [
         {
           "name": "RL78/G22 Fast Prototyping Board",
