@@ -16483,8 +16483,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-edge-4.1.1.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-edge-4.1.1.tar.bz2",
-          "checksum": "SHA-256:cde712cf84d696ba1a1ac3374af9d0b1c66505eb1eba9252f0c8ff68cec0c715",
-          "size": "6059899",
+          "checksum": "SHA-256:698bbaa00dabd354277cd6d910ae1d4fb4c978ff744cba0e826d1093e6a4d3da",
+          "size": "6099506",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
@@ -16528,8 +16528,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-nano-4.1.1.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-nano-4.1.1.tar.bz2",
-          "checksum": "SHA-256:3a841f6ec22c6ae7ddaf62f9dce39e947013e1804cf2e1490c7e26ab854eed0b",
-          "size": "7242997",
+          "checksum": "SHA-256:32c2edf44516f72d3e1593a88604ff441db3cb0b8c58ce56ebb7e9bbad409e9a",
+          "size": "7308832",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
@@ -16579,8 +16579,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-portenta-4.1.1.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-portenta-4.1.1.tar.bz2",
-          "checksum": "SHA-256:27a8a73f8eabb4eec3ef7edd47d22bcf3e5882c329cdb9fa08677a83f34c2617",
-          "size": "21482419",
+          "checksum": "SHA-256:01e7db88daa827d3a32d420465f88641897573fd2abe22dc9cb65e3b6e770411",
+          "size": "21567592",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
@@ -16627,8 +16627,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-RP2040-4.1.1.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-RP2040-4.1.1.tar.bz2",
-          "checksum": "SHA-256:ff3f2e5dfe7336c083076136aa45c1cee204c926ddfd8c4823dbbc506f5abad6",
-          "size": "4748923",
+          "checksum": "SHA-256:d908258a3acd46670273ca1c8ab0385bfcc8eb509d2a236db74be0c9d049ebca",
+          "size": "4753314",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
@@ -16672,8 +16672,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-nicla-4.1.1.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-nicla-4.1.1.tar.bz2",
-          "checksum": "SHA-256:d044466b3cd5db78997b7a0bfc3e9f24a23d10748e1bb4affe7e4ea93275ea6c",
-          "size": "20339244",
+          "checksum": "SHA-256:602760843d5339bb66c53a2f294a1245e89e9595e78b42bd15e975bbee0f05f8",
+          "size": "20471467",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
@@ -16723,8 +16723,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-opta-4.1.1.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-opta-4.1.1.tar.bz2",
-          "checksum": "SHA-256:0f0e6130144edf860cff3f956073640ccc9ec7afa31c20df30ab0fa476198381",
-          "size": "16191861",
+          "checksum": "SHA-256:1ecf760c10ef43c64b61592384bafe530161f2afa5497a0603437c529742145a",
+          "size": "16374852",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
@@ -16763,8 +16763,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-giga-4.1.1.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-giga-4.1.1.tar.bz2",
-          "checksum": "SHA-256:4ad5d83b88cb604c97d72996cf88a0cb74444c5d3322566a30a31f32644b26c1",
-          "size": "16307791",
+          "checksum": "SHA-256:7c84b4e313a15537fceeef5cd37eb96eec1a53f4641c9f41d4051aa771753bf1",
+          "size": "16501907",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
