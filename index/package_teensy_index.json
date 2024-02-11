@@ -205,8 +205,8 @@
       "host": "i686-mingw32",
       "url": "https://www.pjrc.com/teensy/td_156/teensy-tools-1.56.2-windows.tar.zst",
       "archiveFileName": "teensy-tools-1.56.2-windows.tar.zst",
-      "checksum": "SHA-256:5eac838ade04e4e540f5ead0f82d09278dac55e6e058f701d81f7dcc169a8f98",
-      "size": "5341980"
+      "checksum": "SHA-256:0fd412b8b60dc354ce48a6ad3b42128082be7a1da99a64d6ce0e1b24997a6ec9",
+      "size": "5341279"
     } ]
 
   }, {
@@ -246,8 +246,8 @@
       "host": "i686-mingw32",
       "url": "https://www.pjrc.com/teensy/td_157/teensy-tools-1.57.3-windows.tar.zst",
       "archiveFileName": "teensy-tools-1.57.3-windows.tar.zst",
-      "checksum": "SHA-256:eca08945aa6586af5ea5a45b2277dc342c5a303066d84378df36a8ab99b71a85",
-      "size": "5355318"
+      "checksum": "SHA-256:13a67ab359668e5c48c90f093a45f6c3369c8e0bf01329215c82676a9c16fb8b",
+      "size": "5350741"
     } ]
 
 
@@ -288,8 +288,8 @@
       "host": "i686-mingw32",
       "url": "https://www.pjrc.com/teensy/td_158/teensy-tools-1.58.2-windows.tar.zst",
       "archiveFileName": "teensy-tools-1.58.2-windows.tar.zst",
-      "checksum": "SHA-256:2cb21d02afb59d14f2afb5ff67261603c935ca0d24053e0f3f5e5659cf27ce72",
-      "size": "5044994"
+      "checksum": "SHA-256:5c02e5a5afb2c362b8adcc6d552f08e80718518289783f2d6dfdaef2c2eb9a99",
+      "size": "5045344"
     } ]
 
   }, {
@@ -329,8 +329,8 @@
       "host": "i686-mingw32",
       "url": "https://www.pjrc.com/teensy/td_159/teensy-tools-1.59.0-windows.tar.zst",
       "archiveFileName": "teensy-tools-1.59.0-windows.tar.zst",
-      "checksum": "SHA-256:6ad8522caa02fe9030fc547cf192870ab4130cde3c2b247c9d1e9ce1e2a0f97a",
-      "size": "5095440"
+      "checksum": "SHA-256:6d0d340b97d41b032e9e50d080a635d2bbc4be2bf3e1a9b2c76184c3b7dab840",
+      "size": "5046991"
     } ]
 
   }, {
