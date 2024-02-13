@@ -6,7 +6,7 @@
   "email": "paul@pjrc.com",
   "help": { "online": "https://forum.pjrc.com/forum.php" },
   "platforms": [ {
-    "name": "Teensy",
+    "name": "Teensy (for Arduino IDE 2.0.4 or later)",
     "architecture": "avr",
     "version": "1.56.2",
     "category": "Contributed",
@@ -46,7 +46,7 @@
     } ]
   },
   {
-    "name": "Teensy",
+    "name": "Teensy (for Arduino IDE 2.0.4 or later)",
     "architecture": "avr",
     "version": "1.57.3",
     "category": "Contributed",
@@ -86,7 +86,7 @@
     } ]
   },
   {
-    "name": "Teensy",
+    "name": "Teensy (for Arduino IDE 2.0.4 or later)",
     "architecture": "avr",
     "version": "1.58.2",
     "category": "Contributed",
@@ -126,7 +126,7 @@
     } ]
   },
   {
-    "name": "Teensy",
+    "name": "Teensy (for Arduino IDE 2.0.4 or later)",
     "architecture": "avr",
     "version": "1.59.0",
     "category": "Contributed",
