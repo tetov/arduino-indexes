@@ -12,6 +12,277 @@
         {
           "category": "Raspberry Pi Pico",
           "name": "Raspberry Pi Pico/RP2040",
+          "url": "https://github.com/earlephilhower/arduino-pico/releases/download/3.7.2/rp2040-3.7.2.zip",
+          "version": "3.7.2",
+          "architecture": "rp2040",
+          "archiveFileName": "rp2040-3.7.2.zip",
+          "boards": [
+            {
+              "name": "Raspberry Pi Pico"
+            },
+            {
+              "name": "Raspberry Pi Pico W"
+            },
+            {
+              "name": "0xCB Helios"
+            },
+            {
+              "name": "Adafruit Feather RP2040"
+            },
+            {
+              "name": "Adafruit Feather RP2040 SCORPIO"
+            },
+            {
+              "name": "Adafruit Feather RP2040 DVI"
+            },
+            {
+              "name": "Adafruit Feather RP2040 RFM"
+            },
+            {
+              "name": "Adafruit Feather RP2040 ThinkINK"
+            },
+            {
+              "name": "Adafruit Feather RP2040 USB Host"
+            },
+            {
+              "name": "Adafruit Feather RP2040 CAN"
+            },
+            {
+              "name": "Adafruit Feather RP2040 Prop-Maker"
+            },
+            {
+              "name": "Adafruit ItsyBitsy RP2040"
+            },
+            {
+              "name": "Adafruit Metro RP2040"
+            },
+            {
+              "name": "Adafruit QT Py RP2040"
+            },
+            {
+              "name": "Adafruit STEMMA Friend RP2040"
+            },
+            {
+              "name": "Adafruit Trinkey RP2040 QT"
+            },
+            {
+              "name": "Adafruit MacroPad RP2040"
+            },
+            {
+              "name": "Adafruit KB2040"
+            },
+            {
+              "name": "Arduino Nano RP2040 Connect"
+            },
+            {
+              "name": "ArtronShop RP2 Nano"
+            },
+            {
+              "name": "BridgeTek IDM2040-7A"
+            },
+            {
+              "name": "Cytron Maker Nano RP2040"
+            },
+            {
+              "name": "Cytron Maker Pi RP2040"
+            },
+            {
+              "name": "Cytron Maker Uno RP2040"
+            },
+            {
+              "name": "DatanoiseTV PicoADK"
+            },
+            {
+              "name": "Degz Robotics Suibo RP2040"
+            },
+            {
+              "name": "DeRuiLab FlyBoard2040Core"
+            },
+            {
+              "name": "DFRobot Beetle RP2040"
+            },
+            {
+              "name": "L'atelier d'Arnoz DudesCab"
+            },
+            {
+              "name": "ElectronicCats HunterCat NFC RP2040"
+            },
+            {
+              "name": "ExtremeElectronics RC2040"
+            },
+            {
+              "name": "iLabs Challenger 2040 LTE"
+            },
+            {
+              "name": "iLabs Challenger 2040 LoRa"
+            },
+            {
+              "name": "iLabs Challenger 2040 SubGHz"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi/BLE"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi6/BLE"
+            },
+            {
+              "name": "iLabs Challenger NB 2040 WiFi"
+            },
+            {
+              "name": "iLabs Challenger 2040 SD/RTC"
+            },
+            {
+              "name": "iLabs Challenger 2040 NFC"
+            },
+            {
+              "name": "iLabs Challenger 2040 UWB"
+            },
+            {
+              "name": "iLabs Connectivity 2040 LTE/WiFi/BLE"
+            },
+            {
+              "name": "iLabs RPICO32"
+            },
+            {
+              "name": "Melopero Cookie RP2040"
+            },
+            {
+              "name": "Melopero Shake RP2040"
+            },
+            {
+              "name": "Neko Systems BL2040 Mini"
+            },
+            {
+              "name": "nullbits Bit-C PRO"
+            },
+            {
+              "name": "Pimoroni PGA2040"
+            },
+            {
+              "name": "Pimoroni Plasma2040"
+            },
+            {
+              "name": "Pimoroni Tiny2040"
+            },
+            {
+              "name": "RAKwireless RAK11300"
+            },
+            {
+              "name": "redscorp RP2040-Eins"
+            },
+            {
+              "name": "redscorp RP2040-ProMini"
+            },
+            {
+              "name": "Generic Sea-Picro"
+            },
+            {
+              "name": "Silicognition RP2040-Shim"
+            },
+            {
+              "name": "Solder Party RP2040 Stamp"
+            },
+            {
+              "name": "SparkFun ProMicro RP2040"
+            },
+            {
+              "name": "SparkFun Thing Plus RP2040"
+            },
+            {
+              "name": "uPesy RP2040 DevKit"
+            },
+            {
+              "name": "Seeed INDICATOR RP2040"
+            },
+            {
+              "name": "Seeed XIAO RP2040"
+            },
+            {
+              "name": "VCC-GND YD RP2040"
+            },
+            {
+              "name": "Viyalab Mizu RP2040"
+            },
+            {
+              "name": "Waveshare RP2040 Zero"
+            },
+            {
+              "name": "Waveshare RP2040 One"
+            },
+            {
+              "name": "Waveshare RP2040 Plus 4MB"
+            },
+            {
+              "name": "Waveshare RP2040 Plus 16MB"
+            },
+            {
+              "name": "Waveshare RP2040 LCD 0.96"
+            },
+            {
+              "name": "Waveshare RP2040 LCD 1.28"
+            },
+            {
+              "name": "WIZnet W5100S-EVB-Pico"
+            },
+            {
+              "name": "WIZnet WizFi360-EVB-Pico"
+            },
+            {
+              "name": "WIZnet W5500-EVB-Pico"
+            },
+            {
+              "name": "Generic RP2040"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-gcc"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-mklittlefs"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-elf2uf2"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-pioasm"
+            },
+            {
+              "packager": "rp2040",
+              "version": "1.0.1-base-3a57aed",
+              "name": "pqt-python3"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-openocd"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-picotool"
+            }
+          ],
+          "help": {
+            "online": ""
+          },
+          "size": "86316072",
+          "checksum": "SHA-256:53398d17768820d9344aa2b16c1c63dd599c0dd0c811310d3c25a76ab51f127f"
+        },
+        {
+          "category": "Raspberry Pi Pico",
+          "name": "Raspberry Pi Pico/RP2040",
           "url": "https://github.com/earlephilhower/arduino-pico/releases/download/3.7.1/rp2040-3.7.1.zip",
           "version": "3.7.1",
           "architecture": "rp2040",
@@ -12931,10 +13202,10 @@
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-w64-mingw32.picotool-f6fe6b7.240125.zip",
-              "archiveFileName": "i686-w64-mingw32.picotool-f6fe6b7.240125.zip",
-              "checksum": "SHA-256:f8a1ea6f0ea863b74a26b155fca780f24403f1069921e965f904ceac3d328dd5",
-              "size": "292401"
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-w64-mingw32.picotool-f6fe6b7.240125a.zip",
+              "archiveFileName": "i686-w64-mingw32.picotool-f6fe6b7.240125a.zip",
+              "checksum": "SHA-256:75a6672f56972bdc95cd6422a4709c372cd84e08ac07eefd8b1c2842b8617d99",
+              "size": "291095"
             },
             {
               "host": "x86_64-apple-darwin",
@@ -12952,10 +13223,10 @@
             },
             {
               "host": "x86_64-mingw32",
-              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-w64-mingw32.picotool-f6fe6b7.240125.zip",
-              "archiveFileName": "x86_64-w64-mingw32.picotool-f6fe6b7.240125.zip",
-              "checksum": "SHA-256:0e75f683223b5237051d1a1e47917f2b37b2b3a8ac11e516a0020dffbd49d3bd",
-              "size": "277241"
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-w64-mingw32.picotool-f6fe6b7.240125a.zip",
+              "archiveFileName": "x86_64-w64-mingw32.picotool-f6fe6b7.240125a.zip",
+              "checksum": "SHA-256:79a68e3d3d080cacfafc9c1546a3675ce5c7f858e6e85c690584251e63a2bee3",
+              "size": "276468"
             }
           ]
         },
