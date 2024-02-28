@@ -1099,167 +1099,75 @@
             {
               "host": "aarch64-linux-gnu",
               "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
-              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.g    "name": "Core2"
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+              "checksum": "SHA-256:fb339d476c79c76db8f903b265cab6bb6950d5ed954dec644445252d3378023c",
+              "size": "103277393"
             },
             {
-              "name": "M5StickC"
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+              "checksum": "SHA-256:51a6296d8334b7452dba44b2b62e87afd7fd1c74bafa1aa29b1f4ab72cb9e5e0",
+              "size": "103062256"
             },
             {
-              "name": "M5StickC-Plus"
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+              "checksum": "SHA-256:fef60f7ef37ffaa50416d8f244cdbd710d6729dae41ef06c4ec0e50a1f3b7dd7",
+              "size": "109460025"
             },
             {
-              "name": "M5Atom"
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+              "checksum": "SHA-256:4aacc1742a76349d790b1ac8e9e9d963daefda5346dbd6741cfe8e7a35a44e4e",
+              "size": "113703959"
             },
             {
-              "name": "TimerCAM"
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+              "checksum": "SHA-256:eb2a442d7f551ebeb842995ec372ec4b364314ca2d7aae779399a74972f7d6bc",
+              "size": "144711970"
             },
             {
-              "name": "PoECAM"
-            },
-            {
-              "name": "CoreInk"
-            },
-            {
-              "name": "M5Paper"
-            },
-            {
-              "name": "Tough"
-            },
-            {
-              "name": "STAMP-PICO"
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+              "checksum": "SHA-256:f5607e5187317d521f0474cade83f8eb590f2d165d95c3779b6ce11fbac21d1f",
+              "size": "146606480"
             }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
-              "version": "1.22.0-80-g6c4433a-5.2.0",
-              "name": "xtensa-esp32-elf-gcc"
-            },
-            {
-              "packager": "m5stack",
-              "version": "3.0.0",
-              "name": "esptool_py"
-            },
-            {
-              "packager": "m5stack",
-              "version": "0.2.3",
-              "name": "mkspiffs"
-            }
-          ],
-          "size": "35882439"
+          ]
         },
         {
-          "category": "M5Stack",
-          "name": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-1.0.8.zip",
-          "checksum": "SHA-256:491538612ae536da38a83ab1372905a90ed51e04138fb6c6fd71a8f6c26ac4c1",
-          "help": {
-            "online": ""
-          },
-          "version": "1.0.8",
-          "architecture": "esp32",
-          "archiveFileName": "esp32-1.0.8.zip",
-          "boards": [
+          "name": "riscv32-esp-elf-gcc",
+          "version": "gcc8_4_0-esp-2021r2",
+          "systems": [
             {
-              "name": "M5Core"
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-amd64.tar.gz",
+              "checksum": "SHA-256:812d735063da9d063b374b59f55832a96c41fbd27ddaef19000a75de8607ba21",
+              "size": "106837189"
             },
             {
-              "name": "Fire"
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-arm64.tar.gz",
+              "checksum": "SHA-256:712f1fbc3e08304a6f32aa18b346b16bbcb413b507b3d4c7c3211bf0d7dc4813",
+              "size": "103273444"
             },
             {
-              "name": "Core2"
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2/riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+              "archiveFileName": "riscv32-esp-elf-gcc8_4_0-esp-2021r2-linux-armel.tar.gz",
+              "checksum": "SHA-256:80a3342cda2cd4b6b75ebb2b36d5d12fce7d375cfadadcff01ec3a907f0a16a2",
+              "size": "103058744"
             },
             {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
-            {
-              "name": "M5Atom"
-            },
-            {
-              "name": "TimerCAM"
-            },
-            {
-              "name": "CoreInk"
-            },
-            {
-              "name": "M5Paper"
-            },
-            {
-              "name": "Tough"
-            },
-            {
-              "name": "STAMP-PICO"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
-              "version": "1.22.0-80-g6c4433a-5.2.0",
-              "name": "xtensa-esp32-elf-gcc"
-            },
-            {
-              "packager": "m5stack",
-              "version": "3.0.0",
-              "name": "esptool_py"
-            },
-            {
-              "packager": "m5stack",
-              "version": "0.2.3",
-              "name": "mkspiffs"
-            }
-          ],
-          "size": "35881277"
-        },
-        {
-          "category": "M5Stack",
-          "name": "M5Stack",
-          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-1.0.7.zip",
-          "checksum": "SHA-256:55be72f7100e0a5667e43244162bf073b288c4dfa71aa829b1d63f650713dc8b",
-          "help": {
-            "online": ""
-          },
-          "version": "1.0.7",
-          "architecture": "esp32",
-          "archiveFileName": "esp32-1.0.7.zip",
-          "boards": [
-            {
-              "name": "M5Core"
-            },
-            {
-              "name": "Fire"
-            },
-            {
-              "name": "Core2"
-            },
-            {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
-            {
-              "name": "M5Atom"
-            },
-            {
-              "name": "TimerCAM"
-            },
-            {
-              "name": "CoreInk"
-            },
-            {
-              "name": "M5Paper"
-            },
-            {
-              "name": "Tough"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack",
-              "version": "1.22.0-80-g6c4433a-5.2.0",
+              "host": "i686-pc-linux-gnu",
+              "url": "https:/   "version": "1.22.0-80-g6c4433a-5.2.0",
               "name": "xtensa-esp32-elf-gcc"
             },
             {
