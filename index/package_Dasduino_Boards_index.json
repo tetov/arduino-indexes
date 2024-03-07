@@ -1413,8 +1413,8 @@
                     "category": "Inkplate",
                     "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/Inkplate_core-8.0.0.zip",
                     "archiveFileName": "Inkplate_core-8.0.0.zip",
-                    "checksum": "SHA-256:38feb958f8ac3eb0fad3c1a1f6762986eff5a63736eda7b3ab209f1d0fbdcd3a",
-                    "size": "73187089",
+                    "checksum": "SHA-256:c2eb96447f91885e294da5491814015dbfcf0f8466ddc02edfb64623fd0b8c9a",
+                    "size": "73187083",
                     "version": "8.0.0",
                     "name": "Inkplate Boards",
                     "architecture": "esp32",
@@ -1438,7 +1438,7 @@
                             "name":"Soldered Inkplate 6Plus"
                         },
                         {
-                            "name":"Soldered Inkplate 6 FLICK Gen2"
+                            "name":"Soldered Inkplate 6 FLICK"
                         },
                         {
                             "name":"Soldered Inkplate 6Color"
@@ -2216,7 +2216,7 @@
                     "systems": [
                       {
                         "host": "x86_64-pc-linux-gnu",
-                        "url": "hhttps://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/xtensa-esp-elf-gdb-11.2_20220823-x86_64-linux-gnu.tar.gz",
+                        "url": "https://github.com/SolderedElectronics/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/ESP32_Tools/xtensa-esp-elf-gdb-11.2_20220823-x86_64-linux-gnu.tar.gz",
                         "archiveFileName": "xtensa-esp-elf-gdb-11.2_20220823-x86_64-linux-gnu.tar.gz",
                         "checksum": "SHA-256:b5f7cc3e4b5a58db655754083ed9652e4953e71c3b4922fb624e7a034ec24a64",
                         "size": 26947336
