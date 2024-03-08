@@ -12,6 +12,150 @@
         {
           "name": "M5Stack",
           "architecture": "esp32",
+          "version": "2.1.1",
+          "category": "M5Stack",
+          "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.1.1.zip",
+          "archiveFileName": "esp32-2.1.1.zip",
+          "checksum": "SHA-256:948a113ccbcf64b2fb26ad255ed83a22b51b7ab2db5de5b99345b2abc2816b43",
+          "size": "245720146",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "M5Core"
+            },
+            {
+              "name": "M5Fire"
+            },
+            {
+              "name": "M5Core2"
+            },
+            {
+              "name": "M5Tough"
+            },
+            {
+              "name": "M5Station"
+            },
+            {
+              "name": "M5StickC"
+            },
+            {
+              "name": "M5StickCPlus"
+            },
+            {
+              "name": "M5StickCPlus2"
+            },
+            {
+              "name": "M5Atom"
+            },
+            {
+              "name": "M5AtomS3"
+            },
+            {
+              "name": "M5CoreS3"
+            },
+            {
+              "name": "M5TimerCAM"
+            },
+            {
+              "name": "M5UnitCAM"
+            },
+            {
+              "name": "M5UnitCAMS3"
+            },
+            {
+              "name": "M5PoECAM"
+            },
+            {
+              "name": "M5Paper"
+            },
+            {
+              "name": "M5CoreInk"
+            },
+            {
+              "name": "M5StampPico"
+            },
+            {
+              "name": "M5StampC3"
+            },
+            {
+              "name": "M5StampS3"
+            },
+            {
+              "name": "M5Capsule"
+            },
+            {
+              "name": "M5Cardputer"
+            },
+            {
+              "name": "M5Dial"
+            },
+            {
+              "name": "M5DinMeter"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32s2-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32s3-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "11.2_20220823"
+            },
+            {
+              "packager": "m5stack",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "m5stack",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "11.2_20220823"
+            },
+            {
+              "packager": "m5stack",
+              "name": "openocd-esp32",
+              "version": "v0.12.0-esp32-20230419"
+            },
+            {
+              "packager": "m5stack",
+              "name": "esptool_py",
+              "version": "4.5.1"
+            },
+            {
+              "packager": "m5stack",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "m5stack",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            }
+          ]
+        },
+        {
+          "name": "M5Stack",
+          "architecture": "esp32",
           "version": "2.1.0",
           "category": "M5Stack",
           "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-2.1.0.zip",
