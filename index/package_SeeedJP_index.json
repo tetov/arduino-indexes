@@ -1005,6 +1005,38 @@
               "version": "5.7.0"
             }
           ]
+        },
+        {
+          "name": "SeeedJP nRF52 Boards",
+          "architecture": "nrf52",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://seeedkk.blob.core.windows.net/packages-for-arduino/SeeedJP_nRF52_Boards-1.0.1.tar.bz2",
+          "archiveFileName": "SeeedJP_nRF52_Boards-1.0.1.tar.bz2",
+          "checksum": "SHA-256:27643842a10ca4772954e0f92c5d6120109f4a530858755236183d18b17fb033",
+          "size": "17271513",
+          "boards": [
+            {
+              "name": "Seeed Wio BG770A"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SeeedJP",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "SeeedJP",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
         }
       ],
 
