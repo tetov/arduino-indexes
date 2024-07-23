@@ -6898,6 +6898,46 @@
         {
           "name": "Arduino Mbed OS Opta Boards",
           "architecture": "mbed_opta",
+          "version": "4.1.6",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-opta-4.1.6.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-opta-4.1.6.tar.bz2",
+          "checksum": "SHA-256:f24d5620c7fa83eec040d6695ad0f8b17ff2c768fe0cbee7b4776e97025e3012",
+          "size": "16357140",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Finder Opta"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.10.0-arduino1"
+            },
+            {
+              "packager": "arduino",
+              "name": "imgtool",
+              "version": "1.8.0-arduino.2"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Mbed OS Opta Boards",
+          "architecture": "mbed_opta",
           "version": "4.1.5",
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-mbed-opta-4.1.5.tar.bz2",
