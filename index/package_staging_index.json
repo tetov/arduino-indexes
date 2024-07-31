@@ -27379,7 +27379,8 @@
       },
       "platforms": [
         {
-          "name": "Arrow Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Arrow Boards",
           "architecture": "samd",
           "version": "2.1.0",
           "category": "Partner",
@@ -27410,7 +27411,8 @@
           "toolsDependencies": []
         },
         {
-          "name": "Arrow Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Arrow Boards",
           "architecture": "samd",
           "version": "2.0.0",
           "category": "Partner",
@@ -27441,7 +27443,8 @@
           "toolsDependencies": []
         },
         {
-          "name": "Arrow Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Arrow Boards",
           "architecture": "samd",
           "version": "1.2.0",
           "category": "Partner",
@@ -27604,7 +27607,8 @@
       },
       "platforms": [
         {
-          "name": "EMORO 2560",
+          "deprecated": true,
+          "name": "[DEPRECATED] EMORO 2560",
           "architecture": "avr",
           "version": "3.2.2",
           "category": "Arduino@Heart",
@@ -27620,7 +27624,8 @@
           "toolsDependencies": []
         },
         {
-          "name": "EMORO 2560",
+          "deprecated": true,
+          "name": "[DEPRECATED] EMORO 2560",
           "architecture": "avr",
           "version": "3.2.1",
           "category": "Arduino@Heart",
@@ -27647,6 +27652,98 @@
         "online": "http://esp32.com"
       },
       "platforms": [
+        {
+          "name": "esp32",
+          "architecture": "esp32",
+          "version": "3.0.3",
+          "category": "ESP32",
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-3.0.3.zip",
+          "archiveFileName": "esp32-3.0.3.zip",
+          "checksum": "SHA-256:b4aa70711293955a9835ad641279dc7cd524aeb405f7d294afa05c2ece7ded45",
+          "size": "23920341",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "ESP32 Dev Board"
+            },
+            {
+              "name": "ESP32-S2 Dev Board"
+            },
+            {
+              "name": "ESP32-S3 Dev Board"
+            },
+            {
+              "name": "ESP32-C3 Dev Board"
+            },
+            {
+              "name": "Arduino Nano ESP32"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-rv32",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-x32",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-xs2",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-xs3",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32-arduino-libs",
+              "version": "idf-release_v5.1-dc859c1e67"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "4.6"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "openocd-esp32",
+              "version": "v0.12.0-esp32-20240318"
+            },
+            {
+              "packager": "esp32",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "12.1_20231023"
+            },
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "12.1_20231023"
+            }
+          ]
+        },
         {
           "name": "esp32",
           "architecture": "esp32",
@@ -29862,6 +29959,68 @@
               "archiveFileName": "esp32-arduino-libs-3.0.1.zip",
               "checksum": "SHA-256:112f81fcaed22286f9ba19bbd01d12337aab7b64e997120c33f833816b343e20",
               "size": "373411607"
+            }
+          ]
+        },
+        {
+          "name": "esp32-arduino-libs",
+          "version": "idf-release_v5.1-dc859c1e67",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-arduino-libs-3.0.3.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.3.zip",
+              "checksum": "SHA-256:23618328d3cc3d2eabc269196be22af5b2353583d5f6ec14b3ef0cf11e7da7ba",
+              "size": "305530538"
             }
           ]
         },
@@ -32550,6 +32709,49 @@
         {
           "name": "Intel Curie Boards",
           "architecture": "arc32",
+          "version": "2.0.1",
+          "category": "Arduino Certified",
+          "url": "https://github.com/arduino/corelibs-arduino101/archive/2.0.1.zip",
+          "archiveFileName": "corelibs-arduino101-2.0.1.zip",
+          "checksum": "SHA-256:9af662c4178f49c5c53cb1654752793b0636c869684372fff578e26931565248",
+          "size": "6244733",
+          "boards": [
+            {
+              "name": "Arduino 101"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Intel",
+              "name": "arc-elf32",
+              "version": "1.6.9+1.0.1"
+            },
+            {
+              "packager": "Intel",
+              "name": "arduino101load",
+              "version": "2.0.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.9.0-arduino1"
+            },
+            {
+              "packager": "Intel",
+              "name": "flashpack",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "Intel",
+              "name": "openocd",
+              "version": "0.9.0+0.1"
+            }
+          ]
+        },
+        {
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
+          "architecture": "arc32",
           "version": "2.0.6",
           "category": "Arduino Certified",
           "url": "https://github.com/arduino/ArduinoCore-arc32/archive/2.0.5.zip",
@@ -32590,7 +32792,8 @@
           ]
         },
         {
-          "name": "Intel Curie Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
           "architecture": "arc32",
           "version": "2.0.5",
           "category": "Arduino Certified",
@@ -32632,7 +32835,8 @@
           ]
         },
         {
-          "name": "Intel Curie Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
           "architecture": "arc32",
           "version": "2.0.4",
           "category": "Arduino Certified",
@@ -32674,7 +32878,8 @@
           ]
         },
         {
-          "name": "Intel Curie Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
           "architecture": "arc32",
           "version": "2.0.2",
           "category": "Arduino Certified",
@@ -32716,49 +32921,8 @@
           ]
         },
         {
-          "name": "Intel Curie Boards",
-          "architecture": "arc32",
-          "version": "2.0.1",
-          "category": "Arduino Certified",
-          "url": "https://github.com/arduino/corelibs-arduino101/archive/2.0.1.zip",
-          "archiveFileName": "corelibs-arduino101-2.0.1.zip",
-          "checksum": "SHA-256:9af662c4178f49c5c53cb1654752793b0636c869684372fff578e26931565248",
-          "size": "6244733",
-          "boards": [
-            {
-              "name": "Arduino 101"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Intel",
-              "name": "arc-elf32",
-              "version": "1.6.9+1.0.1"
-            },
-            {
-              "packager": "Intel",
-              "name": "arduino101load",
-              "version": "2.0.1"
-            },
-            {
-              "packager": "arduino",
-              "name": "dfu-util",
-              "version": "0.9.0-arduino1"
-            },
-            {
-              "packager": "Intel",
-              "name": "flashpack",
-              "version": "2.0.0"
-            },
-            {
-              "packager": "Intel",
-              "name": "openocd",
-              "version": "0.9.0+0.1"
-            }
-          ]
-        },
-        {
-          "name": "Intel Curie Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
           "architecture": "arc32",
           "version": "1.0.7",
           "category": "Arduino Certified",
@@ -32795,7 +32959,8 @@
           ]
         },
         {
-          "name": "Intel Curie Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
           "architecture": "arc32",
           "version": "1.0.6",
           "category": "Arduino Certified",
@@ -32822,7 +32987,8 @@
           ]
         },
         {
-          "name": "Intel Curie Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
           "architecture": "arc32",
           "version": "1.0.5",
           "category": "Arduino Certified",
@@ -32849,7 +33015,8 @@
           ]
         },
         {
-          "name": "Intel Curie Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel Curie Boards",
           "architecture": "arc32",
           "version": "1.0.4",
           "category": "Arduino Certified",
@@ -32876,7 +33043,8 @@
           ]
         },
         {
-          "name": "Intel i586 Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel i586 Boards",
           "architecture": "i586",
           "version": "1.6.7+1.0",
           "category": "Arduino Certified",
@@ -32903,7 +33071,8 @@
           ]
         },
         {
-          "name": "Intel i586 Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel i586 Boards",
           "architecture": "i586",
           "version": "1.6.2+1.0",
           "category": "Arduino Certified",
@@ -32930,7 +33099,8 @@
           ]
         },
         {
-          "name": "Intel i686 Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel i686 Boards",
           "architecture": "i686",
           "version": "1.6.7+1.0",
           "category": "Arduino Certified",
@@ -32957,7 +33127,8 @@
           ]
         },
         {
-          "name": "Intel i686 Boards",
+          "deprecated": true,
+          "name": "[DEPRECATED] Intel i686 Boards",
           "architecture": "i686",
           "version": "1.6.2+1.0",
           "category": "Arduino Certified",
@@ -33789,7 +33960,8 @@
       },
       "platforms": [
         {
-          "name": "Windows 10 Iot Core",
+          "deprecated": true,
+          "name": "[DEPRECATED] Windows 10 Iot Core",
           "architecture": "win10",
           "version": "1.1.2",
           "category": "Contributed",
@@ -33808,7 +33980,8 @@
           "toolsDependencies": []
         },
         {
-          "name": "Windows 10 Iot Core",
+          "deprecated": true,
+          "name": "[DEPRECATED] Windows 10 Iot Core",
           "architecture": "win10",
           "version": "1.1.1",
           "category": "Contributed",
@@ -33827,7 +34000,8 @@
           "toolsDependencies": []
         },
         {
-          "name": "Windows 10 Iot Core",
+          "deprecated": true,
+          "name": "[DEPRECATED] Windows 10 Iot Core",
           "architecture": "win10",
           "version": "1.1.0",
           "category": "Contributed",
@@ -33846,7 +34020,8 @@
           "toolsDependencies": []
         },
         {
-          "name": "Windows 10 Iot Core",
+          "deprecated": true,
+          "name": "[DEPRECATED] Windows 10 Iot Core",
           "architecture": "win10",
           "version": "1.0.0",
           "category": "Contributed",
@@ -33939,12 +34114,12 @@
         {
           "name": "RL78/G23-64p Fast Prototyping Board",
           "architecture": "rl78g23_fpb_p64",
-          "version": "2.3.1",
+          "version": "2.3.2",
           "category": "Contributed",
-          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.3.1/core-ArduinoCore-rl78g23-fpb-p64-2.3.1.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.3.1.zip",
-          "checksum": "SHA-256:49643cf4f25c9b7abd27c8e75117b1b764ec1f0fd6166e81ada8be421e625241",
-          "size": "4651721",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.3.2/core-ArduinoCore-rl78g23-fpb-p64-2.3.2.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.3.2.zip",
+          "checksum": "SHA-256:43e92673d6235091cd07587baf091f91e8540c9a56ffa86c61339e8ce05a0d55",
+          "size": "4651755",
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           },
