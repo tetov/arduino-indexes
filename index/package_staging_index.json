@@ -34138,6 +34138,48 @@
       "tools": []
     },
     {
+      "name": "ozobot",
+      "maintainer": "Ozo Edu",
+      "websiteURL": "https://www.ozobot.com/arduino",
+      "email": "arduino@ozobot.com",
+      "help": {
+        "online": "https://www.ozobot.com/arduino/help"
+      },
+      "platforms": [
+        {
+          "name": "Arduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ozobot-arduino-derived-1.0.1.tar.bz2",
+          "archiveFileName": "ozobot-arduino-derived-1.0.1.tar.bz2",
+          "checksum": "SHA-256:4dd060b18c2cf60b54c742ce166df0383bb54fdb075ad7901022dc66ef0b153a",
+          "size": "25300",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "Ozobot Bit+"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    },
+    {
       "name": "renesas",
       "maintainer": "Renesas Electronics Corporation",
       "websiteURL": "https://github.com/renesas/Arduino",
