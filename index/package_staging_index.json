@@ -27750,6 +27750,98 @@
         {
           "name": "esp32",
           "architecture": "esp32",
+          "version": "3.0.4",
+          "category": "ESP32",
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-3.0.4.zip",
+          "archiveFileName": "esp32-3.0.4.zip",
+          "checksum": "SHA-256:58fcd9b033be0358afbcbcf9a1d8eb216217f65f6b28f2e2cd739c7d016dda4f",
+          "size": "23937821",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "ESP32 Dev Board"
+            },
+            {
+              "name": "ESP32-S2 Dev Board"
+            },
+            {
+              "name": "ESP32-S3 Dev Board"
+            },
+            {
+              "name": "ESP32-C3 Dev Board"
+            },
+            {
+              "name": "Arduino Nano ESP32"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-rv32",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-x32",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-xs2",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-xs3",
+              "version": "2302"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32-arduino-libs",
+              "version": "idf-release_v5.1-b6b4727c58"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "4.6"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "openocd-esp32",
+              "version": "v0.12.0-esp32-20240318"
+            },
+            {
+              "packager": "esp32",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "12.1_20231023"
+            },
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "12.1_20231023"
+            }
+          ]
+        },
+        {
+          "name": "esp32",
+          "architecture": "esp32",
           "version": "3.0.3",
           "category": "ESP32",
           "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.3/esp32-3.0.3.zip",
@@ -30178,6 +30270,68 @@
               "archiveFileName": "esp32-arduino-libs-3.0.2.zip",
               "checksum": "SHA-256:6df0f2753ae3d43582e641e3b945666c2700cb18f62a1932ad535b79427aae0b",
               "size": "305835047"
+            }
+          ]
+        },
+        {
+          "name": "esp32-arduino-libs",
+          "version": "idf-release_v5.1-b6b4727c58",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.4/esp32-arduino-libs-3.0.4.zip",
+              "archiveFileName": "esp32-arduino-libs-3.0.4.zip",
+              "checksum": "SHA-256:c5c495fc3e6e11418e87ca9f6bf89cdcb0bcc38244a618f8d457d7a77f70b778",
+              "size": "305857583"
             }
           ]
         },
@@ -34191,12 +34345,12 @@
         {
           "name": "RL78/G22 Fast Prototyping Board",
           "architecture": "rl78g22_fpb",
-          "version": "2.2.1",
+          "version": "2.3.0",
           "category": "Contributed",
-          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.1/core-ArduinoCore-rl78g22-fpb-2.2.1.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g22-fpb-2.2.1.zip",
-          "checksum": "SHA-256:95e3624fe8313f762d1768a24d11cf151c1cd20c32c93aa51199a1b654cfd874",
-          "size": "4517235",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.3.0/core-ArduinoCore-rl78g22-fpb-2.3.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g22-fpb-2.3.0.zip",
+          "checksum": "SHA-256:09d512ece8c995843db156e30285dafa18c77fe1e911d51996e6ac60b8f347cc",
+          "size": "4529579",
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           },
@@ -34362,14 +34516,14 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.1/win32-tool-rl78g2x-1.2.1.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.3.0/win32-tool-rl78g2x-1.2.1.zip",
               "archiveFileName": "win32-tool-rl78g2x-1.2.1.zip",
               "checksum": "SHA-256:832042bf716d8a8cea3ce10eca2c0faa2dae20518ea0e14f57ce8c2cda06ae3d",
               "size": "186894"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.1/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.3.0/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "checksum": "SHA-256:aee9025e3149340a545c5e1815b4df2c8a022ab5e389f3421bde6e6886f122ef",
               "size": "138937"
@@ -34387,6 +34541,59 @@
         "online": "https://github.com/SiliconLabs/arduino"
       },
       "platforms": [
+        {
+          "name": "Silicon Labs",
+          "architecture": "silabs",
+          "version": "2.1.0",
+          "category": "Silicon Labs",
+          "url": "https://github.com/SiliconLabs/arduino/releases/download/2.1.0/silabs_arduino_core-2.1.0.zst",
+          "archiveFileName": "silabs_arduino_core-2.1.0.zst",
+          "checksum": "SHA-256:138248fe50e0066144fd660c258479abfd0518b048943dfbd9920f85c26f3aca",
+          "size": 370773700,
+          "help": {
+            "online": "https://github.com/SiliconLabs/arduino"
+          },
+          "boards": [
+            {
+              "name": "Arduino Nano Matter"
+            },
+            {
+              "name": "SparkFun Thing Plus Matter"
+            },
+            {
+              "name": "xG24 Explorer Kit"
+            },
+            {
+              "name": "xG24 Dev Kit"
+            },
+            {
+              "name": "xG27 Dev Kit"
+            },
+            {
+              "name": "BGM220 Explorer Kit"
+            },
+            {
+              "name": "Ezurio Lyra 24P 20dBm Dev Kit"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SiliconLabs",
+              "name": "gcc-arm-none-eabi",
+              "version": "12.2.rel1"
+            },
+            {
+              "packager": "SiliconLabs",
+              "name": "openocd",
+              "version": "0.12.0-arduino1-static"
+            },
+            {
+              "packager": "SiliconLabs",
+              "name": "simplicitycommander",
+              "version": "1.16.4"
+            }
+          ]
+        },
         {
           "name": "Silicon Labs",
           "architecture": "silabs",
