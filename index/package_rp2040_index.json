@@ -12,6 +12,359 @@
         {
           "category": "Raspberry Pi Pico",
           "name": "Raspberry Pi Pico/RP2040/RP2350",
+          "url": "https://github.com/earlephilhower/arduino-pico/releases/download/4.0.2/rp2040-4.0.2.zip",
+          "version": "4.0.2",
+          "architecture": "rp2040",
+          "archiveFileName": "rp2040-4.0.2.zip",
+          "boards": [
+            {
+              "name": "Raspberry Pi Pico"
+            },
+            {
+              "name": "Raspberry Pi Pico W"
+            },
+            {
+              "name": "Raspberry Pi Pico 2"
+            },
+            {
+              "name": "0xCB Helios"
+            },
+            {
+              "name": "Adafruit Feather RP2040"
+            },
+            {
+              "name": "Adafruit Feather RP2040 SCORPIO"
+            },
+            {
+              "name": "Adafruit Feather RP2040 DVI"
+            },
+            {
+              "name": "Adafruit Feather RP2040 Adalogger"
+            },
+            {
+              "name": "Adafruit Feather RP2040 RFM"
+            },
+            {
+              "name": "Adafruit Feather RP2040 ThinkINK"
+            },
+            {
+              "name": "Adafruit Feather RP2040 USB Host"
+            },
+            {
+              "name": "Adafruit Feather RP2040 CAN"
+            },
+            {
+              "name": "Adafruit Feather RP2040 Prop-Maker"
+            },
+            {
+              "name": "Adafruit ItsyBitsy RP2040"
+            },
+            {
+              "name": "Adafruit Metro RP2040"
+            },
+            {
+              "name": "Adafruit QT Py RP2040"
+            },
+            {
+              "name": "Adafruit STEMMA Friend RP2040"
+            },
+            {
+              "name": "Adafruit Trinkey RP2040 QT"
+            },
+            {
+              "name": "Adafruit MacroPad RP2040"
+            },
+            {
+              "name": "Adafruit KB2040"
+            },
+            {
+              "name": "Amken BunnyBoard"
+            },
+            {
+              "name": "Amken Revelop"
+            },
+            {
+              "name": "Amken Revelop Plus"
+            },
+            {
+              "name": "Amken Revelop eS"
+            },
+            {
+              "name": "Arduino Nano RP2040 Connect"
+            },
+            {
+              "name": "ArtronShop RP2 Nano"
+            },
+            {
+              "name": "Breadstick Raspberry"
+            },
+            {
+              "name": "BridgeTek IDM2040-7A"
+            },
+            {
+              "name": "BridgeTek IDM2040-43A"
+            },
+            {
+              "name": "Cytron IRIV IO Controller"
+            },
+            {
+              "name": "Cytron Maker Nano RP2040"
+            },
+            {
+              "name": "Cytron Maker Pi RP2040"
+            },
+            {
+              "name": "Cytron Maker Uno RP2040"
+            },
+            {
+              "name": "Cytron Motion 2350 Pro"
+            },
+            {
+              "name": "DatanoiseTV PicoADK"
+            },
+            {
+              "name": "Degz Robotics Suibo RP2040"
+            },
+            {
+              "name": "DeRuiLab FlyBoard2040Core"
+            },
+            {
+              "name": "DFRobot Beetle RP2040"
+            },
+            {
+              "name": "L'atelier d'Arnoz DudesCab"
+            },
+            {
+              "name": "ElectronicCats HunterCat NFC RP2040"
+            },
+            {
+              "name": "EVN Alpha"
+            },
+            {
+              "name": "ExtremeElectronics RC2040"
+            },
+            {
+              "name": "GroundStudio Marble Pico"
+            },
+            {
+              "name": "iLabs Challenger 2040 LTE"
+            },
+            {
+              "name": "iLabs Challenger 2040 LoRa"
+            },
+            {
+              "name": "iLabs Challenger 2040 SubGHz"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi/BLE"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi6/BLE"
+            },
+            {
+              "name": "iLabs Challenger NB 2040 WiFi"
+            },
+            {
+              "name": "iLabs Challenger 2040 SD/RTC"
+            },
+            {
+              "name": "iLabs Challenger 2040 NFC"
+            },
+            {
+              "name": "iLabs Challenger 2040 UWB"
+            },
+            {
+              "name": "iLabs Connectivity 2040 LTE/WiFi/BLE"
+            },
+            {
+              "name": "iLabs RPICO32"
+            },
+            {
+              "name": "iLabs Challenger 2350 WiFi/BLE"
+            },
+            {
+              "name": "iLabs Challenger 2350 BConnect"
+            },
+            {
+              "name": "Melopero Cookie RP2040"
+            },
+            {
+              "name": "Melopero Shake RP2040"
+            },
+            {
+              "name": "METE HOCA Akana R1"
+            },
+            {
+              "name": "Neko Systems BL2040 Mini"
+            },
+            {
+              "name": "Newsan Archi"
+            },
+            {
+              "name": "nullbits Bit-C PRO"
+            },
+            {
+              "name": "Olimex RP2040-Pico30 2MB"
+            },
+            {
+              "name": "Olimex RP2040-Pico30 16MB"
+            },
+            {
+              "name": "Pimoroni PGA2040"
+            },
+            {
+              "name": "Pimoroni PGA2350"
+            },
+            {
+              "name": "Pimoroni PicoPlus2"
+            },
+            {
+              "name": "Pimoroni Plasma2040"
+            },
+            {
+              "name": "Pimoroni Tiny2040"
+            },
+            {
+              "name": "Pimoroni Tiny2350"
+            },
+            {
+              "name": "Pintronix PinMax"
+            },
+            {
+              "name": "RAKwireless RAK11300"
+            },
+            {
+              "name": "redscorp RP2040-Eins"
+            },
+            {
+              "name": "redscorp RP2040-ProMini"
+            },
+            {
+              "name": "Generic Sea-Picro"
+            },
+            {
+              "name": "Silicognition RP2040-Shim"
+            },
+            {
+              "name": "Solder Party RP2040 Stamp"
+            },
+            {
+              "name": "Solder Party RP2350 Stamp"
+            },
+            {
+              "name": "Solder Party RP2350 Stamp XL"
+            },
+            {
+              "name": "SparkFun MicroMod RP2040"
+            },
+            {
+              "name": "SparkFun ProMicro RP2040"
+            },
+            {
+              "name": "SparkFun ProMicro RP2350"
+            },
+            {
+              "name": "SparkFun Thing Plus RP2040"
+            },
+            {
+              "name": "uPesy RP2040 DevKit"
+            },
+            {
+              "name": "Seeed INDICATOR RP2040"
+            },
+            {
+              "name": "Seeed XIAO RP2040"
+            },
+            {
+              "name": "VCC-GND YD RP2040"
+            },
+            {
+              "name": "Viyalab Mizu RP2040"
+            },
+            {
+              "name": "Waveshare RP2040 Zero"
+            },
+            {
+              "name": "Waveshare RP2040 One"
+            },
+            {
+              "name": "Waveshare RP2040 Matrix"
+            },
+            {
+              "name": "Waveshare RP2040 PiZero"
+            },
+            {
+              "name": "Waveshare RP2040 Plus 4MB"
+            },
+            {
+              "name": "Waveshare RP2040 Plus 16MB"
+            },
+            {
+              "name": "Waveshare RP2040 LCD 0.96"
+            },
+            {
+              "name": "Waveshare RP2040 LCD 1.28"
+            },
+            {
+              "name": "WIZnet W5100S-EVB-Pico"
+            },
+            {
+              "name": "WIZnet WizFi360-EVB-Pico"
+            },
+            {
+              "name": "WIZnet W5500-EVB-Pico"
+            },
+            {
+              "name": "Generic RP2040"
+            },
+            {
+              "name": "Generic RP2350"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-gcc"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-d04e724",
+              "name": "pqt-mklittlefs"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-efe2103",
+              "name": "pqt-pioasm"
+            },
+            {
+              "packager": "rp2040",
+              "version": "1.0.1-base-3a57aed",
+              "name": "pqt-python3"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-8a9af99-2",
+              "name": "pqt-openocd"
+            },
+            {
+              "packager": "rp2040",
+              "version": "2.2.0-8a9af99-2",
+              "name": "pqt-picotool"
+            }
+          ],
+          "help": {
+            "online": ""
+          },
+          "size": "106140153",
+          "checksum": "SHA-256:0a839ffe9c397d12bbe2d898a620e9cfd4001ae984195a83be9c3a813de55feb"
+        },
+        {
+          "category": "Raspberry Pi Pico",
+          "name": "Raspberry Pi Pico/RP2040/RP2350",
           "url": "https://github.com/earlephilhower/arduino-pico/releases/download/4.0.1/rp2040-4.0.1.zip",
           "version": "4.0.1",
           "architecture": "rp2040",
@@ -16229,6 +16582,68 @@
       ],
       "tools": [
         {
+          "version": "2.2.0-8a9af99-2",
+          "name": "pqt-picotool",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/aarch64-apple-darwin20.4.picotool-8a9af99.240827.tar.gz",
+              "archiveFileName": "aarch64-apple-darwin20.4.picotool-8a9af99.240827.tar.gz",
+              "checksum": "SHA-256:56495b3b5cd9b2b124c2ac9d9592d07a802c70a46b4453bbf890021475467ce7",
+              "size": "856307"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/aarch64-linux-gnu.picotool-8a9af99.240818.tar.gz",
+              "archiveFileName": "aarch64-linux-gnu.picotool-8a9af99.240818.tar.gz",
+              "checksum": "SHA-256:e13186190e58b8b71689e80caf7942cdbd4276dae3e9f6197a3ea0c006e1723f",
+              "size": "896500"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/arm-linux-gnueabihf.picotool-8a9af99.240818.tar.gz",
+              "archiveFileName": "arm-linux-gnueabihf.picotool-8a9af99.240818.tar.gz",
+              "checksum": "SHA-256:1c45155bcd93adc63d740053b55b25310c317ba6a1f4d0ef0cbc8ce52fea565a",
+              "size": "840251"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-linux-gnu.picotool-8a9af99.240818.tar.gz",
+              "archiveFileName": "i686-linux-gnu.picotool-8a9af99.240818.tar.gz",
+              "checksum": "SHA-256:81c1492af8859be13f5a276831b566c18e8316d65b493ddc121637301cc37fc9",
+              "size": "984659"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-w64-mingw32.picotool-8a9af99.240827.zip",
+              "archiveFileName": "i686-w64-mingw32.picotool-8a9af99.240827.zip",
+              "checksum": "SHA-256:72519eed61cc01f211fc55d98751c09701a7323ba17b9c1b5d02d29de76c1777",
+              "size": "1995431"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-apple-darwin20.4.picotool-8a9af99.240827.tar.gz",
+              "archiveFileName": "x86_64-apple-darwin20.4.picotool-8a9af99.240827.tar.gz",
+              "checksum": "SHA-256:54d920cd1731d1f33a63d004b3f26170ff357bc620b5f3172329096d4b461e03",
+              "size": "831575"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-linux-gnu.picotool-8a9af99.240818.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu.picotool-8a9af99.240818.tar.gz",
+              "checksum": "SHA-256:7e1d95abece12a5a05e9c299d9e6f5cc2f944c6ccd16b140e257f4e7ac8edbfa",
+              "size": "926049"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-w64-mingw32.picotool-8a9af99.240827.zip",
+              "archiveFileName": "x86_64-w64-mingw32.picotool-8a9af99.240827.zip",
+              "checksum": "SHA-256:5e77c4d624526b8c1afb930acf3e9efd9761176f75eb6f258a0d4b49beaa965c",
+              "size": "1881720"
+            }
+          ]
+        },
+        {
           "version": "2.2.0-8a9af99",
           "name": "pqt-picotool",
           "systems": [
@@ -16569,6 +16984,68 @@
               "archiveFileName": "x86_64-w64-mingw32.picotool-03f2812.230112.zip",
               "checksum": "SHA-256:a5bded215b886bc8dc35520d2ae696c56e370ef6e92ca7d3a47fe82db362afa7",
               "size": "337118"
+            }
+          ]
+        },
+        {
+          "version": "2.2.0-8a9af99-2",
+          "name": "pqt-openocd",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/aarch64-apple-darwin20.4.openocd-ebec9504d.240827.tar.gz",
+              "archiveFileName": "aarch64-apple-darwin20.4.openocd-ebec9504d.240827.tar.gz",
+              "checksum": "SHA-256:7abbab14197005e9ae5f0a497fcefea420b8cf22f8be6d118f8549787f10c3ce",
+              "size": "1974865"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/aarch64-linux-gnu.openocd-ebec9504d.240818.tar.gz",
+              "archiveFileName": "aarch64-linux-gnu.openocd-ebec9504d.240818.tar.gz",
+              "checksum": "SHA-256:608b3d5a04b36b7a5e85dd63a27dc1c531f19fa0d4410ea7617497c45f05401c",
+              "size": "7480356"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/arm-linux-gnueabihf.openocd-ebec9504d.240818.tar.gz",
+              "archiveFileName": "arm-linux-gnueabihf.openocd-ebec9504d.240818.tar.gz",
+              "checksum": "SHA-256:08db61afd26571eef18a53b926b5ad617319383c01731d178fc2efc900bda124",
+              "size": "7335490"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-linux-gnu.openocd-ebec9504d.240818.tar.gz",
+              "archiveFileName": "i686-linux-gnu.openocd-ebec9504d.240818.tar.gz",
+              "checksum": "SHA-256:9c54e61c9f7637eab8e3e1cbd2a6f5727759aa0224e1aeeb1a8e46a76ddaa78e",
+              "size": "7070681"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-w64-mingw32.openocd-ebec9504d.240827.zip",
+              "archiveFileName": "i686-w64-mingw32.openocd-ebec9504d.240827.zip",
+              "checksum": "SHA-256:c5755e4e7fc008ac8486e9aa085a1e0b486732b70dcd37f9b2953104a0881541",
+              "size": "3577865"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-apple-darwin20.4.openocd-ebec9504d.240827.tar.gz",
+              "archiveFileName": "x86_64-apple-darwin20.4.openocd-ebec9504d.240827.tar.gz",
+              "checksum": "SHA-256:2382f02b6171268c87409d998f8e9a844a70b9a5d6a40690bdaa8301fda8fbd4",
+              "size": "3192645"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-linux-gnu.openocd-ebec9504d.240818.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu.openocd-ebec9504d.240818.tar.gz",
+              "checksum": "SHA-256:dbaeaa695359fcac00b6e5aa3b26e9c5880c66b14c110a98d931b4f29dd0de7a",
+              "size": "7501850"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-w64-mingw32.openocd-ebec9504d.240827.zip",
+              "archiveFileName": "x86_64-w64-mingw32.openocd-ebec9504d.240827.zip",
+              "checksum": "SHA-256:ceaa6aa57be394e853470337d0fa76af3b8f744b3ea7dd45b8325fff4bd824a9",
+              "size": "3456764"
             }
           ]
         },
@@ -18302,6 +18779,68 @@
               "archiveFileName": "x86_64-w64-mingw32.arm-none-eabi-3a57aed.210313.zip",
               "checksum": "SHA-256:706e67177c88ce4ad01350b18ae5739f989c001e5c9b891139a2fc1148a8ff07",
               "size": "108656841"
+            }
+          ]
+        },
+        {
+          "version": "2.2.0-efe2103",
+          "name": "pqt-pioasm",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/aarch64-apple-darwin20.4.pioasm-efe2103.240818.tar.gz",
+              "archiveFileName": "aarch64-apple-darwin20.4.pioasm-efe2103.240818.tar.gz",
+              "checksum": "SHA-256:18524d6e5960c3e82dfbfd23686caf1ef36a665a2e29ee11fef0d3848a78707b",
+              "size": "267870"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/aarch64-linux-gnu.pioasm-efe2103.240818.tar.gz",
+              "archiveFileName": "aarch64-linux-gnu.pioasm-efe2103.240818.tar.gz",
+              "checksum": "SHA-256:0687769c3b5e528b6ba74d522410d0dd65a3ebef1f9f90cf0cd067c1bc8234dc",
+              "size": "644211"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/arm-linux-gnueabihf.pioasm-efe2103.240818.tar.gz",
+              "archiveFileName": "arm-linux-gnueabihf.pioasm-efe2103.240818.tar.gz",
+              "checksum": "SHA-256:414f43667ec91f93e03cb498172de9b0e5bd188c7f4f2dd4963a0052e4e47675",
+              "size": "576898"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-linux-gnu.pioasm-efe2103.240818.tar.gz",
+              "archiveFileName": "i686-linux-gnu.pioasm-efe2103.240818.tar.gz",
+              "checksum": "SHA-256:e8c778c799f525474e981b185e4e13176f7b306bb93dd6799c3e540665d8f6ac",
+              "size": "703366"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/i686-w64-mingw32.pioasm-efe2103.240818.zip",
+              "archiveFileName": "i686-w64-mingw32.pioasm-efe2103.240818.zip",
+              "checksum": "SHA-256:5e88b20ec966fa0e5d8af71d1ef1e8e6db55bf8bca922589de9203d638815d1d",
+              "size": "797523"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-apple-darwin20.4.pioasm-efe2103.240818.tar.gz",
+              "archiveFileName": "x86_64-apple-darwin20.4.pioasm-efe2103.240818.tar.gz",
+              "checksum": "SHA-256:7bdc0d97f796000ed6d4b62d3fcbb73c4839ef3653d83f6cc33a087daf8a115a",
+              "size": "780426"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-linux-gnu.pioasm-efe2103.240818.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu.pioasm-efe2103.240818.tar.gz",
+              "checksum": "SHA-256:96736ee95e8a97acbfe0ff3476838cd25a2ca217d982a39cb4bc34acb9ec83b1",
+              "size": "649753"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/2.2.0/x86_64-w64-mingw32.pioasm-efe2103.240818.zip",
+              "archiveFileName": "x86_64-w64-mingw32.pioasm-efe2103.240818.zip",
+              "checksum": "SHA-256:1bb59e542650e3873cd2e1a7911e671944f4f7e523e4f5f2e2988dd1ccbfeb87",
+              "size": "929507"
             }
           ]
         },
