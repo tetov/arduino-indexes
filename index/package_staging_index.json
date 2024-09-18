@@ -34779,18 +34779,18 @@
           "version": "0.12.0-arduino1-static",
           "systems": [
             {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/tools/openocd-0.12.0-arduino1-static-i686-w64-mingw32.tar.bz2",
+              "archiveFileName": "openocd-0.12.0-arduino1-static-i686-w64-mingw32.tar.bz2",
+              "checksum": "SHA-256:91ef6e8c9abdbcf8c97040b7045a620280716ab542629c2310e44b855475f807",
+              "size": "2352177"
+            },
+            {
               "host": "x86_64-apple-darwin",
               "url": "https://downloads.arduino.cc/tools/openocd-0.12.0-arduino1-static-x86_64-apple-darwin19.tar.bz2",
               "archiveFileName": "openocd-0.12.0-arduino1-static-x86_64-apple-darwin19.tar.bz2",
               "checksum": "SHA-256:098def8648d19a98f437c2b9458743bd78e6093b6883b67d52262dd73482ce31",
               "size": "2041728"
-            },
-            {
-              "host": "x86_64-mingw32",
-              "url": "https://downloads.arduino.cc/tools/openocd-0.12.0-arduino1-static-i686-w64-mingw32.tar.bz2",
-              "archiveFileName": "openocd-0.12.0-arduino1-static-i686-w64-mingw32.tar.bz2",
-              "checksum": "SHA-256:91ef6e8c9abdbcf8c97040b7045a620280716ab542629c2310e44b855475f807",
-              "size": "2352177"
             },
             {
               "host": "x86_64-pc-linux-gnu",
