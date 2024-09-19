@@ -34362,8 +34362,8 @@
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ozobot-arduino-derived-1.0.1.tar.bz2",
           "archiveFileName": "ozobot-arduino-derived-1.0.1.tar.bz2",
-          "checksum": "SHA-256:4dd060b18c2cf60b54c742ce166df0383bb54fdb075ad7901022dc66ef0b153a",
-          "size": "25300",
+          "checksum": "SHA-256:fd97cbb27c49127d00d3c14b35e4b713caa3f9dafe03f03bb7255d017cdf5433",
+          "size": "25285",
           "help": {
             "online": "http://www.arduino.cc/en/Reference/HomePage"
           },
