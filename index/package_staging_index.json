@@ -2761,12 +2761,12 @@
         {
           "name": "Arduino ESP32 Boards",
           "architecture": "esp32",
-          "version": "2.0.17",
+          "version": "2.0.18-20240930.arduino3",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/staging/esp32-2.0.17.zip",
-          "archiveFileName": "esp32-2.0.17.zip",
-          "checksum": "SHA-256:6df5c0ca8b40c0f2aa4612991a596a6df2f9e913a762c0cb3c033f78a8fa06b8",
-          "size": "88244674",
+          "url": "https://downloads.arduino.cc/cores/staging/esp32-v2.0.17-arduino3.zip",
+          "archiveFileName": "esp32-v2.0.17-arduino3.zip",
+          "checksum": "SHA-256:3f93601fac66ed4f333c996a6bc48d28105fbf2552bf951e3de2b245f6d798e8",
+          "size": "88313303",
           "help": {
             "online": ""
           },
@@ -34047,40 +34047,6 @@
         },
         {
           "name": "arduino101load",
-          "version": "1.6.9+1.28",
-          "systems": [
-            {
-              "host": "i386-apple-darwin11",
-              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-osx.tar.gz",
-              "archiveFileName": "arduino101load-1.6.9+1.28-osx.tar.gz",
-              "checksum": "SHA-256:011fcb145728842aa6dc7a2332a12b7cd0d0e4f9eae7e9c35400d3727eb33db9",
-              "size": "1134614"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-linux32.tar.gz",
-              "archiveFileName": "arduino101load-1.6.9+1.28-linux32.tar.gz",
-              "checksum": "SHA-256:36681f3dbe4edc04c0f6c3888ab7787c8015b0fce2d9cffccd17d7ec5fb1204d",
-              "size": "1202482"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-windows.zip",
-              "archiveFileName": "arduino101load-1.6.9+1.28-windows.zip",
-              "checksum": "SHA-256:0847ba5466ad97c4624c7b76c84aea036f24f1189828274310f52b86e6c3de1e",
-              "size": "9331111"
-            },
-            {
-              "host": "x86_64-linux-gnu",
-              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-linux64.tar.gz",
-              "archiveFileName": "arduino101load-1.6.9+1.28-linux64.tar.gz",
-              "checksum": "SHA-256:c691e2f077771b18a83b61c1cda96608150c80707adb7bac6b9665232bc74d4b",
-              "size": "1411007"
-            }
-          ]
-        },
-        {
-          "name": "arduino101load",
           "version": "1.6.9+1.24",
           "systems": [
             {
@@ -34110,6 +34076,40 @@
               "archiveFileName": "arduino101-1.6.9+1.24-linux64.tar.gz",
               "checksum": "SHA-256:b7723d8edac0ed957304dc2e275a5628f6602962b93863f32cc1986e1c2ee6ab",
               "size": "1507392"
+            }
+          ]
+        },
+        {
+          "name": "arduino101load",
+          "version": "1.6.9+1.28",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-osx.tar.gz",
+              "archiveFileName": "arduino101load-1.6.9+1.28-osx.tar.gz",
+              "checksum": "SHA-256:011fcb145728842aa6dc7a2332a12b7cd0d0e4f9eae7e9c35400d3727eb33db9",
+              "size": "1134614"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-linux32.tar.gz",
+              "archiveFileName": "arduino101load-1.6.9+1.28-linux32.tar.gz",
+              "checksum": "SHA-256:36681f3dbe4edc04c0f6c3888ab7787c8015b0fce2d9cffccd17d7ec5fb1204d",
+              "size": "1202482"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-windows.zip",
+              "archiveFileName": "arduino101load-1.6.9+1.28-windows.zip",
+              "checksum": "SHA-256:0847ba5466ad97c4624c7b76c84aea036f24f1189828274310f52b86e6c3de1e",
+              "size": "9331111"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/01org/intel-arduino-tools/archive/1.6.9+1.28-linux64.tar.gz",
+              "archiveFileName": "arduino101load-1.6.9+1.28-linux64.tar.gz",
+              "checksum": "SHA-256:c691e2f077771b18a83b61c1cda96608150c80707adb7bac6b9665232bc74d4b",
+              "size": "1411007"
             }
           ]
         },
