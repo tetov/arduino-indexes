@@ -26984,7 +26984,7 @@
       },
       "platforms": [
         {
-          "name": "Arduino AVR Boards",
+          "name": "Ozobot Arduino Robots",
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Arduino",
