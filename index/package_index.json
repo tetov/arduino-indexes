@@ -10163,6 +10163,52 @@
         {
           "name": "Arduino Renesas Portenta Boards",
           "architecture": "renesas_portenta",
+          "version": "1.2.2",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_portenta-1.2.2.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_portenta-1.2.2.tar.bz2",
+          "checksum": "SHA-256:b28356fb355c5ef6a7f3b789c4ba73a88cf682879493d89f2d9dc0e2b043347a",
+          "size": "16375624",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Portenta C33"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Renesas Portenta Boards",
+          "architecture": "renesas_portenta",
           "version": "1.2.1",
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_portenta-1.2.1.tar.bz2",
@@ -13341,6 +13387,55 @@
               "packager": "arduino",
               "name": "openocd",
               "version": "0.9.0-arduino"
+            }
+          ]
+        },
+        {
+          "name": "Arduino UNO R4 Boards",
+          "architecture": "renesas_uno",
+          "version": "1.2.2",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_uno-1.2.2.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_uno-1.2.2.tar.bz2",
+          "checksum": "SHA-256:f53a2e0e549bc94d0dd9a5104f051fcf04e189d3c8881037b64ed12a97054d62",
+          "size": "10162818",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino UNO R4 Minima"
+            },
+            {
+              "name": "Arduino UNO R4 WiFi"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
             }
           ]
         },
