@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Download Files
         continue-on-error: true
-        run: update.sh
+        run: ./update.sh
       - name: Check and commit changes
         id: commit
         continue-on-error: true
