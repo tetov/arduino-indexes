@@ -1,0 +1,34 @@
+
+{
+  "packages": [
+    {
+      "name": "ScannerPro",
+      "maintainer": "Owen Schwartz",
+      "websiteURL": "https://github.com/oschwartz10612/Scanner-Pro-MK3",
+      "email": "oschwartz10612@gmail.com",
+      "help": {
+        "online": "https://github.com/oschwartz10612/Scanner-Pro-MK3"
+      },
+      "platforms": [
+        {
+          "name": "Scanner Pro MK3",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/oschwartz10612/Scanner-Pro-MK3"
+          },
+          "url": "https://github.com/oschwartz10612/Scanner-Pro-MK3/raw/master/arduino_board/scanner-pro.zip",
+          "archiveFileName": "scanner-pro.zip",
+          "checksum": "SHA-256:92f5b60d773ba2e4efbf8b9b3661488ac8ce1c596365151eac0c54e072110994",
+          "size": "4646853",
+          "boards": [
+            {"name": "Scanner Pro MK3"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Download Files
         continue-on-error: true
-        run: xargs --arg-file=indexes.txt --delimiter='\n' curl --location --fail --parallel --remote-name-all --output-dir index --create-dirs
+        run: update.sh
       - name: Check and commit changes
         id: commit
         continue-on-error: true
