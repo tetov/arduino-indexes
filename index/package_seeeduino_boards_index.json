@@ -1411,8 +1411,8 @@
                     "category": "Contributed",
                     "url": "https://files.seeedstudio.com/arduino/core/nRF52/Seeed_nRF52_Boards-1.1.8.tar.bz2",
                     "archiveFileName": "Seeed_nRF52_Boards-1.1.8.tar.bz2",
-                    "checksum": "SHA-256:E62856AE6F2106D17F5CD77E527F0A158858F347B30FA0E3767CBA1750A66834",
-                    "size": "21715756",
+                    "checksum": "SHA-256:C57A2C4EFE49C0813A9D8B2A37FC6EC6A376EF8502502DCFC4FEA7E72CA6FE4D",
+                    "size": "21753930",
                     "boards": [
                         {
                             "name": "Seeed XIAO nRF52840 Sense"
