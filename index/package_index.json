@@ -11410,6 +11410,11 @@
             },
             {
               "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "arduino",
               "name": "bossac",
               "version": "1.7.0-arduino3"
             },
@@ -11499,6 +11504,11 @@
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
               "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
             },
             {
               "packager": "arduino",
@@ -20516,6 +20526,68 @@
         },
         {
           "name": "mdns-discovery",
+          "version": "v1.0.10",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_Linux_ARMv6.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.0.10_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:a27e6e5df04ea71d84c693b0ba949d9d46463061610515070bdfd92f6d8bd800",
+              "size": 2545981
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_macOS_ARM64.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.0.10_macOS_ARM64.tar.gz",
+              "checksum": "SHA-256:f643021082dc22601f23c5669b9a2f979e911da7e7ca8851a33924194f5da253",
+              "size": 2676041
+            },
+            {
+              "host": "arm64-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_Linux_ARM64.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.0.10_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:e5abbd7fec32f48be88f99a390886669c6efb91175c870dc69efd5917f3c6cc6",
+              "size": 2713943
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_Windows_32bit.zip",
+              "archiveFileName": "mdns-discovery_v1.0.10_Windows_32bit.zip",
+              "checksum": "SHA-256:b3dd5f63091bd41109f37e2d599e8eb4b2fec37890be029c342ebdedcb36a968",
+              "size": 2760948
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_Linux_32bit.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.0.10_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:ed9a2bc6a1959f7c1c8d9e9a77861d1ca8f216d859d9975db5fc24736b691f28",
+              "size": 2637283
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_macOS_64bit.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.0.10_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:7c0081cf1088b988f46abcc0a4fc619014074878b643a3c59714f54282a5888e",
+              "size": 2835181
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_Windows_64bit.zip",
+              "archiveFileName": "mdns-discovery_v1.0.10_Windows_64bit.zip",
+              "checksum": "SHA-256:232f1eb6226db767eb660eda7ef0fbad06122e5cb292bc728bf8eec2df7bc32a",
+              "size": 2972896
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.0.10_Linux_64bit.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.0.10_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:f355d08a242b2dfbe2573fd8d97b9380df53a00eb4d7e7277ec11ddd3d537a46",
+              "size": 2858074
+            }
+          ]
+        },
+        {
+          "name": "mdns-discovery",
           "version": "1.0.9",
           "systems": [
             {
@@ -21027,7 +21099,13 @@
               "name": "atmega328p-xmini"
             }
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            }
+          ]
         },
         {
           "name": "Atmel AVR Xplained-minis",
