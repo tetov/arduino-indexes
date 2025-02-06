@@ -1781,6 +1781,43 @@
                 {
                     "name": "Seeed nRF52 mbed-enabled Boards",
                     "architecture": "mbed",
+                    "version": "2.9.3",
+                    "category": "Contributed",
+                    "url": "https://files.seeedstudio.com/arduino/core/mbed/ArduinoCore-mbed-2.9.3.tar.bz2",
+                    "archiveFileName": "ArduinoCore-mbed-2.9.3.tar.bz2",
+                    "checksum": "SHA-256:959f94cdc7cd40816a7c9f96e497635b739b2361b8eecf3e21eeeebe47e46363",
+                    "size": "34667978",
+                    "boards": [
+                        {
+                            "name": "Seeed XIAO nRF52840 Sense"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Seeeduino",
+                            "name": "openocd",
+                            "version": "0.11.0-arduino2"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "bossac",
+                            "version": "1.9.1-arduino2"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "version": "0.10.0-arduino1",
+                            "name": "dfu-util"
+                        }
+                    ]
+                },
+                {
+                    "name": "Seeed nRF52 mbed-enabled Boards",
+                    "architecture": "mbed",
                     "version": "2.9.2",
                     "category": "Contributed",
                     "url": "https://files.seeedstudio.com/arduino/core/mbed/ArduinoCore-mbed-2.9.2.tar.bz2",
