@@ -82587,6 +82587,30 @@
       "checksum": "SHA-256:ea2bc7ac272f232a8bc6561a53ca538c228e3c6b521605b1e99161537f1e3cce"
     },
     {
+      "name": "FastLED",
+      "version": "3.10.7",
+      "author": "Daniel Garcia",
+      "maintainer": "Daniel Garcia \u003cdgarcia@fastled.io\u003e",
+      "sentence": "Multi-platform library for controlling dozens of different types of LEDs along with optimized math, effect, and noise functions.",
+      "paragraph": "FastLED is a fast, efficient, easy-to-use Arduino library for programming addressable LED strips and pixels such as WS2810, WS2811, LPD8806, Neopixel and more. FastLED also provides high-level math functions that can be used for generative art and graphics.",
+      "website": "https://github.com/FastLED/FastLED",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FastLED/FastLED.git",
+      "providesIncludes": [
+        "FastLED.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FastLED/FastLED-3.10.7.zip",
+      "archiveFileName": "FastLED-3.10.7.zip",
+      "size": 40153943,
+      "checksum": "SHA-256:1817b8888a1c0b415e301fa3fa2c078090c9a8228f36aaa6020c5610c7713978"
+    },
+    {
       "name": "Sodaq_RN2483",
       "version": "1.0.0",
       "author": "Alex Tsamakos,SODAQ",
@@ -88254,6 +88278,27 @@
       "archiveFileName": "Etherkit_Si5351-2.2.0.zip",
       "size": 52553,
       "checksum": "SHA-256:0aaef21c6dfa1ae6b72260da9f96a8cc66c71509e814baa51cddef2f58c3dede"
+    },
+    {
+      "name": "Etherkit Si5351",
+      "version": "2.3.0",
+      "author": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "maintainer": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "sentence": "A full-featured library for the Si5351 series of clock generator ICs from Silicon Labs",
+      "paragraph": "This library will allow you to control nearly all features of the Si5351, without depending on the proprietary ClockBuilder software from Silicon Labs.",
+      "website": "https://github.com/etherkit/Si5351Arduino",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/etherkit/Si5351Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_Si5351-2.3.0.zip",
+      "archiveFileName": "Etherkit_Si5351-2.3.0.zip",
+      "size": 53529,
+      "checksum": "SHA-256:d7b99043cc45489ec00c5f2fd1df290d3fe45b41be298e1e930a0f4b3ab43347"
     },
     {
       "name": "IRremote",
@@ -203116,6 +203161,32 @@
       "archiveFileName": "GEM-1.8.1.zip",
       "size": 211321,
       "checksum": "SHA-256:f8253ef0f3cd44fa4c3793f0998afb22e0ad4b8f2c8fb88f13a833e49869256f"
+    },
+    {
+      "name": "GEM",
+      "version": "1.8.2",
+      "author": "Alexander 'Spirik' Spiridonov \u003calexander.spirik@gmail.com\u003e",
+      "maintainer": "Alexander 'Spirik' Spiridonov \u003calexander.spirik@gmail.com\u003e",
+      "sentence": "A library for creation of graphic multi-level menu.",
+      "paragraph": "Features editable menu items, such as variables (supports int, byte, float, double, bool, char[17] data types) and option selects. User-defined callback function can be specified to invoke when menu item is saved. Supports buttons that can invoke user-defined actions.",
+      "website": "https://github.com/Spirik/GEM",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Spirik/GEM.git",
+      "providesIncludes": [
+        "GEM.h",
+        "GEM_u8g2.h",
+        "GEM_adafruit_gfx.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Spirik/GEM-1.8.2.zip",
+      "archiveFileName": "GEM-1.8.2.zip",
+      "size": 211629,
+      "checksum": "SHA-256:82cc157ddd7f8c7938e01576f0d38455612b7b5df8e05da7a0ed2fb978aef5f8"
     },
     {
       "name": "Basecamp",
@@ -790758,6 +790829,27 @@
       "checksum": "SHA-256:36dfc37f1cf6f6a07437f11db47587543640bb8726c0a77f2fa7c8e1b69da1dc"
     },
     {
+      "name": "Timers",
+      "version": "1.0.3",
+      "author": "Centaq \u003cmarcinboniakowski@gmail.com\u003e",
+      "maintainer": "Centaq \u003cmarcinboniakowski@gmail.com\u003e",
+      "sentence": "LightWeight Timers library",
+      "paragraph": "Simple library to measure if wait time elapsed",
+      "website": "https://github.com/centaq/arduino-simple-timers",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/centaq/arduino-simple-timers.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/centaq/Timers-1.0.3.zip",
+      "archiveFileName": "Timers-1.0.3.zip",
+      "size": 4703,
+      "checksum": "SHA-256:19c4d55be74b8ef7398df08b13c7b9329b74718cbba05479abbf96a32a7202fe"
+    },
+    {
       "name": "AsyncSMS",
       "version": "1.0.0",
       "author": "Centaq",
@@ -938732,6 +938824,50 @@
       "checksum": "SHA-256:83d4cf7ddf41b54f9801597e3245455443e8172960000ea8075697aa36419ce4"
     },
     {
+      "name": "Taskfun",
+      "version": "0.1.94",
+      "author": "Eugene Pistrak",
+      "maintainer": "Eugene Pistrak",
+      "sentence": "Preemptive multitasking for Arduino AVR and SAMD21",
+      "paragraph": "Add preemptive multitasking to your sketch. Independently running tasks allow you to simplify the design of your program.",
+      "website": "https://github.com/glutio/Taskfun",
+      "category": "Other",
+      "architectures": [
+        "avr",
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/glutio/Taskfun.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/glutio/Taskfun-0.1.94.zip",
+      "archiveFileName": "Taskfun-0.1.94.zip",
+      "size": 37432,
+      "checksum": "SHA-256:ec061ceaa5078875fab1c83e72ca029891b36a643033fc2e3eb152f39d76ac81"
+    },
+    {
+      "name": "Taskfun",
+      "version": "0.1.95",
+      "author": "Eugene Pistrak",
+      "maintainer": "Eugene Pistrak",
+      "sentence": "Preemptive multitasking for Arduino AVR and SAMD21",
+      "paragraph": "Add preemptive multitasking to your sketch. Independently running tasks allow you to simplify the design of your program.",
+      "website": "https://github.com/glutio/Taskfun",
+      "category": "Other",
+      "architectures": [
+        "avr",
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/glutio/Taskfun.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/glutio/Taskfun-0.1.95.zip",
+      "archiveFileName": "Taskfun-0.1.95.zip",
+      "size": 37958,
+      "checksum": "SHA-256:b33ad67f4e061dfa036a5e345785fa5c04c24cd240e01856dd26819d21d0f46d"
+    },
+    {
       "name": "Arduino_GroveI2C_Ultrasonic",
       "version": "1.0.0",
       "author": "Arduino, Giovanni di Dio Bruno",
@@ -939587,6 +939723,48 @@
       "archiveFileName": "Eventfun-0.1.3.zip",
       "size": 7172,
       "checksum": "SHA-256:548f7f5a0d70d83127ff2be5a7afdd202972ac3aa93d1277ac221bf758e62f8f"
+    },
+    {
+      "name": "Eventfun",
+      "version": "0.1.4",
+      "author": "Eugene Pistrak",
+      "maintainer": "Eugene Pistrak",
+      "sentence": "Basic building blocks for event-driven Arduino sketches.",
+      "paragraph": "Easily manage events and reactions in your projects. Perfect structural or object-oriented programming.",
+      "website": "https://github.com/glutio/Eventfun",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/glutio/Eventfun.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/glutio/Eventfun-0.1.4.zip",
+      "archiveFileName": "Eventfun-0.1.4.zip",
+      "size": 10111,
+      "checksum": "SHA-256:6443cbc135e1592d0d21fadc381acdffde655f2b2d47cd84bd70951a67b6d622"
+    },
+    {
+      "name": "Eventfun",
+      "version": "0.1.5",
+      "author": "Eugene Pistrak",
+      "maintainer": "Eugene Pistrak",
+      "sentence": "Basic building blocks for event-driven Arduino sketches.",
+      "paragraph": "Easily manage events and reactions in your projects. Perfect structural or object-oriented programming.",
+      "website": "https://github.com/glutio/Eventfun",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/glutio/Eventfun.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/glutio/Eventfun-0.1.5.zip",
+      "archiveFileName": "Eventfun-0.1.5.zip",
+      "size": 10270,
+      "checksum": "SHA-256:1fbd31e7ee6e253bc86c7bef735524b4fc4f011387a88afd3a1c65fe6a842126"
     },
     {
       "name": "M304 Library",
@@ -942477,6 +942655,33 @@
       "archiveFileName": "SunFounder_AI_Camera-1.1.1.zip",
       "size": 17958,
       "checksum": "SHA-256:2aa988c99754633cb233c7ecb9bee8254e547f4d6f54376242db05e6b69b9bc9"
+    },
+    {
+      "name": "SunFounder AI Camera",
+      "version": "1.2.1",
+      "author": "SunFounder",
+      "maintainer": "SunFounder",
+      "sentence": "SunFounder AI Camera library.",
+      "paragraph": "Support Library for SunFounder ESP32 Cam AI Camera.",
+      "website": "https://github.com/sunfounder/SunFounder_Ai_Camera",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sunfounder/SunFounder_Ai_Camera.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=6.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/SunFounder_AI_Camera-1.2.1.zip",
+      "archiveFileName": "SunFounder_AI_Camera-1.2.1.zip",
+      "size": 21205,
+      "checksum": "SHA-256:51f2f685cc5e438f80e79ce6a57931fb8110a35c765686cda8bcc409d0396570"
     },
     {
       "name": "DFRobot_GP8XXX",
@@ -1235298,6 +1235503,41 @@
       "checksum": "SHA-256:78645de2af483f7e33435e7727d3df79019d5bf9d956b85f98108122fdd73f12"
     },
     {
+      "name": "HydroNode-Library",
+      "version": "1.8.0",
+      "author": "Felix Knoll",
+      "maintainer": "Felix Knoll \u003ccontact@hydronode.tech\u003e",
+      "license": "MIT",
+      "sentence": "Send sensor data and receive backend events for HydroNode projects.",
+      "paragraph": "Easy API client for HydroNode sensors and actuators, with event callback system, HMAC-SHA256 auth, TLS with bundled root CAs, NTP time sync, battery thresholds (HydroNodeBatteryGuard) and optional WiFi helper. ESP32 and ESP8266.",
+      "website": "https://hydronode.tech/docs/guide/arduino/",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TexhFexLabs/HydroNode-Library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        },
+        {
+          "name": "ArduinoHttpClient"
+        },
+        {
+          "name": "WiFiManager"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.8.0.zip",
+      "archiveFileName": "HydroNode_Library-1.8.0.zip",
+      "size": 67977,
+      "checksum": "SHA-256:d9fd0e1a3bec9bcdd3eeb677f8bd1f2823cd4aa1116dd6f2fb41828db6e528a4"
+    },
+    {
       "name": "EdgeSense",
       "version": "1.0.0",
       "author": "Consentium IoT",
@@ -1329457,6 +1329697,43 @@
       "checksum": "SHA-256:60c8cdd2a474bf93993c7b763889f713a3053ed207e329d17ac5d0edadf689de"
     },
     {
+      "name": "CodexPad",
+      "version": "4.1.0",
+      "author": "cyfney-anka",
+      "maintainer": "cyfney-anka@qq.com",
+      "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
+      "paragraph": "Arduino library for CodexPad gamepads. Enables ESP32 to connect via Bluetooth (direct or button-mask scanning) and read button states and analog stick values. Depends on NimBLE-Arduino.",
+      "website": "https://github.com/CodexPad/codexpad_arduino_lib",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CodexPad/codex_pad_arduino_lib.git",
+      "providesIncludes": [
+        "codex_pad.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.3.9"
+        },
+        {
+          "name": "GamepadInput",
+          "version": "\u003e=1.2.1"
+        },
+        {
+          "name": "cyfney-cpp"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-4.1.0.zip",
+      "archiveFileName": "CodexPad-4.1.0.zip",
+      "size": 601390,
+      "checksum": "SHA-256:24e986c04f6765cf2c437fd7c95af45cccf6fe8bc27e99bcad85fc5cbe9a5c89"
+    },
+    {
       "name": "KISS_FFT",
       "version": "1.0.0",
       "author": "Meer Zafarullah Noohani \u003chttps://github.com/meerzafarnoohani\u003e",
@@ -1336224,6 +1336501,30 @@
       "archiveFileName": "APA_Dose-3.18.1.zip",
       "size": 303487,
       "checksum": "SHA-256:12c33cee3eafeeb9360b6c14bc27d084c8c009cb16f65af0b54a39e6506a250e"
+    },
+    {
+      "name": "APA-Dose",
+      "version": "3.18.2",
+      "author": "APADevices \u003ckecup@vazac.eu\u003e",
+      "maintainer": "APADevices \u003ckecup@vazac.eu\u003e",
+      "sentence": "Autonomous proportional chemical dosing for swimming pool pH and ORP control.",
+      "paragraph": "Non-blocking state machine with proportional control, closed-loop feedback, full alarm system, filtration interlock, EEPROM persistence, and RTC scheduling. Supports AVR (including Uno), ESP8266, ESP32, and STM32. No external dependencies beyond Arduino.h and EEPROM.h.",
+      "website": "https://github.com/apadevices/APADOSE",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/apadevices/APADOSE.git",
+      "providesIncludes": [
+        "APADOSE.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.18.2.zip",
+      "archiveFileName": "APA_Dose-3.18.2.zip",
+      "size": 304181,
+      "checksum": "SHA-256:b027a32f67db95cb645de20dd5a03bb99e07b501b25b2b7e9926b89e9bafadee"
     },
     {
       "name": "EcoSensePower",
@@ -1364170,6 +1364471,31 @@
       "checksum": "SHA-256:0e1766c862c8c69e53603fa750b7be0f4c9980a7086e5f11f01d168e718c2739"
     },
     {
+      "name": "GamepadInput",
+      "version": "1.3.0",
+      "author": "cyfney-anka",
+      "maintainer": "cyfney-anka@qq.com",
+      "sentence": "Lightweight gamepad input abstraction for Arduino.",
+      "paragraph": "GamepadInput provides a stable, frame-based input state and edge detection API. It works with any data source (USB, BLE, UART, GPIO) and is optimized for embedded use with minimal overhead.",
+      "website": "https://github.com/CodexPad/gamepad_input_arduino_lib",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CodexPad/gamepad_input_arduino_lib.git",
+      "providesIncludes": [
+        "gamepad_input_state.h",
+        "gamepad_input_tracker.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/GamepadInput-1.3.0.zip",
+      "archiveFileName": "GamepadInput-1.3.0.zip",
+      "size": 464748,
+      "checksum": "SHA-256:bb10522e2d9445510ac113bafd262cda352ce4432a8fd74341bdf1dc8c1e99af"
+    },
+    {
       "name": "L6474",
       "version": "1.0.0",
       "author": "MotorDriver, Matthew Miller",
@@ -1376240,6 +1376566,30 @@
       "checksum": "SHA-256:db87095270170195488dfecd5fef8eb6b7338a06b0adca39ca010f8fb5c56c77"
     },
     {
+      "name": "CMozGlow",
+      "version": "1.3.0",
+      "author": "TinkerTailor.ca (CMozMaker)",
+      "maintainer": "TinkerTailor.ca \u003chello@tinkertailor.ca\u003e",
+      "sentence": "Beginner-friendly WS2812B/NeoPixel library for ESP32 boards with plain-English error handling and wearable power budgeting.",
+      "paragraph": "Works on ESP32-S3, S2, C3 and the classic ESP32. Non-blocking fashion-tech effects (Sequin, Catwalk, Loom, Silk, Aurora, Heartbeat, Firefly, Ember, Morse messenger), automatic current limiting for battery safety, a live status pixel, async RMT engine, and optional dual-core AutoPilot mode. Onboard pixel on GPIO 3 for the CMoz ESP32-S3 Mini; any valid pin on other boards.",
+      "website": "https://github.com/cmoz/CMozGlow",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cmoz/CMozGlow.git",
+      "providesIncludes": [
+        "CMozGlow.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cmoz/CMozGlow-1.3.0.zip",
+      "archiveFileName": "CMozGlow-1.3.0.zip",
+      "size": 34862,
+      "checksum": "SHA-256:2c42c295051174802e1e3fed71e18e0c7bb1d0aeb54470631958ef96a85d45f2"
+    },
+    {
       "name": "XiaoMiaoLED",
       "version": "1.0.0",
       "author": "Your C.HAIBARA(Cloud Power Electric Industries)",
@@ -1387347,6 +1387697,36 @@
       "checksum": "SHA-256:943d4697eceedb8dcb32f329bb25431faae46403d4226700e49c5bcbeb92b03a"
     },
     {
+      "name": "DevLabDDP",
+      "version": "1.0.6",
+      "author": "UNIT Electronics",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino master for the DevLab Device Protocol.",
+      "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library.git",
+      "providesIncludes": [
+        "DevLabDDP.h",
+        "DevLabDDPConsole.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.6.zip",
+      "archiveFileName": "DevLabDDP-1.0.6.zip",
+      "size": 24598,
+      "checksum": "SHA-256:733830b25202c05d95fe03f8959791e9330041a55280242687213159be391665"
+    },
+    {
       "name": "DevLab_TEMT6000",
       "version": "1.0.0",
       "author": "UNIT Electronics MX",
@@ -1387525,6 +1387905,71 @@
       "archiveFileName": "DevLab_TEMT6000-2.0.2.zip",
       "size": 18317,
       "checksum": "SHA-256:9a5d65d56a1c0ba0e9ad3fbb88ee4cf771cc4f522c189e830013b3c38713581b"
+    },
+    {
+      "name": "DevLab_TEMT6000",
+      "version": "2.0.3",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the TEMT6000 ambient light sensor using the DevLab Device Protocol over I2C.",
+      "paragraph": "DevLab TEMT6000 library for reading ambient light (ADC0) from DDP I2C nodes via DevLabDDP and DevLab_Interface.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_temt6000_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_temt6000_library.git",
+      "providesIncludes": [
+        "DevLab_TEMT6000.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TEMT6000-2.0.3.zip",
+      "archiveFileName": "DevLab_TEMT6000-2.0.3.zip",
+      "size": 18503,
+      "checksum": "SHA-256:3ded837991a7fab0b1ff8f61e249ab9c77e2879ec5432343f899f03b9b0efc4f"
+    },
+    {
+      "name": "DevLab_TEMT6000",
+      "version": "2.0.4",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the TEMT6000 ambient light sensor using the DevLab Device Protocol over I2C.",
+      "paragraph": "DevLab TEMT6000 library for reading ambient light (ADC0) from DDP I2C nodes via DevLabDDP and DevLab_Interface.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_temt6000_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_temt6000_library.git",
+      "providesIncludes": [
+        "DevLab_TEMT6000.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP",
+          "version": "\u003e=1.0.6"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TEMT6000-2.0.4.zip",
+      "archiveFileName": "DevLab_TEMT6000-2.0.4.zip",
+      "size": 18470,
+      "checksum": "SHA-256:1a56455b0de48191c73f6543bdd4c3880345cb4333b425a6c92698f27ebba04a"
     },
     {
       "name": "WiFiOTA",
@@ -1390607,6 +1391052,27 @@
       "checksum": "SHA-256:2ccdaab4fa55bb289649a89351da92b1b3b134aee0e5b5965629091a2e41f5a1"
     },
     {
+      "name": "Pulsync",
+      "version": "0.3.3",
+      "author": "Vineeth Rai K \u003cvineethraik@gmail.com\u003e",
+      "maintainer": "Vineeth Rai K \u003cvineethraik@gmail.com\u003e",
+      "sentence": "Non-blocking task scheduler + real-time cloud sync for ESP32.",
+      "paragraph": "Provides setTimeout, setInterval, and non-blocking equivalents for the ESP32. Includes multi-network WiFi management with a captive portal, real-time cloud communication over MQTT (HTTP for enrollment and OTA), OTA firmware updates with rollback, and remote config. Built for the ESP32; works on both the Arduino and ESP-IDF frameworks.",
+      "website": "https://github.com/pulsync/pulsync-arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pulsync/pulsync-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.3.3.zip",
+      "archiveFileName": "Pulsync-0.3.3.zip",
+      "size": 93815,
+      "checksum": "SHA-256:b67e35ac5c02f9d79f042f3a33c4446cc2de8af9f9d167ed26c053b1002dadda"
+    },
+    {
       "name": "Candle",
       "version": "1.0.0",
       "author": "S. Shahriar \u003chi@shadowshahriar.dev\u003e",
@@ -1392458,6 +1392924,76 @@
       "archiveFileName": "SyslogSender-0.1.4.zip",
       "size": 31521,
       "checksum": "SHA-256:ee8915444a22efa05bd35d243ddf82ab3b7c3c4fddb9cf1fc365e22beaf8253e"
+    },
+    {
+      "name": "SyslogSender",
+      "version": "0.2.0",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Sends RFC 5424 syslog messages over UDP; forwards ESP_LOG on ESP32.",
+      "paragraph": "A sender, not a logging framework: frames and sends what ESP_LOG (ESP32), a library's logger callback, or the application hands it. No queue, no heap after begin(), thread-safe on ESP32, host-testable framing. Depends on Host for target validation.",
+      "website": "https://github.com/soosp/SyslogSender",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/SyslogSender.git",
+      "providesIncludes": [
+        "SyslogSender.h",
+        "SyslogEspLogHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.2.0.zip",
+      "archiveFileName": "SyslogSender-0.2.0.zip",
+      "size": 32772,
+      "checksum": "SHA-256:99843b74e9d355d1078513bfc6b16e3a5e6a823292fada3784971f44cb5c27a9"
+    },
+    {
+      "name": "SyslogSender",
+      "version": "0.2.1",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Sends RFC 5424 syslog messages over UDP; forwards ESP_LOG on ESP32.",
+      "paragraph": "A sender, not a logging framework: frames and sends what ESP_LOG (ESP32), a library's logger callback, or the application hands it. No queue, no heap after begin(), thread-safe on ESP32, host-testable framing. Depends on Host for target validation.",
+      "website": "https://github.com/soosp/SyslogSender",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/SyslogSender.git",
+      "providesIncludes": [
+        "SyslogSender.h",
+        "SyslogEspLogHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.2.1.zip",
+      "archiveFileName": "SyslogSender-0.2.1.zip",
+      "size": 33215,
+      "checksum": "SHA-256:bf73d866bd3f843487c132fdda903c5a6b365e99d54d92b101927d95c1fec609"
     },
     {
       "name": "SparkFun SFA40 Arduino Library",
@@ -1401871,6 +1402407,173 @@
       "archiveFileName": "2FATouchCore-1.1.0.zip",
       "size": 56275,
       "checksum": "SHA-256:1229e35ca8d86a17a7dd772b185e012376a761f3e4d2a15a546ecf08f7fcbd43"
+    },
+    {
+      "name": "WakeNet9Arduino",
+      "version": "2.2.0",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Simplified ESP-SR WakeNet wrapper for ESP32-S3 with configurable I2S pins.",
+      "paragraph": "Arduino-style WakeNet9 wrapper for the wn9_hiesp Hi ESP model. Allows BCLK, WS, SD, sample rate and input channel to be configured in the main sketch. Requires a compatible ESP-SR integration and external model partition.",
+      "website": "https://github.com/abinsaji2008/WakeNet9Arduino_-simplifier",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/WakeNet9Arduino_-simplifier.git",
+      "providesIncludes": [
+        "WakeNet9Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/WakeNet9Arduino-2.2.0.zip",
+      "archiveFileName": "WakeNet9Arduino-2.2.0.zip",
+      "size": 4921,
+      "checksum": "SHA-256:2c59edd39130f482fc51720692ffa60f35ce4e73d44924ba26904c7b4e355941"
+    },
+    {
+      "name": "GroqAudioStream",
+      "version": "1.2.0",
+      "author": "OpenAI",
+      "maintainer": "OpenAI",
+      "sentence": "Groq PCM audio streaming with main-sketch configurable INMP441 capture pins.",
+      "paragraph": "Streams 16-bit mono PCM WAV audio chunks to Groq Whisper and includes a microphone setup helper that accepts pins from the main sketch.",
+      "website": "https://github.com/abinsaji2008/GroqAudioStream_Library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqAudioStream_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqAudioStream-1.2.0.zip",
+      "archiveFileName": "GroqAudioStream-1.2.0.zip",
+      "size": 8913,
+      "checksum": "SHA-256:876e1eb9663d1a9feaf6894da24aff3f2090b85934f31eeeea237952a73262ae"
+    },
+    {
+      "name": "ESP32Audiometer",
+      "version": "0.1.0",
+      "author": "vax9210",
+      "maintainer": "vax9210",
+      "sentence": "Experimental pure-tone and warble audio generator for ESP32.",
+      "paragraph": "Reusable 16-bit I2S tone generation with relative level control and onset-off ramps. Educational use only, not calibrated for clinical audiometry.",
+      "website": "https://github.com/vax9210/ESP32-Audiometer",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vax9210/ESP32-Audiometer.git",
+      "providesIncludes": [
+        "ESP32Audiometer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/vax9210/ESP32Audiometer-0.1.0.zip",
+      "archiveFileName": "ESP32Audiometer-0.1.0.zip",
+      "size": 8338,
+      "checksum": "SHA-256:dc5801eae8baab08f1cf56d2bcbc7aad54f6b36af6104dd2ee3e79ea9476288f"
+    },
+    {
+      "name": "PIDNonBlocking",
+      "version": "0.1.0",
+      "author": "George Arun",
+      "maintainer": "George Arun \u003cargeorun@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Non-blocking PID controller that runs on its own sample period from the main loop.",
+      "paragraph": "Plain C core: derivative on measurement, low-pass filtered derivative, trapezoidal integral, anti-windup. PIDController_Run() never waits: it computes only when the sample period has elapsed on millis(), passes the true elapsed time as dt, stays phase-locked to the sample grid and holds its output in between. Sample periods from 1 ms to minutes.",
+      "website": "https://github.com/GEORGE-MULTITECH-SYSTEMS/PID-Non-Blocking-",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GEORGE-MULTITECH-SYSTEMS/PID-Non-Blocking-.git",
+      "providesIncludes": [
+        "PIDNonBlocking.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GEORGE-MULTITECH-SYSTEMS/PIDNonBlocking-0.1.0.zip",
+      "archiveFileName": "PIDNonBlocking-0.1.0.zip",
+      "size": 12730,
+      "checksum": "SHA-256:454c8a2e4d71354be8416d162d9620ff8ec244c8b2b745b2234917715f618488"
+    },
+    {
+      "name": "ShieldioDisplay",
+      "version": "0.1.1",
+      "author": "Shieldio",
+      "maintainer": "Shieldio",
+      "sentence": "Lightweight SSD1306 OLED text and menu library for Arduino.",
+      "paragraph": "Small SRAM footprint, changed-character rendering, menus, boot screen and progress display for Arduino Nano.",
+      "website": "https://github.com/Shieldio/ShieldioDisplay",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Shieldio/ShieldioDisplay.git",
+      "providesIncludes": [
+        "ShieldioDisplay.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Shieldio/ShieldioDisplay-0.1.1.zip",
+      "archiveFileName": "ShieldioDisplay-0.1.1.zip",
+      "size": 8933,
+      "checksum": "SHA-256:ef278cca713b39230857e2796d11e1c5d0d003ca5dcbcf7a6af81bee96fcf8ba"
+    },
+    {
+      "name": "DFRobotMLDR",
+      "version": "1.0.0",
+      "author": "Paul Watts",
+      "maintainer": "Paul Watts",
+      "sentence": "Arduino library for the DFRobot Mini Laser Distance Range Sensor module.",
+      "paragraph": "This is a working library to simplify the use of the DFRobot Mini Laser Distance Range Sensor on Arduino.",
+      "website": "https://github.com/PaulNTU/DFRobotMLDR",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PaulNTU/DFRobotMLDR.git",
+      "providesIncludes": [
+        "DFRobotMLDR.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PaulNTU/DFRobotMLDR-1.0.0.zip",
+      "archiveFileName": "DFRobotMLDR-1.0.0.zip",
+      "size": 8538,
+      "checksum": "SHA-256:036857437138ee290c9fd9d6961cb4096c10c4b35ad249e91c4221b06c61f676"
+    },
+    {
+      "name": "KenwoodXS-for-KR-V6030",
+      "version": "1.0.0",
+      "author": "Programowanie i Granie",
+      "maintainer": "Programowanie i Granie",
+      "license": "MIT",
+      "sentence": "Fixed version of the KenwoodXS lib by gaweueu.",
+      "paragraph": "KenwoodXS sends and receives command bytes over the proprietary Kenwood XS two-wire control protocol, with helpers for receiver power, input selection, tape transport, and CD transport commands.",
+      "website": "https://github.com/polishprogrammer2023/KenwoodXS-for-KR-V6030.git",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/polishprogrammer2023/KenwoodXS-for-KR-V6030.git",
+      "providesIncludes": [
+        "KenwoodXS-for-KR-V6030.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/polishprogrammer2023/KenwoodXS_for_KR_V6030-1.0.0.zip",
+      "archiveFileName": "KenwoodXS_for_KR_V6030-1.0.0.zip",
+      "size": 1459945,
+      "checksum": "SHA-256:2bf18457e208a829d81fa3fe37564549c1e341ab96946647109b7b619dd6fac5"
     }
   ]
 }
